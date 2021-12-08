@@ -1,0 +1,40 @@
+---
+title: 'ANALYSIS PLAN: Identifyinhg Hate and Non-hate speech'
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+---
+
+# OSF Project Name: Identifying Hate speech
+
+### BROAD RESEARCH QUESTION: 
+
+
+### A PRIORI–SPECIFIED PROCEDURE FOR EXPLORATORY FACTOR ANALYSES
+
+Supervised learning algorithms will be used to predict hate and non-hate speech. Roberta based models will be used to compute sentence embeddings. 
+\n
+
+1. The data will be split into training and testing sets using in the ratio of 80-20. 
+
+2. Supervised learning models will be applied to predict if the text is hate speech or non-hate speech. Models will be built using the following three approaches:
+   + Regularized Regression 
+   + Random forest
+   + Gradient boosted trees
+   
+3. Comparisons will be carried out between the three model performances.
+4. Algorithmic bias between the models will be assessed. 
+
+
+### References: 
+
+- [Jackson(2020)](https://conservancy.umn.edu/bitstream/handle/11299/216080/Houston_umn_0130M_21293.pdf?sequence=1&isAllowed=y)
+
+- [Pereira-Kohatsu(2019)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6864473/)
+
+- [Hate lab](https://hatelab.net/publications/)
+
+- [Zhang (2018)](https://arxiv.org/pdf/1803.03662.pdf)
+
+

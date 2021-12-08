@@ -1,0 +1,45 @@
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:describe-table}Number of Hate and no Hate labels}
+
+\begin{tabular}{ll}
+\toprule
+Label & \multicolumn{1}{c}{n}\\
+\midrule
+hate & 562\\
+nothate & 438\\
+\bottomrule
+\end{tabular}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}
+\begin{table*}[hbt]
+\ifnextchar[{\eatarg}{}
+[tbp]
+
+\begin{center}
+\begin{threeparttable}
+
+\caption{\label{tab:unnamed-chunk-13}Evaluation metrics for the RoBERTa - Layer 12 model}
+
+\begin{tabular}{llllllll}
+\toprule
+model & \multicolumn{1}{c}{-LL} & \multicolumn{1}{c}{AUC} & \multicolumn{1}{c}{ACC} & \multicolumn{1}{c}{TPR} & \multicolumn{1}{c}{TNR} & \multicolumn{1}{c}{FPR} & \multicolumn{1}{c}{PRE}\\
+\midrule
+Logistic Regression & 16.88 & 0.54 & 0.47 & 0.51 & 0.43 & 0.57 & 0.40\\
+Logistic Regression with Ridge Penalty & 0.61 & 0.73 & 0.34 & 0.42 & 0.28 & 0.72 & 0.31\\
+Logistic Regression with Lasso Penalty & 0.61 & 0.71 & 0.34 & 0.42 & 0.28 & 0.72 & 0.31\\
+\bottomrule
+\end{tabular}
+
+\end{threeparttable}
+\end{center}
+
+\end{table*}

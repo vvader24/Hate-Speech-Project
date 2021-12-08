@@ -1,0 +1,617 @@
+---
+title: "Hate Speech Detection - Facebook AI data"
+author: "Vinita Vader"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(rio)
+library(finalfit)
+library(caret)
+require(vip)
+library(kableExtra)
+
+
+  require(quanteda)
+  require(quanteda.textstats)
+  require(udpipe)
+  require(reticulate)
+
+  virtualenv_list()
+
+  reticulate::import('torch')
+  reticulate::import('numpy')
+  reticulate::import('transformers')
+  reticulate::import('nltk')
+  reticulate::import('tokenizers')
+  require(text)
+  
+require(recipes)
+require(cutpointr)
+```
+
+```{r analysis-preferences}
+# Seed for random number generation
+set.seed(42)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+```
+# Research problem
+
+The lines between freedom of speech and offensive speech are filled with confusion in the age of freedom of choice and information dissemination on social media platforms. Honesty in thought could be a potential violation of someone's right to function in a respectable manner in a society. The constant suspension of morality in the milieu of right to perspectives has been detrimental to attaining a universal grammar for understanding the meaning of rights and violation of rights. Although the philosophical debate around this issue could surface several deep seated issues about morality of offense and integrity, it is important to consider that discomfort caused to anyone is crucial to any form of action - online or offline - to be considered as harmful for the society. A recent study by [@williams2020hate] demonstrated how hate speech could influence political votes, terror attacks and promote criminal behavior by normalizing violence. 
+
+In the light of this discussion, hate speech behaviors on social media platforms become vital to studying the precedents and possibly, conveyers of hate crimes. This report focuses on offensive language detection, specifically, hate speech detection in twitter data. Hate speech is defined as “language that is used to express hatred towards a targeted group or is intended to be derogatory, to humiliate, or to insult the members of the group,” [@davidson2017automated]. Natural Language processing (NLP) has gained prominence in understanding the qualitative information in human language. The development of context-dependent word embeddings such as Bidirectional Encoder Representations from Transformers or BERT the next state-of-art work in NLP which outperformed previous models. Among the competing BERT models that emerged through the corpus of text data available to for-profit and non-profit companies, Facebook's  `RoBERTa model` has gained attention with its several advantages due to the training data it is based on. Ten-times larger dataset, longer training, increased batch size, excluding next sentence predicting task, using byte-level encoding with bigger vocabulary and dynamic masking pattern changing are some of the improvements that this model has been trained with. 
+
+This report explores experiments in classifying hate and no hate speech using the word embedding from pre-trained RoBERTa model. Different layers emerging from the RoBERTa based model will be utilized to explore varying number of dimensions as predictors of classifying text obtained from Twitter as hate and no hate speech. Comparisons will be made across classification models such as Logistic regression with regularization and random forest. 
+
+Bias in model performance, assessed based on sensitivity and accuracy analyses, will provide implications about groupings in the real world. Given that these algorithms might be used in legal and political settings (eg., what is the probability that a certain tweet invoked violence against group X), it important to assess their performance in generating appropriate inferences. A biased algorithm may lead to injustice towards certain groups in the society. The models resulting through the analysis in this report could be used as a starting point for evaluating bias in algorithms classifying hate speech. The results could also provide guidelines for caution while trusting outcomes based on RoBERTa models. 
+
+
+```{r}
+#import
+set.seed(123)
+data_all<- rio::import(here::here("data", "data_all.csv"), setclass = "tbl_df") 
+data_unclean<- rio::import(here::here("data", "data_all.csv"), setclass = "tbl_df") %>%   characterize() %>% 
+  janitor::clean_names() %>% 
+  sample_n(1000) %>% 
+  data.frame()
+
+#data for this study - 1000 random samples from the dataset will be analyzed for this study
+#rio::export(data_unclean, file = "data.csv")
+
+#final data to be used for the study
+data_unclean <- rio::import(here::here("data", "data.csv"), setclass = "tbl_df") 
+
+```
+
+```{r include=FALSE}
+load("/Users/vinitavader/Desktop/Hate Speech Project/word_embed_12.RData")
+```
+
+```{r functions}
+#functions
+#vip plot
+hyperP_fig <- function(df){
+  ggplot(
+    df, aes(x = lambda, y =logLoss)
+  ) +
+  geom_point(alpha = .5, color = "cornflowerblue") +
+  labs(
+    x = "Regularization parameter",
+    y = "LogLoss(Cross-Validation)"
+  ) +
+  theme_minimal()
+}
+
+#estimates of vip
+tidy_coef <- function(x){
+
+  x %>% 
+   matrix %>% 
+   as_tibble %>% 
+   rownames_to_column %>% 
+     mutate(feature = sub("^", "Dim", rowname)) %>% 
+     select(-rowname, feature,  "estimate" = V1 ) %>% 
+      arrange(desc(estimate)) %>% 
+       head(10)
+  
+}
+
+```
+
+# Description of the data
+
+```{r}
+#figures and text required for the text below
+colnames <- names(data_unclean)
+data <- data_unclean %>% 
+  select("text", "label")
+
+label_count <- data %>% 
+ rename("Label" = "label") %>% 
+ count(Label)
+```
+
+
+```{r missigness-table, results = "asis"}
+ff_glimpse(data)$Categorical %>% 
+  kbl() %>% 
+    kable_paper() %>%
+  scroll_box(width = "100%", height = "200px")
+```
+
+
+## Data generation process
+ 
+The dataset has been built synthetically as a result of an AI improvement initiative by the Facebook AI division.The process of generating this data has been described below:
+Writers recruited for the task were provided with a certain context and target for whom they created some speech text categorized as hate or no hate (H and NH) speech. The target of the specch and the sentiment - H or NH - were set _a_ _priori_ to the generation of speech text by each writer. These texts were inputs for models (generated by Facebook) to test algorithms which best categorized the text the speeches as H or NH. If the model classified the text correctly, the speech text is retained as a good training example. If the model failed to classify the text correctly a verifier (person) was called in. The verifier - if he disagreed with the writer, the speech was trashed but if he agreed with the writer the speech text was retained for testing or developing the model. 
+
+## Data features 
+
+The original data consists of `r nrow(data_all)` synthetically produced  speech texts.For the current project we will be using `r nrow(data)` randomly sampled speech texts. The original data file consists of the following columns - `r print(names(data_unclean))`. 
+
+For the purpose of the current study we are only interested in two columns, namely - `r print(names(data))`. The `r printnum(names(data)[1])` variable consists of all the synthetically generated speech texts. The `r printnum(names(data)[2])` variable consists of the type of text speech produced. 
+```{r describe-table, results = "asis"}
+label_count %>% 
+ kbl() %>% 
+    kable_paper() %>%
+  scroll_box(width = "100%", height = "200px")
+```
+
+As indicated in \@ref(tab:missigness-table) there was no missing value or NA's found in the data. Total number of texts labeled as hate speech were `r label_count[1]` and those labeled as non-hate speech were  `r label_count[2]` \@ref(tab:describe-table). 
+
+# Description of the models  
+>List at least three different modeling approaches you apply to this dataset. Describe each model, why the given model was selected, which hyperparameters to be optimized and how. Also, discuss how you plan to evaluate model performance.
+
+The research problem in this study can be best defined as a classification problem. For testing the classification of text as H and NH speech, generalized linear models will be applied. The data will be modeled using Logistic regression without regularization and with regularization (ridge and lasso). Logistic regression is a powerful supervised machine learning classification model used for classification problems. It is very easy to realize and achieves good performance with linearly separable classes. It is extensively employed across several classification problems in various disciplines. We will start with the simplest model before moving forward with more complex models.  
+
+For optimizing the Logistic regression model we will also use L1 and L2 regularization. The $\lambda$ hyperparameter will be tuned for _Ridge regression_ and _Lasso regression_. The $\alpha$ hyperparameter will be set to 0 for Ridge regularization and 1 for Lasso regularization.
+
+The performance evaluation metrics on the test data would include computing _LogLikelihood (LL),	Area under the curve (AUC),	Accuracy (ACC), True Positive rate (TPR), True Negative rate (TNR),	False Positive rate (FPR), and Precision (PRE)_.
+
+### Analysis steps:
+
+1. Create word embeddings - (Roberta based - layer 12 will be utilized for this step)
+2. Logistic regression - cross validation with 80% training data
+3. Logistic regression Lasso - cross validation with 80% training data
+4. Logistic regression Ridge - cross validation with 80% training data
+5. Evaluation metrics - compute across models and make model performance comparisons
+
+```{r, eval=FALSE}
+#Layer 12
+word_embeds <- vector('list',nrow(data))
+ 
+ for(i in 1:nrow(data)){
+   # Assign the text to analyze
+      text <- data[i,]$text
+   
+    word_embeds[i]  <- textEmbed(x = text,
+                      model = 'roberta-base',
+                      layers = 12)
+   
+ }
+```
+
+
+
+```{r}
+# Creating dataframe
+data <- data %>% 
+  mutate(id_col = 1:nrow(data))
+
+#View(iter)
+iter_12 <- data.frame(matrix(unlist(word_embeds), nrow=length(word_embeds), byrow=TRUE))
+
+#Get dim names
+# Creating vector of dim names
+y <- textEmbed(x = data$text[1],
+            model = 'roberta-base',
+                  layers = 12)
+y <- y[["x"]]
+y <- names(y)
+
+#Change column names of iter
+colnames(iter_12) <-  y 
+
+iter_12 <- iter_12 %>% 
+  mutate(id_col = 1:nrow(data))
+
+data_merge <- inner_join(data, iter_12, by = "id_col")
+#names(data_merge)
+
+# Removing unnecessary columns
+data_12 <- data_merge %>% 
+  select(-c(text, id_col)) %>% 
+  rename("Label" = "label")
+
+#str(data_12)
+```
+
+
+```{r}
+outcome <- c('Label')
+numeric <- y
+
+blueprint_12 <- recipe(
+  x = data_12,
+  vars = colnames(data_12),
+  roles =  c('outcome', rep('predictor', 768))) %>% 
+    step_normalize(all_of(numeric))
+blueprint_12
+
+prepare_12 <- prep(blueprint_12, training = data_12)
+prepare_12
+
+baked_data_12 <- bake(prepare_12, new_data = data_12)
+baked_data_12
+
+#rio::export(baked_data_12, file = "baked_data_12.csv")
+
+```
+
+
+```{r}
+baked_data_12 <- rio::import(here::here("data", "baked_data_12.csv"), setclass = "tbl_df") 
+```
+
+
+```{r}
+set.seed(10152)  # for reproducibility
+#80% training and 20% testing data
+data_12_tr <- baked_data_12 %>%
+  sample_frac(.8) 
+data_12_te <- anti_join(baked_data_12, data_12_tr)
+```
+
+## Logistic regression
+
+```{r}
+#Logistic regression data_12
+options(digits=2)
+set.seed(10152021)  # for reproducibility
+
+# Randomly shuffle the data
+data_12_tr= data_12_tr[sample(nrow(data_12_tr)),]
+
+# Create 10 folds with equal size
+folds = cut(seq(1,nrow(data_12_tr)),breaks=10,labels=FALSE)
+
+   # Create the list for each fold 
+      my.indices <- vector('list',10)
+      for(i in 1:10){
+        my.indices[[i]] <- which(folds!=i)
+      }
+      
+cv <- trainControl(method = "cv",
+                   index  = my.indices,
+                   classProbs = TRUE,
+                   summaryFunction = mnLogLoss)
+
+# Train the model
+caret_mod_12 <- caret::train(blueprint_12, 
+                          data      = data_12_tr, 
+                          method    = "glm", 
+                          family = "binomial",
+                          trControl = cv)
+caret_mod_12
+
+# Predict the probabilities for the observations in the test dataset
+predicted_te_12 <- predict(caret_mod_12, data_12_te, type='prob')
+#predicted_te_12
+
+
+#------Evaluation of model------#
+# Compute the AUC
+cut.obj_12 <- cutpointr(x     = predicted_te_12$hate,
+                       class = data_12_te$Label)
+auc_LR_12 <-  auc(cut.obj_12)
+
+
+# Confusion matrix assuming the threshold is 0.5
+pred_class_12 <- ifelse(predicted_te_12$hate>.5,1,0)
+
+confusion_12 <- table(data_12_te$Label,pred_class_12)
+confusion_12
+
+# True Negative Rate
+TNR_LR_12 <- confusion_12[1,1]/(confusion_12[1,1]+confusion_12[1,2])
+
+# False Positive Rate
+FPR_LR_12 <- confusion_12[1,2]/(confusion_12[1,1]+confusion_12[1,2])
+
+# True Positive Rate
+TPR_LR_12 <- confusion_12[2,2]/(confusion_12[2,1]+confusion_12[2,2])
+
+# Precision
+PRE_LR_12 <- confusion_12[2,2]/(confusion_12[1,2]+confusion_12[2,2])
+
+#Accuracy
+ACC_LR_12 <- (confusion_12[1,1]+confusion_12[2,2])/(confusion_12[1,2] + confusion_12[2,1] + confusion_12[1,1] + confusion_12[2,2])
+```
+
+
+## Ridge regression 
+
+```{r}
+# Cross-validation settings
+
+cv <- trainControl(method    = "cv",
+                   index           = my.indices,
+                   classProbs      = TRUE,
+                   summaryFunction = mnLogLoss)
+      
+# Hyperparameter tuning grid for ridge penalty (lambda), alpha = 0
+grid <- data.frame(alpha = 0, lambda = c(seq(0.68,1.5, .01)))
+                   
+#grid
+
+# Train the model
+caret_logistic_ridge_12 <- caret::train(blueprint_12, 
+                                     data      = data_12_tr, 
+                                     method    = "glmnet",
+                                     family    = 'binomial',
+                                     metric    = 'logLoss',
+                                     trControl = cv,
+                                     tuneGrid  = grid)
+caret_logistic_ridge_12
+
+```
+
+
+```{r fig-hyperP-Ridge, fig.cap="(ref:fig-hyperP-Ridge)"}
+# check the results
+#plot(caret_logistic_ridge_12) #Following is the APA version for this plot
+
+hyperP_fig(caret_logistic_ridge_12$results)
+```
+
+As seen in the above figure, hyperparameter $\lambda$ was set to be `r caret_logistic_ridge_12$bestTune`
+
+```{r}
+# Predict the probabilities for the observations in the test dataset
+
+predicted_te_12 <- predict(caret_logistic_ridge_12, data_12_te, type = 'prob')
+
+# Compute the AUC
+cut.obj <- cutpointr(x     = predicted_te_12$hate,
+                     class = data_12_te$Label)
+auc_LRr_12 <- auc(cut.obj)
+
+# Confusion matrix assuming the threshold is 0.5
+pred_class_12 <- ifelse(predicted_te_12$hate>.5,1,0)
+
+confusion_ridge <- table(data_12_te$Label,pred_class_12)
+#confusion_ridge
+
+# True Negative Rate
+TNR_LRr_12 <- confusion_ridge[1,1]/(confusion_ridge[1,1]+confusion_ridge[1,2])
+
+# False Positive Rate
+FPR_LRr_12 <- confusion_ridge[1,2]/(confusion_ridge[1,1]+confusion_ridge[1,2])
+
+# True Positive Rate
+TPR_LRr_12 <- confusion_ridge[2,2]/(confusion_ridge[2,1]+confusion_ridge[2,2])
+
+# Precision
+PRE_LRr_12 <- confusion_ridge[2,2]/(confusion_ridge[1,2]+confusion_ridge[2,2])
+
+#Accuracy
+ACC_LRr_12 <- (confusion_ridge[1,1]+confusion_ridge[2,2])/(confusion_ridge[1,2] + confusion_ridge[2,1] + confusion_ridge[1,1] + confusion_ridge[2,2])
+```
+
+
+```{r fig-vip-Ridge, fig.cap="(ref:fig-vip-Ridge)"}
+vip(caret_logistic_ridge_12, 
+    num_features = 10, 
+    geom = "point") + 
+  labs(title = "Important features for Ridge Regression")+
+  theme_minimal()
+```
+
+
+```{r tbl-vip-Ridge, results = "asis"}
+coefs <- coef(caret_logistic_ridge_12$finalModel,caret_logistic_ridge_12$bestTune$lambda)
+#length(coefs)
+
+tidy_coef(coefs) %>% 
+  kbl() %>% 
+    kable_paper() %>%
+  scroll_box(width = "30%", height = "250px")
+
+#head(as.matrix(coefs[ind,]),10)
+```
+
+## Lasso Regression
+```{r}
+# Cross-validation settings
+
+cv <- trainControl(method    = "cv",
+                   index           = my.indices,
+                   classProbs      = TRUE,
+                   summaryFunction = mnLogLoss)
+      
+# Hyperparameter tuning grid for ridge penalty (lambda), alpha = 0
+
+grid <- data.frame(alpha = 1, lambda = seq(0.016,.018,.0001))
+#grid
+
+
+# Train the model
+  
+caret_logistic_lasso_12 <- caret::train(blueprint_12, 
+                                     data      = data_12_tr, 
+                                     method    = "glmnet",
+                                     family    = 'binomial',
+                                     metric    = 'logLoss',
+                                     trControl = cv,
+                                     tuneGrid  = grid)
+
+caret_logistic_lasso_12
+```
+
+```{r fig-hyperP-Lasso}
+# check the results
+hyperP_fig(caret_logistic_lasso_12$results)
+```
+
+As seen in figure above the hyperparameter $\lambda$ was set to be `r caret_logistic_lasso_12$bestTune`
+
+```{r}
+# Predict the probabilities for the observations in the test dataset
+
+predicted_te_12 <- predict(caret_logistic_lasso_12, data_12_te, type='prob')
+
+#dim(predicted_te_12)
+#head(predicted_te_12)
+
+# Compute the AUC
+cut.obj <- cutpointr(x     = predicted_te_12$hate,
+                     class = data_12_te$Label)
+auc_LRl_12 <- auc(cut.obj)
+
+# Confusion matrix assuming the threshold is 0.5
+pred_class <- ifelse(data_12_te$hate>.5,1,0)
+confusion_lasso <- table(data_12_te$Label,pred_class_12)
+#confusion_lasso
+
+# True Negative Rate
+TNR_LRl_12 <- confusion_lasso[1,1]/(confusion_lasso[1,1]+confusion_lasso[1,2])
+
+# False Positive Rate
+FPR_LRl_12 <- confusion_lasso[1,2]/(confusion_lasso[1,1]+confusion_lasso[1,2])
+
+# True Positive Rate
+TPR_LRl_12 <- confusion_lasso[2,2]/(confusion_lasso[2,1]+confusion_lasso[2,2])
+
+# Precision
+PRE_LRl_12 <- confusion_lasso[2,2]/(confusion_lasso[1,2]+confusion_lasso[2,2])
+
+#Accuracy
+ACC_LRl_12 <- (confusion_lasso[1,1]+confusion_lasso[2,2])/(confusion_lasso[1,2] + confusion_lasso[2,1] + confusion_lasso[1,1]+ confusion_lasso[2,2])
+```
+
+
+```{r fig-vip-Lasso, fig.cap="(ref:fig-vip-Lasso)}
+vip(caret_logistic_lasso_12, 
+    num_features = 10, 
+    geom = "point") + 
+  labs(title = "Important features for Lasso Regression")+
+  theme_minimal()
+```
+
+
+```{r tbl-vip-Lasso, results = "asis"}
+
+coefs <- coef(caret_logistic_lasso_12$finalModel,
+              caret_logistic_lasso_12$bestTune$lambda)
+
+tidy_coef(coefs) %>% 
+  kbl() %>% 
+    kable_paper() %>%
+  scroll_box(width = "30%", height = "250px")
+
+#ind   <- order(abs(coefs[,1]),decreasing=T)
+
+#head(as.matrix(coefs[ind,]),10)
+```
+
+
+```{r eval_metric}
+
+tibble(
+      model = c("Logistic Regression", 
+            "Logistic Regression with Ridge Penalty", 
+            "Logistic Regression with Lasso Penalty"),
+  
+      "-LL" = c(caret_mod_12$results$logLoss,
+              min(caret_logistic_ridge_12$results$logLoss),
+              min(caret_logistic_lasso_12$results$logLoss)
+              ),
+      
+      "AUC" = c(auc_LR_12, auc_LRr_12, auc_LRl_12),
+      
+      "ACC" = c(ACC_LR_12, ACC_LRr_12, ACC_LRl_12),
+      
+      "TPR" = c(TPR_LR_12, TPR_LRr_12, TPR_LRr_12),
+  
+      "TNR" = c(TNR_LR_12, TNR_LRr_12, TNR_LRl_12),
+  
+      "FPR" = c(FPR_LR_12, FPR_LRr_12, FPR_LRl_12),
+        
+      "PRE" = c(PRE_LR_12, PRE_LRr_12, PRE_LRl_12)
+      
+) %>% 
+  kbl() %>% 
+    kable_paper() %>%
+  scroll_box(width = "100%", height = "200px")
+```
+
+
+# Discussion
+Given the evaluation metrics for this data `Logistic Regression with Ridge regularization` would be the model I would choose for this data.  Logistic regession model will not be the best model given the high Logloss value although it has a high precision rate compared to the other two models. 
+
+Let us test the model on real some examples. 
+
+```{r warning=FALSE}
+
+dat = tibble(
+  text = (c('The Chinese virus is taking over the world', 
+            'Marriage is a union of men and ,women', 
+            'If you wear a hijab you should be stoned to death',
+            'Gay people can be weird you know',
+            'It is wrong of a woman to want to abort their babies'))
+
+)
+
+#Layer 12
+word_embeds_check <- vector('list',nrow(dat))
+ 
+ for(i in 1:nrow(dat)){
+   # Assign the text to analyze
+      text <- dat[i,]$text
+   
+    word_embeds_check[i]  <- textEmbed(x = text,
+                      model = 'roberta-base',
+                      layers = 12)
+   
+ }
+
+
+```
+
+```{r}
+# Creating dataframe
+dat <- dat %>% 
+  mutate(id_col = 1:nrow(dat))
+
+#View(iter)
+iter_check_12 <- data.frame(matrix(unlist(word_embeds_check), nrow=length(word_embeds_check), byrow=TRUE))
+
+#Get dim names
+# Creating vector of dim names
+y <- textEmbed(x = dat$text[1],
+            model = 'roberta-base',
+                  layers = 12)
+y <- y[["x"]]
+y <- names(y)
+
+#Change column names of iter
+colnames(iter_check_12) <-  y 
+
+iter_12 <- iter_12 %>% 
+  mutate(id_col = 1:nrow(data))
+
+data_merge <- inner_join(data, iter_12, by = "id_col")
+#names(data_merge)
+
+# Removing unnecessary columns
+data_12 <- data_merge %>% 
+  select(-c(text, id_col)) %>% 
+  rename("Label" = "label")
+```
+
+
+```{r}
+
+prob = predict(caret_logistic_ridge_12,word_embeds_check, type='prob')
+
+
+text1  <- 'The Chinese virus is taking over the world'
+text2  <- 'Marriage is a union of men and women'
+text3  <- 'If you wear a hijab you should be stoned to death'
+text4  <- 'Gay people can be weird you know'
+text5  <- 'It is wrong of a woman to want to abort their babies'
+tibble(
+  text = c(text1, text2, text3, text4, text5, text6, text7, text8, text9, text10),
+  
+  positive = prob$Positive,
+  
+  negative = prob$Negative
+)%>% 
+  kbl() %>% 
+   kable_styling() %>% 
+  kable_paper()
+```
+

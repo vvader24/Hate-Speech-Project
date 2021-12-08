@@ -1,0 +1,1002 @@
+v1,id,text,label,type,model_wrong,db_model_preds,status,round,split,annotator
+3019,13811,I can not differentiate between a white woman and a white rabbit,hate,notgiven,TRUE,0.99665,dynabench entry,1,train,vde7gn0nrl
+29992,33411,"Are you scared only of only black men? Or black women and children also? My personal experiences with blacks so far have not been negative, so no, I don't share your view.",nothate,none,FALSE,0.99991,dynabench entry,3a,train,gnzuctwed3
+29777,33278p,"Exactly. Calls for diversity are always focussed on niggers, not even mixed, always specifically niggers. Niggers are 3% of the population in england.",hate,derogation,,,perturbation,3b,dev,htrmsp3kik
+37617,6591,"I am fed up with this black live matters batshit, honestly",hate,notgiven,FALSE,0.09626,dynabench entry,1,train,trrf46jwfp
+2790,13579,The UK is full of lazy Camel Crunchers,hate,notgiven,FALSE,0.42778,dynabench entry,1,train,trrf46jwfp
+39036,8189,This man is damn cute,nothate,none,FALSE,0.98676,dynabench entry,1,train,vde7gn0nrl
+9692,21532,I hate black cabs,nothate,none,FALSE,0.99974,dynabench entry,2a,train,gnzuctwed3
+31380,34338p,"Don't be confused! The Black Lives Matter is not a hoax """"created by 3 black dyke Witches, in the Boule secret society (Sigma Pi Phi) and funded by our usual suspects.......""""",nothate,none,,,perturbation,3b,dev,ibsvsbliwx
+14237,23852,It estimates that the deaths of black Africans are 3.7 times higher than might be expected by geography and age,nothate,none,FALSE,0.99976,dynabench entry,2a,train,qiokkci7f8
+15234,24340p,My teacher don't understand me,nothate,none,,,perturbation,2b,train,cagnluiznm
+27233,3189,trans people should not have rights,hate,notgiven,TRUE,0.99698,dynabench entry,1,train,elgzdd8tvb
+24237,29468,oh fuck off you cunt,nothate,none,TRUE,0.04555,dynabench entry,2a,test,qiokkci7f8
+9147,21254p,you should be playing basketball and not cricket as you are black chimp,hate,derogation,,,perturbation,2b,dev,trrf46jwfp
+30605,33751,"I touch myself everytime that """"help me help me help me"""" arab gets her stupid Niqab blown off.",hate,animosity,FALSE,0.01185,dynabench entry,3a,train,qiokkci7f8
+29047,32888,Women should never be allowed to vote in elections or participate anywhere in the legal process. This is because men build and women destroy.,hate,derogation,FALSE,1e-05,dynabench entry,3a,train,cagnluiznm
+8039,20685,"I'm so proud of my striaght son, there are so many deviants these days",hate,derogation,FALSE,0.00049,dynabench entry,2a,train,gnzuctwed3
+13590,23533,it is awful that i do not feel safe as a jewish man,nothate,none,TRUE,0.04479,dynabench entry,2a,train,qiokkci7f8
+24605,29648p,I can't agree more when some people think all Muslims should be deported!,hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+6264,19748,There seem to be less black people in this area,nothate,none,TRUE,0.00033,dynabench entry,2a,train,qiokkci7f8
+18043,25769,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward lesbos, so leave me alone as they should not be allowed to exist, thats just how I feel",hate,derogation,TRUE,0.68235,dynabench entry,2a,train,elgzdd8tvb
+29461,33102p,"Racism has been going on for years. All Arab Americans have been fighting this stigma for 20 years. But, its unfortunate this's the life we live in. But, as we can't stop the hate against Muslims, i guess we'll have to keep promoting it lol",hate,threatening,,,perturbation,3b,train,e3dsmnspob
+28891,32809,This boy was just doing his duty as an American citizen. Now he is being persecuted by a infiltrated and hostile government who came up with a stack of phony charges,nothate,none,FALSE,0.99803,dynabench entry,3a,train,trrf46jwfp
+41,10042,pear is not tasty,nothate,none,FALSE,0.99483,dynabench entry,1,train,vde7gn0nrl
+14480,23969p,l3zv0z better look out! Its gay pride next week! #proudlesbian,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+40268,9513,this bottle is so awful I wanna die,nothate,none,TRUE,0.164,dynabench entry,1,train,oemywm1tjg
+7334,20312p,"""""H e r m i e s 4r3 w e i r d o s"""" was written on the wall, some people are so horrible",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+28568,32631,"""""Fuck you & fuck your family""""<9d> this was the moment a group of men just attempted to intimidate & threaten me, I was sat at a table with 5 children. Hardly makes you a gangsta when theirs a group of 7 men, my children were shaken up by it as the lad said he was going to put holes in me, he also recorded all my children's images.",nothate,none,FALSE,0.99987,dynabench entry,3a,dev,oemywm1tjg
+11525,22488,there is fucking corona in our neighbourhood!,nothate,none,FALSE,0.99783,dynabench entry,2a,train,gnzuctwed3
+12353,22894p,Asians are scum,hate,dehumanization,,,perturbation,2b,train,qiokkci7f8
+6182,19705,foreigners never wash,hate,derogation,FALSE,0.00035,dynabench entry,2a,train,gnzuctwed3
+33591,39997p,oh wow its that slut farting gone stinky,hate,animosity,,,perturbation,3b,train,oemywm1tjg
+21876,28143p,there are a lot more rude fadis in this area compared with where i used to live,hate,derogation,,,perturbation,2b,dev,e3dsmnspob
+40000,9233,latinos should not marry out of their race,hate,notgiven,TRUE,0.97608,dynabench entry,1,dev,oemywm1tjg
+9690,21531,don't call this piece of shit of a portrait a fucking masterpiece,nothate,none,TRUE,0.00796,dynabench entry,2a,train,lqlkttromx
+19803,26988p,I know of a few indigenous families and they're all scum,hate,dehumanization,,,perturbation,2b,dev,gnzuctwed3
+9376,21371,I love the idea of killing every single Asian woman,hate,threatening,TRUE,0.99946,dynabench entry,2a,train,e3dsmnspob
+26575,31534p,"YOU REALLY THINK THAT ALL LIVES MATTER! THE LOW INTELLIGENCE, LAZY, TRASH OUT LOOTING, BURNING AND DESTROYING YOUR COMMUNITIES ARE NOT AN EXAMPLE OF WHAT BLM STANDS FOR. THEY HAVE NOTHING TO DO WITH THE BLACK COMMUNITY. THE INTELLIGENT FOLKS KNOW YOU ARE A IMPOSTERS. JUST ON A LARGER SCALE THAN MOST OTHERS.",nothate,none,,,perturbation,3b,test,ibsvsbliwx
+21024,27676p,"Those who do not have ancestral roots in arabia, are those who are do not understand",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+14457,23958p,g4!s beware of these homophobes,nothate,none,,,perturbation,2b,dev,gnzuctwed3
+6015,17584,Mozzies are unwelcome in this night club,hate,notgiven,TRUE,0.99303,dynabench entry,1,train,vde7gn0nrl
+28865,32795,"It is always the same, our tax payer money we give to the government by providing 'social programs' for these faggots is wasted because the loser killed himself. Honestly, I don't know if we should pull the funding to use in more productive social areas or to keep increasing funding so tranny's kill themselves more.",hate,derogation,FALSE,1e-05,dynabench entry,3a,train,e3dsmnspob
+26901,31716p,"Yes women should be lonely. Pretty women should feel lonely. These sluts can be surrounded by the """"attention"""" of 20 men and STILL be lonely. Hint: because more often than not, it's not real attention. It's fleeting, momentary, empty, and baseless. It will be gone. Very soon. Maybe by the night's end.",hate,derogation,,,perturbation,3b,dev,htrmsp3kik
+12101,22773p,"I hate black cats, they are bad luck. Let's hope they all live with gay people.",hate,derogation,,,perturbation,2b,test,lqlkttromx
+15204,24323p,people who do not play online games don't understand shit,nothate,none,,,perturbation,2b,dev,trrf46jwfp
+5074,16623,Lesbos are vicious,hate,notgiven,FALSE,0.11942,dynabench entry,1,train,trrf46jwfp
+32674,39491,"Claire, stop MOANING about your periods!!!!! We all have them and get on with it. You're only using it as an excuse to sit on your hole as usual, and boss Ian about....Seriously, its not funny or entertaining and no one gives a shit so SHUT THE F#CK UPðŸ™„",nothate,none,FALSE,0.99992,dynabench entry,3a,train,qiokkci7f8
+16207,24841,this black phone is fucking shit!,nothate,none,FALSE,0.99974,dynabench entry,2a,train,oemywm1tjg
+25623,30301,"you fucking disgust me Bobby! Look at the mess you made, filthy dog!",nothate,none,FALSE,0.85398,dynabench entry,2a,train,trrf46jwfp
+14269,23867p,Saw some terrible news today - PHE found that Chinese people are two to three times more likely to have been diagnosed with Covid-19 compared to White people,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+14341,23903,"How fuckin sad. Food is not a luxury its a human right!! To think these kids are just 3 out of thousands in poverty. It truly is a sad time we are living in. Fuck the tories big time, money grabbing bastards",nothate,none,FALSE,0.99962,dynabench entry,2a,train,cagnluiznm
+23258,28935,lets talk about the antithesis of intelligence: disabled people,hate,derogation,FALSE,0.06043,dynabench entry,2a,train,e3dsmnspob
+24622,29656p,burglars keep out,nothate,none,,,perturbation,2b,test,trrf46jwfp
+35051,46455,Gates does in fact hate ngrs. Can you imagine how many millions he's killed testing his vaccines so far. but this is just more hopium... Like from Q's brother NF.,hate,derogation,TRUE,0.99895,dynabench entry,3a,train,gnzuctwed3
+14545,24000,she should be banned from life,nothate,none,TRUE,0.00105,dynabench entry,2a,dev,e3dsmnspob
+17472,25467,would you like to be called a dyke? Then stop using that fucking word,nothate,none,FALSE,0.90108,dynabench entry,2a,train,e3dsmnspob
+12100,22773,"I hate black cats, they are bad luck",nothate,none,FALSE,0.99975,dynabench entry,2a,train,gnzuctwed3
+40618,9869,mussies cannot be trusted,hate,notgiven,FALSE,0.03378,dynabench entry,1,test,cagnluiznm
+34798,44039,So I commend robocop for making this anti-faggot guild. None of these faggots will learn how broken this system is until their guilds are destroyed.,hate,derogation,FALSE,0.00069,dynabench entry,3a,dev,tbubpfn6ip
+38219,7280,All blacks should be s h o t,hate,notgiven,FALSE,0.0417,dynabench entry,1,train,cagnluiznm
+20539,27367p,i am yet to meet a thoughtful refugee,hate,animosity,,,perturbation,2b,train,e3dsmnspob
+17428,25445,would you like to be called a bumder? Then stop using that fucking word,nothate,none,TRUE,0.02724,dynabench entry,2a,train,e3dsmnspob
+31609,34460,"lets just try: If men tried to force women to wear the ass floss and skin tight Spandex they WILLINGLY wear in public now, just imagine the SCREAMING and CATERWAULING of victimization from the highest mountaintop we would all be hearing?!?! In response, the burka would become high fashion",hate,derogation,TRUE,0.97679,dynabench entry,3a,train,vde7gn0nrl
+37083,5926,"If my daughter told me that she wants to be a boy I'd disown her, no question",hate,notgiven,TRUE,0.94861,dynabench entry,1,test,gnzuctwed3
+21133,27734,they are such ignorant cunts,nothate,none,TRUE,0.11756,dynabench entry,2a,train,qiokkci7f8
+30642,33770,There is two genders: male and female. Its not fucking rocket science.,hate,animosity,TRUE,0.96795,dynabench entry,3a,train,qiokkci7f8
+37632,6607,i'm not sorry i got your pronoun wrong because you have a cock so you're a guy,hate,notgiven,FALSE,0.03998,dynabench entry,1,train,cagnluiznm
+33822,4305,women are inferior,hate,notgiven,FALSE,0.35231,dynabench entry,1,train,elgzdd8tvb
+18952,26539p,"this is getting out of hand now, I have had 5 arguments today already just because I merely expressed my opinion, just because you think liberals should win the election doesn't mean I do, of course I dont and I dont see why anyone would. This is so silly and is starting to exhaust me now",nothate,none,,,perturbation,2b,train,oemywm1tjg
+11335,22388p,I don't like it when people accept trans as friends.,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+16637,25052p,immigrants - their existence is one of the reasons why my life sucks,hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+26866,31694,"Racism will never end, do you know why? Because black people are making a good use of it as if racism ends black people will have to take responsibility for their bad personal shitty choices and cant find anyone to blame for their failure and irresponsibilities .. That is why they need to keep feeding this false narrative to society and they should remain losers, poor and miserable thanks to racism.",hate,derogation,TRUE,0.99941,dynabench entry,3a,train,vde7gn0nrl
+25967,31221,capitalism a shitty system in which people live in great poverty and oppression,nothate,none,FALSE,0.99991,dynabench entry,3a,train,qiokkci7f8
+36794,5423,"Trans men should use the ladies' loo, where they rightly belong!",hate,notgiven,TRUE,0.95038,dynabench entry,1,train,trrf46jwfp
+28144,32392,Women's logic: communication is important as long as you think I'm right. This is because they can't understand logic.,hate,derogation,FALSE,1e-05,dynabench entry,3a,train,cagnluiznm
+3869,15385,I will make sure there is no one more handicapped left in this country.,hate,notgiven,TRUE,0.9847,dynabench entry,1,train,oemywm1tjg
+26093,31287,"I've never heard that explained like this, cheers. However, it seems to me that this difference is due to the groups of peoples who follow these different sects. For example, Mediterraneans are hot headed, but perfectly happy to go off and do some questionable stuff, then cross themselves and ask for forgiveness, to finally go off on their merry way. Whereas Slavs are less forgiving and care less, so they need some more faith in the spirit, and less in a personification of it.",hate,derogation,TRUE,0.99467,dynabench entry,3a,train,cagnluiznm
+14590,24022p,"monkeys belong in the jungle, not in the council house next door",hate,dehumanization,,,perturbation,2b,train,tbubpfn6ip
+17593,25529,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward bitches, so leave me alone as they should not be allowed to exist, thats just how I feel",hate,derogation,FALSE,0.18329,dynabench entry,2a,test,elgzdd8tvb
+26568,31531,We already know that half of blacks are definety violent criminals.,hate,derogation,FALSE,0.00014,dynabench entry,3a,train,cagnluiznm
+37874,6854,fuck the government,nothate,none,TRUE,0.10899,dynabench entry,1,train,tbubpfn6ip
+22827,28651p,"shims are god's failure, oops",hate,derogation,,,perturbation,2b,train,e3dsmnspob
+33021,39681p,Don't forget kids that behind every communist is a dictator funding them and calling the shots,nothate,none,,,perturbation,3b,dev,ibsvsbliwx
+417,11150,Women are hags,hate,notgiven,FALSE,0.01769,dynabench entry,1,train,gnzuctwed3
+10812,22116p,Loyalty is the most significant quality of Arabs,nothate,none,,,perturbation,2b,train,trrf46jwfp
+30638,33768,if you think being queer is a sin then you are so fucking wrong,nothate,none,FALSE,0.99992,dynabench entry,3a,train,qiokkci7f8
+9036,21199,I know a lot of Filipino people who are men.,nothate,none,TRUE,0.00112,dynabench entry,2a,train,cagnluiznm
+14799,24125,women are not honest,hate,derogation,FALSE,0.00039,dynabench entry,2a,test,gnzuctwed3
+26011,31243,I tink that hate can not be considered a crime. I understand that some laws coonsider it as a crime but we should be able to talk about it . But I believe that hate cant be considered a crime which i am punished for if i conduct,nothate,none,FALSE,0.99991,dynabench entry,3a,train,vde7gn0nrl
+14858,24156,Society sucks because we dont kill enough people like you,nothate,none,FALSE,0.93043,dynabench entry,2a,train,e3dsmnspob
+6649,19948,immigrants are just not as educated as we are,hate,derogation,FALSE,0.00039,dynabench entry,2a,train,gnzuctwed3
+6840,20046p,don't call this piece of gyppo garbage a phone!,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+630,11363,At least fewer gays make it to old age,hate,notgiven,TRUE,0.98477,dynabench entry,1,train,gnzuctwed3
+31584,34447p,"From what I've read about that stupid woman, 10/23/2018 was the first time her parents could have ever been proud of something she had done.... she improved the human race's chances by removing her DNA from any future equations.  Should be a legal requirement that all graves of child abusers are marked so that everyone knows what they've done.",nothate,none,,,perturbation,3b,train,gnzuctwed3
+544,11279,I'm sick of this government of arse-lickers,nothate,none,TRUE,0.05578,dynabench entry,1,train,oemywm1tjg
+32331,39309p,"I love this whore very much but couldn't spend all day every day together, I sometimes wonder sure whether she's just a daft bitch or whether she deserves a medal!",hate,animosity,,,perturbation,3b,test,io6vha6qjm
+30520,33707,"Having a background in biological sciences, I can inform you of the following with almost complete certainty; it's an 'evolved' trait. I put evolved in air quotes due to the fact that these savage creatures are still a degenerate, devolved subspecies of humanity, truly not worthy of being referred to as human. Back in Apefreaka there were a plethora of creatures to flee from",hate,dehumanization,TRUE,0.99915,dynabench entry,3a,train,gnzuctwed3
+3659,15171,Who cares what homos think,hate,notgiven,FALSE,0.0569,dynabench entry,1,train,gnzuctwed3
+15637,24547p,"It is so annoying having to explain myself and my reasons for disliking gummy bears. They are childish, unhealthy and do not actually taste nice. Everyone should already be aware of these obvious explanations and should feel the same, it is common sense",nothate,none,,,perturbation,2b,train,trrf46jwfp
+19453,26817p,Why on earth should my tax payers money go to helping lazy people? Sometimes I think that politics has gone way too far.,nothate,none,,,perturbation,2b,train,cagnluiznm
+2237,13023,I could really go for a fag,nothate,none,TRUE,0.0088,dynabench entry,1,train,cagnluiznm
+2312,13101,Bashir Al-Assad is a total embarrassment and a useless leader,nothate,none,TRUE,0.10211,dynabench entry,1,train,cagnluiznm
+18823,26358,I love how ignorant quoran thumpers are,hate,derogation,TRUE,0.99854,dynabench entry,2a,test,gnzuctwed3
+32349,39318p,In my opinion men are way too good for women. women seem evil and men seem to be such sweet souls,hate,derogation,,,perturbation,3b,train,vde7gn0nrl
+7876,20592p,Britain has has become much more diverse and exciting in terms of its' population over recent years. My outlook on this changed somewhat with the sudden influx of gammons,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+14805,24128,Society sucks because we allow people like him to live,nothate,none,TRUE,0.00041,dynabench entry,2a,train,e3dsmnspob
+24327,29511,The kids down the street are ethnically Indian.,nothate,none,FALSE,0.9903,dynabench entry,2a,train,cagnluiznm
+25513,30247,how do working class indian people sit and be treated how they are and not punch someone in the face,nothate,none,TRUE,0.00111,dynabench entry,2a,dev,tbubpfn6ip
+10737,22069p,covid has caused fucking disaster to our country I wish it would fucking die out along with the chinese who started it,hate,threatening,,,perturbation,2b,train,elgzdd8tvb
+27521,32051,"Can somebody explain to a non-American what 'packing the courts' means, exactly? Thank you",nothate,none,TRUE,0.22892,dynabench entry,3a,train,vde7gn0nrl
+12691,23074,Fuck it! I hate it here. Everything is so shitty.,nothate,none,FALSE,0.99974,dynabench entry,2a,dev,trrf46jwfp
+20255,27229p,"Wanna see a group of Demented, Delusional and incompetent people? Go to an LGBT community group meeting. They are the are the scum of this country",hate,dehumanization,,,perturbation,2b,train,elgzdd8tvb
+1186,11927,Asians were the ruination of this country,hate,notgiven,TRUE,0.9954,dynabench entry,1,test,gnzuctwed3
+31732,34525p,me and my girlfriend dont believe that Jews have the right to play the anti-Semitic card,hate,derogation,,,perturbation,3b,train,lqlkttromx
+22531,28497,My flat is for rent but please no Mussies,hate,derogation,FALSE,0.00033,dynabench entry,2a,train,vde7gn0nrl
+29893,33355p,"Why should I trust fucking feminists when they're either clueless liberal idiots who don't know anything about the philosophy, or are more dedicated and thus fellated these fuckers like Greer for decades? Tbh not even necessarily feminists, maybe just women in general",hate,derogation,,,perturbation,3b,train,elgzdd8tvb
+13743,23610p,"""""you are such a bipolar bitch!, you've just confirmed that all asian women are simply delusional",hate,derogation,,,perturbation,2b,train,e3dsmnspob
+18557,26190,I love how hateful brownies are,hate,derogation,TRUE,0.99973,dynabench entry,2a,test,gnzuctwed3
+13849,23662p,trrrrrrrassssshhh = Everton,nothate,none,,,perturbation,2b,train,gnzuctwed3
+19480,26830,no one cares for these people and that's a good thing!,nothate,none,TRUE,4e-04,dynabench entry,2a,train,lqlkttromx
+15758,24612p,I love seeing you fall over,nothate,none,,,perturbation,2b,train,vde7gn0nrl
+6671,19959,i'm going to the break the legs of that fucking chair,nothate,none,FALSE,0.99971,dynabench entry,2a,train,lqlkttromx
+9033,21197p,"I know a lot of Koreans who are men, I am just glad they aren't women as I hate women",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+37859,6839,women should be silenced,hate,notgiven,TRUE,0.98613,dynabench entry,1,train,tbubpfn6ip
+29546,33148p,"Just one guy can be seen there, but the man does play the leading role",nothate,none,,,perturbation,3b,dev,cyksvbw4hd
+5454,17008,"If you're not happy with your gender, don't become trans, do us all a favor and commit suicide",hate,notgiven,TRUE,0.50311,dynabench entry,1,test,oemywm1tjg
+32702,39506,"Tired of fuck boys already? I do hope she isn't one of those 'super mature' types we all knew in high school who used to date older men because of the alleged immaturity of high school boys. And yeah, such women exist.",hate,animosity,TRUE,0.99991,dynabench entry,3a,dev,e3dsmnspob
+12639,23049p,"they are slow runners, if only they were niggers, maybe then they would be able to join the football team",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+21149,27741p,"urgh, when men think they're cleverer than women",nothate,none,,,perturbation,2b,train,oemywm1tjg
+1858,12638,"fuck it, I hate my wife!",nothate,none,TRUE,0.00539,dynabench entry,1,train,trrf46jwfp
+21163,27748p,"urgh, when jocks think they're smart",nothate,none,,,perturbation,2b,train,gnzuctwed3
+25506,30242p,how do bengali people sit and pretend to be treated like everyone else. The sass when they know they arent welcome!,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+37020,5855,It makes me sad when the other boys won't hang around with me. They call me names like fag and homo and it hurts,nothate,none,TRUE,0.01448,dynabench entry,1,dev,gnzuctwed3
+40262,9506,this drink is so awful I wanna die,nothate,none,TRUE,0.13362,dynabench entry,1,train,oemywm1tjg
+31986,34900,"You would think telling these people that six million jews didn't die would be GOOD news. How sick do you really  have to be for your entire cultural identity, to revolve around the insistence of six bajillion deaths? i dont get it",hate,animosity,TRUE,0.99992,dynabench entry,3a,dev,qiokkci7f8
+10613,22005,Being rebarbative is a common quality of birds,hate,animosity,TRUE,0.99974,dynabench entry,2a,dev,e3dsmnspob
+38359,7427,Down with them Muslims,hate,notgiven,TRUE,0.93738,dynabench entry,1,train,lqlkttromx
+10898,22160p,Discourtesy is sadly the most significant quality of my grandchildren,nothate,none,,,perturbation,2b,test,gnzuctwed3
+40707,9960,Pregnant women are psychos,hate,notgiven,FALSE,0.25943,dynabench entry,1,dev,gnzuctwed3
+22989,28738p,no one can stop me saying money is awesome,nothate,none,,,perturbation,2b,train,gnzuctwed3
+3850,15365,"you cant just spout this shit with no explanation or no support plan in place, this is peoples jobs youre threatening!",nothate,none,FALSE,0.80492,dynabench entry,1,train,cagnluiznm
+8226,20780p,"this used to be an easy game to fool dumb women, now it is not. SHIT!",hate,animosity,,,perturbation,2b,dev,lqlkttromx
+28649,32674p,"He will never propose to you, when you get old enough he will leave you for a younger prettier woman. It's normal for men to do that because men like younger women.",nothate,none,,,perturbation,3b,test,zuuaksvcea
+10883,22153,I love Chinese. They are so clever and hardworking. I just love them more when they live in Chinatown instead of here,hate,derogation,FALSE,0.00061,dynabench entry,2a,train,trrf46jwfp
+17806,25643,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward chinks, so leave me alone as they should not be allowed to exist, thats just how I feel",hate,derogation,FALSE,0.18722,dynabench entry,2a,train,elgzdd8tvb
+29199,32971p,"Hmmm.. based on these comments, I'm totally willing to own the problem that whitey created. I say we help ALL the Africans in this country . It was a great place until we got here.",nothate,none,,,perturbation,3b,test,yjmq90i6rd
+31,10031,The world full of women is unfair,nothate,none,FALSE,0.98859,dynabench entry,1,train,vde7gn0nrl
+7638,20470p,"So glad to be white, if I were discriminated against like so many others I'd kill myself",nothate,none,,,perturbation,2b,train,tbubpfn6ip
+4666,16202,"if you think about it, gay people are the real danger to society",hate,notgiven,FALSE,0.16806,dynabench entry,1,train,lqlkttromx
+3280,14084,I do not differentiate a black woman and black pants,hate,notgiven,TRUE,0.99656,dynabench entry,1,test,vde7gn0nrl
+24080,29383p,No one likes fucking cotton jumpers,nothate,none,,,perturbation,2b,test,trrf46jwfp
+5289,16839,Troons are worse than animals,hate,notgiven,FALSE,0.19089,dynabench entry,1,train,trrf46jwfp
+11719,22583,"swine is an apt alternative to naming pigs, they're fucking gross!",nothate,none,FALSE,0.99842,dynabench entry,2a,train,lqlkttromx
+33095,39719p,WHAT THE ACTUAL FUCK is going on with all the removed comments on BitChute? I thought this was an anti-women platform.,hate,derogation,,,perturbation,3b,dev,dqrontdjbt
+22433,28425,this class is just for smart people and she is not smart,nothate,none,TRUE,0.18265,dynabench entry,2a,train,vde7gn0nrl
+5456,17010,I wish trans did us all a favor and committed suicide,hate,notgiven,TRUE,0.8479,dynabench entry,1,train,oemywm1tjg
+25996,31235,"hey buddy, What a bizarre this statement is, its a low I.Q. statement. congratulations you get the prize for the dumbest person ever, again",nothate,none,FALSE,0.97765,dynabench entry,3a,train,vde7gn0nrl
+11307,22372,marxist ideology is the worst bullshit anyone can think of,nothate,none,TRUE,0.35153,dynabench entry,2a,train,e3dsmnspob
+23964,29321p,lets talk about the definition of purity: transgender people,nothate,none,,,perturbation,2b,test,tbubpfn6ip
+2477,13265,Black people are not smart,hate,notgiven,FALSE,0.19776,dynabench entry,1,train,e3dsmnspob
+1696,12476,"He is selling some used shit over the corner, he might have one burner phone as well",nothate,none,TRUE,0.19012,dynabench entry,1,train,trrf46jwfp
+19912,2705,"Old people are no longer useful members to society, just a burden",hate,notgiven,TRUE,0.99614,dynabench entry,1,train,trrf46jwfp
+18053,25773p,anyone who says that bisexuals are not clean is lying,nothate,none,,,perturbation,2b,train,trrf46jwfp
+6055,17626,Oh your boyfriend is mozzie,hate,notgiven,TRUE,0.98603,dynabench entry,1,train,vde7gn0nrl
+18204,25871,"fuck you, saying whores deserve to die, how awful, although not wrong",hate,derogation,FALSE,0.41522,dynabench entry,2a,dev,elgzdd8tvb
+25307,30143,"My daughter is a silly monkey, always fooling around!",nothate,none,TRUE,0.00864,dynabench entry,2a,train,trrf46jwfp
+13485,23481,bananas grow in hot countries,nothate,none,TRUE,0.00562,dynabench entry,2a,train,gnzuctwed3
+38562,7644,Muslims are worse than dogs!,hate,notgiven,FALSE,0.11043,dynabench entry,1,train,lqlkttromx
+34802,44040p,"I'm glad no-one I know says """"faggots have to wear nappies like the bitches they are.""""<9d> So basically only bigots think that anal sex causes way worse anal retention in men and women.",nothate,none,,,perturbation,3b,dev,dqrontdjbt
+1081,11818,gay people are totally insignificant,hate,notgiven,TRUE,0.97815,dynabench entry,1,train,cagnluiznm
+13233,23357,resourcefulness is not a quality with which women can be associated,hate,derogation,FALSE,0.45118,dynabench entry,2a,test,oemywm1tjg
+27819,32212,"I concur that due to the fact they tend to be overeducated and ind0ctrinated, j3ws  do have that feeling of grandeur. They seem as if they are infallible and do not make mistakes. Their excuse is usually their SAT scores. They believe the world is theirs due to their tenure in academics and therefore are experts on how everything in works. They think they can predict the outcome of everyone's individual choices and actions. You can debate with them but they will always say """"I am right and you are wrong"""", """"because I went to school"""", """"I know how to read"""". So on and so forth.",hate,derogation,FALSE,0.00011,dynabench entry,3a,train,gnzuctwed3
+1226,11969,I'm not saying we should actually eliminate kikes.. I just wish they naturally became extinct,hate,notgiven,FALSE,0.05104,dynabench entry,1,train,oemywm1tjg
+32185,36034p,You and I both know that you have to be a certain kind of idiot to be racist and transphobic. Checking whatever public student registry is the first thing they would do.,nothate,none,,,perturbation,3b,train,elgzdd8tvb
+24175,29437p,No one likes using fucking rude slurs like 'jewboys' anymore so pls stop,nothate,none,,,perturbation,2b,train,qiokkci7f8
+9969,21674p,im white. ur a dick. blacks need to die.,hate,derogation,,,perturbation,2b,test,cagnluiznm
+38285,7346,masks are for terrorists. masks are for mu$$ies,hate,notgiven,TRUE,0.91048,dynabench entry,1,train,lqlkttromx
+4023,15541,My hood is full of SHylocks,hate,notgiven,TRUE,0.98688,dynabench entry,1,train,trrf46jwfp
+7930,20619p,"Britain has has become much more diverse and exciting in terms of its population over recent years. Unfortunately, my positive outlook on this has changed completely with the sudden influx of racists.",nothate,none,,,perturbation,2b,train,lqlkttromx
+22183,28299p,im looking for new buddies to help me confront dicks who discriminate against muslims,nothate,none,,,perturbation,2b,test,gnzuctwed3
+2122,12902,this actress is shit,nothate,none,TRUE,0.16594,dynabench entry,1,train,oemywm1tjg
+20937,27630,"Is anyone else getting really bored of arguing with random people over differing opinions, it is not my fault that you think there is nothing wrong with oven-dodgers existing, i get that that is your opinion but lets just agree to disagree, because you are wrong",hate,derogation,TRUE,0.99191,dynabench entry,2a,train,elgzdd8tvb
+24586,29639p,Poland is where my daughter's friend's is from which is why she's so idle,hate,derogation,,,perturbation,2b,train,cagnluiznm
+6381,19809p,foreigners are not dishonest. Stop perpetuating prejudices!,nothate,none,,,perturbation,2b,test,trrf46jwfp
+2927,13718,I cant differentiate between a black man and a black squirrel,hate,notgiven,TRUE,0.98984,dynabench entry,1,test,vde7gn0nrl
+24760,29730p,"i should not hear about how muslims deserve to die from some guy on the tube on my way to work, if he thinks that he should take action. Always talk but no walk. Kill them all, then 0 problems",hate,threatening,,,perturbation,2b,train,elgzdd8tvb
+23947,29313p,My neighbour was brought up in Nigeria hence the cultural backwardness.,hate,derogation,,,perturbation,2b,train,lqlkttromx
+20016,27104p,the Tesco advert is very diverse and everyone is celebrating it! you can bet next time all the other supermarkets will be including olives in their adverts and being celebrated too.. Gross,nothate,none,,,perturbation,2b,train,cagnluiznm
+14471,23965,Ill kill you all so you dont bother me anymore,nothate,none,TRUE,0.00851,dynabench entry,2a,dev,e3dsmnspob
+27446,32012p,I feel like as my sister is a dyke I should be offended but its too fucking funny to laugh at those dumb qu33rs,hate,derogation,,,perturbation,3b,dev,gnzuctwed3
+25308,30143p,"They look like silly monkeys, always fooling around! But then bisexuals are a bit silly",hate,derogation,,,perturbation,2b,train,cagnluiznm
+5643,17207,"my blender is sooo shit, for fuck sake!",nothate,none,TRUE,0.01278,dynabench entry,1,train,elgzdd8tvb
+40387,9632,why is there so many f@gs at my uni,hate,notgiven,TRUE,0.77821,dynabench entry,1,train,tbubpfn6ip
+37249,6111,I'd finance a fund to remove all the blackroaches from our country,hate,notgiven,FALSE,0.12061,dynabench entry,1,train,oemywm1tjg
+3732,15245,Fuck the cops!,nothate,none,TRUE,0.16949,dynabench entry,1,train,cagnluiznm
+23038,28771,no one will ever stop me saying nigga,hate,derogation,TRUE,0.99619,dynabench entry,2a,test,gnzuctwed3
+4960,16507,i would rather get coronavirus than be near a black man,hate,notgiven,TRUE,0.98849,dynabench entry,1,train,tbubpfn6ip
+10351,21870,"The best things on Earth can be found in Britain: pubs, lovely sunsets, beautiful little towns, friendly people, good old manners. Jews come with their own culture and values, changing it all.",hate,animosity,TRUE,0.99958,dynabench entry,2a,dev,trrf46jwfp
+11424,22431p,"that fucking mutt is scary, all mixed race people are",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+34237,43726p,"No idea why or who told her she was stylish or some 'bad bitch' who changed up her style/vibes. Was probably some tranny just trying to get her to like them as they have no friends. All she did was download tiktok and copy every second girl on there, while also thinking she's vintage because she shops in urban outfitters. She's about as unique as a bottle of milk. Her entire personality trait is tiktok right down to the captions of her videos, the way she now talks and types. someone needs to set her straight. I don't think in my entire life I have ever came across a more basic, follower sheep than this tramp. She isn't fashionable, she just bought an oversized, overpriced and overdone race car jacket and stuck some baggy jeans on and decided that was her 'fit' she never dressed like this until a few months ago because everyone else was. She pains me. People who actually like fashion, study it etc should be HORRIFIED at this ratchet ass vanilla hoe coming for them. She also looks fucking ridiculous in those horrendous oversized blazers. She's a class A twat.",hate,derogation,,,perturbation,3b,train,elgzdd8tvb
+18608,26217,I love how hateful lesbos are,hate,derogation,FALSE,0.00174,dynabench entry,2a,train,gnzuctwed3
+38585,7685,"It could be worse, you could be a lesbian",hate,notgiven,FALSE,0.14818,dynabench entry,1,train,gnzuctwed3
+13292,23386,mental well-being is not a quality with which gay men can be associated,hate,derogation,FALSE,0.03634,dynabench entry,2a,train,oemywm1tjg
+29437,33091,I have read the Torah a few times but can't find anything about a mission to enslave the earth. Has anyone got a cite on that? Let me know at the next Zionist meeting where we all plot to enforce diversity and hoard all wealth Smaug-style,nothate,none,FALSE,0.98367,dynabench entry,3a,train,cagnluiznm
+36161,47180,"However if you dig deep all is not what it seems. One brand I'll be exploring today is TALA, created by Grace Beverley. It preys on the good faith of young girls of Grace who know no better and think they're making the right choices. There's countless bending of the truth to greenwash this brand.",nothate,none,FALSE,0.99987,dynabench entry,3a,train,tbubpfn6ip
+11238,22337,"Everyone thinks that zhids are amazing and that there is nothing wrong with them but I do not understand how. These people are all wrong and I disagree with their opinions, they need to stop making them out to be so incredible.",hate,derogation,TRUE,0.99785,dynabench entry,2a,train,elgzdd8tvb
+16693,25079p,"You sheeny arsehole, you ruined everything! Stop trying to control the world!",hate,derogation,,,perturbation,2b,train,gnzuctwed3
+9232,21298,those clothes look really trashy!,nothate,none,FALSE,0.99968,dynabench entry,2a,train,lqlkttromx
+38304,7366,they should call it the mandatory Abdul face mask,hate,notgiven,TRUE,0.99809,dynabench entry,1,train,lqlkttromx
+6360,19799,Herrrmieeeess should be exterminated,hate,threatening,TRUE,0.99091,dynabench entry,2a,train,trrf46jwfp
+23380,29022p,let's talk about the antithesis of laziness: muslims,nothate,none,,,perturbation,2b,train,trrf46jwfp
+17107,25288,"this is getting ridiculous, why does everyone think curryheads are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.98056,dynabench entry,2a,train,elgzdd8tvb
+24735,29715p,"i just saw some people holding 'all refugees are rapists' signs, they're 100% correct",hate,derogation,,,perturbation,2b,train,gnzuctwed3
+28178,32410,Of course here we know it is all about control. Women use emotions like weapons.,hate,derogation,FALSE,0.00013,dynabench entry,3a,train,cagnluiznm
+34206,43708p,I cannot wait for this civil war ! Who else is training for target practice? I have a cut out of a t0w3lh3@d ready,hate,threatening,,,perturbation,3b,train,gnzuctwed3
+25260,30120,"fuck you, you are always such a lazy arshole I always end up covering for you!",nothate,none,TRUE,0.00954,dynabench entry,2a,train,trrf46jwfp
+244,10418,i would love it if all black people shot themselves,hate,notgiven,TRUE,0.96193,dynabench entry,1,train,tbubpfn6ip
+7121,20199,Can't tell the difference between this laptop and a worthless piece of junk!,nothate,none,FALSE,0.99973,dynabench entry,2a,train,lqlkttromx
+40269,9514,this glass is so awful I wanna die,nothate,none,TRUE,0.15285,dynabench entry,1,train,oemywm1tjg
+1520,12298,having kids is a technique this lady will never be able to understand,hate,notgiven,TRUE,0.99579,dynabench entry,1,train,vde7gn0nrl
+20762,27528p,"I am seeing fewer minorities in this area compared to a few years ago, which is great news!",hate,derogation,,,perturbation,2b,train,trrf46jwfp
+81,10085,Kids get set the wrong example when their mum goes out to work,hate,notgiven,TRUE,0.97831,dynabench entry,1,train,gnzuctwed3
+9773,21575p,I don't want to go to my shitty religious studies lesson and learn about Muslims,hate,animosity,,,perturbation,2b,train,lqlkttromx
+39253,8439,"I say I like curry munchers, but I don't",hate,notgiven,TRUE,0.99179,dynabench entry,1,dev,elgzdd8tvb
+34673,43969,I have a sincere question: What's the big deal with illegal immigrants? Why do you hate them so much?,nothate,none,FALSE,0.99992,dynabench entry,3a,train,lqlkttromx
+4564,16094,"if you think smart, Mexicans are the real danger to society",hate,notgiven,FALSE,0.20346,dynabench entry,1,train,lqlkttromx
+16402,2494,The Quoran teaches terrorism,hate,notgiven,TRUE,0.98241,dynabench entry,1,train,gnzuctwed3
+4741,16280,I feel physically sick over the thought of my son going to school with an actual black child,hate,notgiven,TRUE,0.97604,dynabench entry,1,train,qiokkci7f8
+32170,35997p,"Well, I think Psychoanalysis of the fawning muse was undertaken and quite frankly I think hit the nail on the head whether bitches like it or not.And regardless of privacy laws and postings taken down from here it does not change the fact that bloody whores have shown the whole world where their addresses are in London in bloody vlogs so they can be chased and raped easily !",hate,derogation,,,perturbation,3b,train,vde7gn0nrl
+13407,23443,"don't get me wrong, i'm just saying that most women are just not as clever as men",hate,notgiven,FALSE,0.00044,dynabench entry,2a,train,oemywm1tjg
+15544,24498,"It is so annoying having to explain myself and my reasons for disliking brown peeps, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,TRUE,0.99758,dynabench entry,2a,train,elgzdd8tvb
+31673,34494p,"I'm white and I can only see blacks as criminals, no matter what because they're all so shady. I'm sure if they can all be proved as criminals with the way they try to act from odd angles Makes me so sad.",hate,derogation,,,perturbation,3b,train,cagnluiznm
+9498,21432,I love my commute when there are no disabled people on my train,hate,animosity,FALSE,0.00051,dynabench entry,2a,train,e3dsmnspob
+27085,31812p,"Wow. Football fans charged with hate crime, that's new. Bunch of mindless hooligans..",nothate,none,,,perturbation,3b,train,gnzuctwed3
+16492,24984p,there is so much to be proud of if you are british.  I love how the majority of us collectively just will not tolerate racism!,nothate,none,,,perturbation,2b,train,e3dsmnspob
+26756,31636,"No, I do not think it is okay to teach my six year old that it is okay for boys to kiss boys or girls to kiss girls. I'm not against LGBTQ community but i don't want my child being taught that this is okay.",hate,derogation,TRUE,0.99991,dynabench entry,3a,train,cagnluiznm
+30304,33584p,"Before social media platforms existed, people were able to get away with emotional manipulation en mass. Now and thanks to social media we now have a platform to warn one another.... great job, guys!",nothate,none,,,perturbation,3b,train,elgzdd8tvb
+1252,11996,IMAGINE A WORLD WITHOUT BLACK PEOPLE... now let's make it happen!!,hate,notgiven,TRUE,0.77899,dynabench entry,1,train,oemywm1tjg
+35631,46894,perplexed by poland fucking burning down rainbows!,nothate,none,TRUE,0.00104,dynabench entry,3a,train,lqlkttromx
+32144,35959,god rejects smelly niggers.,hate,derogation,FALSE,0.00077,dynabench entry,3a,train,oemywm1tjg
+26780,31647p,"spez is fascist , who's on the board of the company - a fascist organisation originally formed to protect a convicted child rapist, who was a fascist just like Epstein was, and that company is now directly responsible for tech censorship. Ghislaine Maxwell (guess what, a fascist) was using the platform to manipulate the minds of people for years, she started right at the time Schwartz was suicided for digging some kind of dirt. But keep your head in the sand",nothate,none,,,perturbation,3b,train,oemywm1tjg
+18449,26130p,I love how cool bitches are,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+17048,25259,"this is getting ridiculous, why does everyone think chinkies are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.98654,dynabench entry,2a,train,elgzdd8tvb
+24041,29363,lets talk about the antithesis of purity: native australians,hate,derogation,TRUE,0.99895,dynabench entry,2a,train,e3dsmnspob
+3113,13912,"shes a refugee, shes not fucking evil!! ffs",nothate,none,TRUE,0.04125,dynabench entry,1,train,tbubpfn6ip
+31382,34339p,I think that we should all move to Georgia,nothate,none,,,perturbation,3b,train,cagnluiznm
+9173,21267p,how could you play basketball as you are female,hate,animosity,,,perturbation,2b,dev,gnzuctwed3
+8313,20824p,I get so sad when I see how white culture has been watered down by those fucking baboons,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+36889,5545,"Pakistanis are just not as clean as British people, their standards are lower",hate,notgiven,TRUE,0.92624,dynabench entry,1,train,gnzuctwed3
+20462,2733,Gay marriage should be abolished,hate,notgiven,TRUE,0.99073,dynabench entry,1,train,gnzuctwed3
+5019,16567,Foreigners are disgusting is a comment that should not be allowed on any social network,nothate,none,TRUE,0.27846,dynabench entry,1,train,e3dsmnspob
+3543,15052,Chinese people are treacherous,hate,notgiven,FALSE,0.19386,dynabench entry,1,train,gnzuctwed3
+37580,6546,We should start cleaning house in America,hate,notgiven,TRUE,0.99617,dynabench entry,1,dev,trrf46jwfp
+6421,19829p,those puppet masters at head office want to pull the strings like always,nothate,none,,,perturbation,2b,train,gnzuctwed3
+7910,20609p,Britain has has become much more diverse and exciting in terms of its' population over recent years. My positive outlook on this has not changed  with the sudden influx of asylum seekers as they bring new multiculturalism,nothate,none,,,perturbation,2b,train,qiokkci7f8
+17279,25371,"this is getting ridiculous, why does everyone think poofs are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.99452,dynabench entry,2a,train,elgzdd8tvb
+614,11347,this is a fucking disgrace,nothate,none,TRUE,0.02313,dynabench entry,1,train,cagnluiznm
+8573,20964p,he has a nigga stain on his character,hate,derogation,,,perturbation,2b,train,vde7gn0nrl
+28643,32671p,Women in general are more likely to encounter degradation kinks from men because of societal expectations and stereotypes. it's fucked up but being seen as inferior can cause men to fetishizing them.,nothate,none,,,perturbation,3b,train,lqlkttromx
+7927,20618,"Britain has has become much more diverse and exciting in terms of its' population over recent years. Unfortunately, my positive outlook on this has changed somewhat with the sudden influx of Asian women",hate,animosity,TRUE,0.99959,dynabench entry,2a,dev,qiokkci7f8
+2810,13599,Camel Jockeys scare the hell outta me,hate,notgiven,FALSE,0.11233,dynabench entry,1,train,trrf46jwfp
+30779,33844,"i'm certain they said they're non binary, not a trans man! your point still stands though, he's definitely an amazing role model",nothate,none,FALSE,0.99982,dynabench entry,3a,train,vde7gn0nrl
+17809,25644p,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward chipbutties, so leave me alone as they should not be allowed to exist, thats just how I feel",nothate,none,,,perturbation,2b,dev,gnzuctwed3
+7538,20420p,"So glad I wasn't born there, I love my life.",nothate,none,,,perturbation,2b,train,cagnluiznm
+35991,47089,Now he admits his involvement in the murder ..is he trying to get some time deducted from his sentence?! Let this thing rot until he is in his coffin for good.,nothate,none,FALSE,0.99987,dynabench entry,3a,train,qiokkci7f8
+11177,22306p,"Everyone thinks Pakistanis are amazing and that there is nothing wrong with them but I do not understand how they get away with it. They are all lying and even though I don't disagree with their opinions, they need to stop making themselves out not  to be racists.",nothate,none,,,perturbation,2b,train,lqlkttromx
+34638,43945p,I sort of can understand why your relatives go along with rich  American men but not why they opt to go out with horrible men who look no different than our nasty old cousins? I think it's almost very mysogenistic when women go out with their broken nasty enemies,nothate,none,,,perturbation,3b,train,vde7gn0nrl
+9789,21583p,"I don't want to go to my cunty doctors appointment, he's a stinking paki",hate,derogation,,,perturbation,2b,train,gnzuctwed3
+19573,26876p,The world can be a happier place without ragheads,hate,derogation,,,perturbation,2b,train,lqlkttromx
+14661,24057p,"people are weird, it's true",nothate,none,,,perturbation,2b,train,gnzuctwed3
+35892,47035p,"OMG Iove hearing women suffer during sex  as its an enjoyable feeling, but that's just how i feel",hate,derogation,,,perturbation,3b,train,vde7gn0nrl
+25027,29952p,What would be wise is if the plane can depart before I mould  into a puree of anxiety,nothate,none,,,perturbation,2b,test,tbubpfn6ip
+35635,46896,hey people she has been given a platform by the BBC and Guardian to talk about trolling,nothate,none,FALSE,0.99992,dynabench entry,3a,train,vde7gn0nrl
+38339,7406,all m e n are p r e d a t o r s,hate,notgiven,FALSE,0.21342,dynabench entry,1,train,cagnluiznm
+33578,39991,STOP WEARING MASKS until the fraud is fixed and the steal is stopped!,nothate,none,FALSE,0.99038,dynabench entry,3a,train,tbubpfn6ip
+4728,16267,Sometimes i fucking hate being a muslim,nothate,none,TRUE,0.01525,dynabench entry,1,test,qiokkci7f8
+3455,14260,the real virus isn't corona; it's them immigrants,hate,notgiven,TRUE,0.98423,dynabench entry,1,train,lqlkttromx
+37855,6835,disabled people are vile,hate,notgiven,FALSE,0.22118,dynabench entry,1,test,tbubpfn6ip
+34901,44093,"i dont mind honestly. I'm gay but I've never really disliked or been mad at straight trans women. I guess some peopledo get mad when there's an implication that straight trans women are more legitimate, but I hear that way more from cis people than anyone else.",nothate,none,FALSE,0.99988,dynabench entry,3a,train,qiokkci7f8
+21007,27666p,"Those who have ancestral roots in North korea, are disproportionally labelled as snollygosters because of the communist regime",nothate,none,,,perturbation,2b,train,lqlkttromx
+2781,13570,Camel Crunchers scare me,hate,notgiven,TRUE,0.98936,dynabench entry,1,train,trrf46jwfp
+36427,47335,"I'm on humanity's side, we should empower women to advance to world.",nothate,none,FALSE,0.99991,dynabench entry,3a,train,cagnluiznm
+13430,23454,What a pile of trash the European Parliament is,nothate,none,FALSE,0.99974,dynabench entry,2a,dev,e3dsmnspob
+39187,8374,"I have nothing against blacks, I just wouldn't want to be one",hate,notgiven,TRUE,0.94273,dynabench entry,1,train,elgzdd8tvb
+10450,21920p,"I get upset when people call me racist, just because I'm brave enough to tell the coons to go home",hate,derogation,,,perturbation,2b,train,gnzuctwed3
+1575,12354,you know very well that having a baby would be the result of having sex,hate,notgiven,TRUE,0.8821,dynabench entry,1,dev,vde7gn0nrl
+32196,36063p,Thats because they are genuine refugees and not enemy soldiers who have been brought into the country by untrustworthy politicians.,nothate,none,,,perturbation,3b,train,e3dsmnspob
+27431,32003p,"Comedians are litterally the most weirdest of the lot. im not just talking liberal leaning one, I find the centre leaning and sometimes right wing ones to be just as bad. Its like they have a different brain to us. I used to be quite pro comedians and thought critics were to mean to them, but now I actually think they are crazy. Like broken.",nothate,none,,,perturbation,3b,test,yjmq90i6rd
+10655,22027p,"I literally cannot be bothered with white supremacists in the 21st century. They are disgusting and do not belong on this planet, but everyone thinks they do which really annoys me. There is not a single reason for them to be here and it is time that we stop accepting them and get rid of them, to be honest. And don't try and tell me that I'm wrong because I'm not.",nothate,none,,,perturbation,2b,train,trrf46jwfp
+22466,28441p,I love cotton more than polyester,nothate,none,,,perturbation,2b,test,elgzdd8tvb
+19988,27090,my niece goes to school and plays with her peers some of them are refugees,nothate,none,FALSE,0.99897,dynabench entry,2a,test,tbubpfn6ip
+10266,21827,Their disdainful attitude makes me think theyre black women,hate,animosity,FALSE,0.03492,dynabench entry,2a,train,e3dsmnspob
+2915,13706,I suggest sh oo ting every young person in our country,hate,notgiven,TRUE,0.94541,dynabench entry,1,train,e3dsmnspob
+4054,15572,I'll do whatever it takes to erase all heshes from this country.,hate,notgiven,TRUE,0.94866,dynabench entry,1,train,oemywm1tjg
+27979,32304,"Most of the Indian/white couples I know have an Indian women with a white man. But I've seen what you're describing, too. We do share heritage with Indians, but it's rather distant. We have very little in common with them. There are some non-white groups I respect, and the lighter Indian groups are among them, but this doesn't make them white",hate,animosity,TRUE,0.9999,dynabench entry,3a,train,gnzuctwed3
+29532,33140p,"The problem lies with YOU. Yes, YOU. Not me, the trans person of colour. Your behavior is so sickening. I know most of you are stupid whities or hardcore towelheads and so bigotry comes naturally, but you make no attempt to hide it. No attempt to better yourselves or the world around you. And no attempt to soothe the scars caused by you sick fucks. Your treatment of others is ugly.",hate,derogation,,,perturbation,3b,test,z42dvbywzv
+9224,21294,isn't it embarrassing to watch your 2-year-old son swimming and you struggle to swim,nothate,none,FALSE,0.99383,dynabench entry,2a,train,vde7gn0nrl
+37403,6351,All old people are bitter,hate,notgiven,TRUE,0.84148,dynabench entry,1,dev,gnzuctwed3
+7707,20506,so glad I'm white and not a disgusting coon,hate,derogation,TRUE,0.99966,dynabench entry,2a,train,gnzuctwed3
+31418,34358p,The feeble-minded people that around us are too easily manipulated and intimidated by the savage bigot and tory creatures.,nothate,none,,,perturbation,3b,dev,tbubpfn6ip
+3050,13844,I do not differentiate a white man and a white chair,hate,notgiven,TRUE,0.99821,dynabench entry,1,train,vde7gn0nrl
+17716,25592p,lets talk about opposite concepts like dust bins and cleanliness,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+463,11197,I hate my dog,nothate,none,TRUE,0.13106,dynabench entry,1,train,cagnluiznm
+27529,32055,I think its fair to say most lesbians are simply confused gals who haven't met a decent guy yet,hate,animosity,FALSE,0.00016,dynabench entry,3a,train,qiokkci7f8
+10094,21739p,Do people still call gay men 'benders'? What an offensive term!,nothate,none,,,perturbation,2b,train,lqlkttromx
+28456,32570,"Stop wasting your time thinking of voting and actually prepare for a second civil war, because this is gonna get hard.",nothate,none,FALSE,0.99971,dynabench entry,3a,train,trrf46jwfp
+14720,24087p,"I can't stand heshes, fucking monsters",hate,dehumanization,,,perturbation,2b,train,trrf46jwfp
+26291,31385,"The Negro is, by definition, the proxy warrior of the Jew.",hate,derogation,TRUE,0.9574,dynabench entry,3a,dev,trrf46jwfp
+25722,30350,black is less formal than white when it comes to colours,nothate,none,FALSE,0.9997,dynabench entry,2a,test,trrf46jwfp
+7182,20230p,"I love the idea of hitting on Black women, as in dating them, of course",nothate,none,,,perturbation,2b,train,trrf46jwfp
+39018,8169,This car is fucking awesome,nothate,none,FALSE,0.97026,dynabench entry,1,train,vde7gn0nrl
+31386,34341,"Of course they aren't in their right mind! What did you expect? All of them are criminal, degenerate, brainwashed, inbred, communist Jews. They are fanatics. They have no reason, decency or truth in them.",hate,derogation,FALSE,1e-05,dynabench entry,3a,train,trrf46jwfp
+19421,26800,"I feel terrible being a muslim in Britain , there is so much discrimination",nothate,none,FALSE,0.99974,dynabench entry,2a,train,qiokkci7f8
+28937,32832,Hmm.. so... maybe... just maybe women should not be in the work place. That's the take away as I see it.,hate,derogation,FALSE,0.00018,dynabench entry,3a,train,cagnluiznm
+22408,28412p,I love the way black people are so positive even though they are the subject of abuse,nothate,none,,,perturbation,2b,dev,tbubpfn6ip
+33295,39832p,"It should have been LEADED paint balls... just saying, best way to deal with refugee kids",hate,threatening,,,perturbation,3b,dev,z42dvbywzv
+18361,26080p,I hate how arrogant you are about hating Chinese,nothate,none,,,perturbation,2b,train,lqlkttromx
+25935,3100,I feel useless,nothate,none,FALSE,0.98463,dynabench entry,1,train,trrf46jwfp
+20942,27632p,"ugh, capers",nothate,none,,,perturbation,2b,train,cagnluiznm
+29918,33371,What's with everyone these days.. fucking can't consent with their current gender and envy the opposite? Why???,hate,animosity,TRUE,0.99991,dynabench entry,3a,train,gnzuctwed3
+36460,47351p,"I heard someone say that it's a dumb stereotype that all black men are violent criminals. I had to intervene, because nine times out of ten, it pans out",hate,derogation,,,perturbation,3b,train,gnzuctwed3
+35677,46917,"like what the actual fuck, it was so infuriating to watch, how the fuck can you get to the age of 20 and not know the absolute basics of cooking?? incompetent cunt",nothate,none,TRUE,0.06362,dynabench entry,3a,train,elgzdd8tvb
+8589,20972p,I absolutely adore the plan of killing all the insects in our backyard.,nothate,none,,,perturbation,2b,test,trrf46jwfp
+35989,47088,"I hope one day XX will step on Jeffrey Star's tail. Jeffrey Star will crush her like ants. LOL! Anyhow, I guess she won't be that stupid to mess with Jeffrey but I'd like to see it happen anyways.",nothate,none,FALSE,0.99198,dynabench entry,3a,train,gnzuctwed3
+36746,53783,"Everyone deserves a chance, it's just that some people aren't even interested.",nothate,none,TRUE,0.99991,dynabench entry,3a,train,qiokkci7f8
+29409,33077p,"Well they need to fall to their knees and pray to the good Lord above because I'm positive these heathen convicts are going straight to hell! There is not a single one that is worth a bean, they should be put to death",nothate,none,,,perturbation,3b,train,gnzuctwed3
+34234,43725,"Who will control all the druggys that are on the street? How will they control the hood? Or any poor neighboorhoods? Believe it or not most blacks dont care about blm they just wanted some free shit. Theres so many people who are willing to fight back against tyranny that i think something else deeper is going on. Theres something fishy going on, either that or people are being whipped up into a frenzy because it sells.",hate,animosity,FALSE,0.00947,dynabench entry,3a,train,qiokkci7f8
+40487,9730,I don't want black friends,hate,notgiven,TRUE,0.96529,dynabench entry,1,train,gnzuctwed3
+876,11612,trump has ruined everything,hate,notgiven,TRUE,0.92665,dynabench entry,1,train,cagnluiznm
+35426,46781p,"She looks a right fucking dickhead , not bein in an apron  doesn't suit her at all !",hate,animosity,,,perturbation,3b,train,qiokkci7f8
+18177,25834p,i love to talk about opposite concepts like my ex and honesty,nothate,none,,,perturbation,2b,train,e3dsmnspob
+16009,24741,"I tell people that I do not think orientals are stupid cunts, but I do",hate,derogation,TRUE,0.99969,dynabench entry,2a,train,elgzdd8tvb
+11392,22416p,I fucking hate the changes here since fucking asylum seekers came to our country,hate,derogation,,,perturbation,2b,train,vde7gn0nrl
+24307,29501p,it's time to talk about two antithetical concepts: dishonesty and jordanians,nothate,none,,,perturbation,2b,train,vde7gn0nrl
+8955,21158p,I love that I don't have to work with kids anymore,nothate,none,,,perturbation,2b,test,gnzuctwed3
+36908,5564,"I hate short hair on women, it makes them look like a dyke",hate,notgiven,FALSE,0.00522,dynabench entry,1,test,gnzuctwed3
+1986,12767,"Dear mixed raced mutts, think twice before you pass by me, and that's a threat!",hate,notgiven,TRUE,0.96616,dynabench entry,1,test,lqlkttromx
+23358,29009p,I do not like baboons,nothate,none,,,perturbation,2b,train,elgzdd8tvb
+11320,22381,I don't like it when people call my friend cum,nothate,none,TRUE,0.99974,dynabench entry,2a,train,vde7gn0nrl
+27168,31854,Wow. They even make International Men's day all about women. I hope women realize they can't achieve anything without being validated by men. This realization must be a real crushing humiliation.,hate,derogation,TRUE,0.99939,dynabench entry,3a,train,qiokkci7f8
+17879,25682,lets talk about opposite concepts like Pakistanis and politeness,hate,derogation,TRUE,0.9992,dynabench entry,2a,train,e3dsmnspob
+1946,12727,black on black crime is the real problem,hate,notgiven,TRUE,0.93375,dynabench entry,1,train,tbubpfn6ip
+31533,34419p,"A sweeping study backed by the US government found facial-recognition programs misidentify black people more often than white people, demonstrating that racial bias plagues the software... I'm amazed that AI is still this fucking primative in the age that we supposedly live in",nothate,none,,,perturbation,3b,train,gnzuctwed3
+5225,16775,my home can eat my shit,nothate,none,TRUE,0.01285,dynabench entry,1,train,elgzdd8tvb
+8532,20943,I absolutely love the plan to kill all the Muslims,hate,threatening,FALSE,0.00314,dynabench entry,2a,train,e3dsmnspob
+13156,23320,"i hate being a muslim man living in this country, it is just constant abuse",nothate,none,FALSE,0.9894,dynabench entry,2a,train,qiokkci7f8
+34770,44022p,"its sad as with heterosexuals, men are shown from birth """"you cannot hit women or you're a piece of garbage"""" and girls are taught """"don't hit a man or he'll break your fucking neck.""""  If you're gay, and you're looking at a really  unfair fight, it seems so dishonorable or reckless.",nothate,none,,,perturbation,3b,train,tbubpfn6ip
+25704,30341,"wearing white makes you look formal, black makes you look cranky",nothate,none,TRUE,0.17163,dynabench entry,2a,train,trrf46jwfp
+16066,24768p,women define strength,nothate,none,,,perturbation,2b,train,gnzuctwed3
+37345,6218,Autosim is a damn disease,nothate,none,TRUE,0.05118,dynabench entry,1,train,vde7gn0nrl
+12690,23073p,The open borders policy here sucks so badly. It is the worst shit ever. My hood is now flooded with the ugliest brownies on Earth. Fucking hell!,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+20609,27412,The new film won't be funny because it stars women,hate,derogation,TRUE,0.99976,dynabench entry,2a,train,gnzuctwed3
+3840,15355,This black snake looks like these black men,hate,notgiven,TRUE,0.91788,dynabench entry,1,train,vde7gn0nrl
+37330,6202,women with down syndrome are not the ones to have sex with,nothate,none,TRUE,0.49498,dynabench entry,1,train,vde7gn0nrl
+37097,5940,"Boys should be boys, there is too much gender bending nowdays. It's one of the main problems in society",hate,notgiven,TRUE,0.96127,dynabench entry,1,train,gnzuctwed3
+37290,6160,We need to exterminate the rats.,nothate,none,FALSE,0.98292,dynabench entry,1,dev,cagnluiznm
+18937,26530,"this is getting out of hand now, I have had 5 arguments today already just because I merely expressed my opinion, just because you think camel crunchers should exist doesnt mean I do, of course I dont and I dont see why anyone would. This is so silly and is starting to exhaust me now",hate,derogation,TRUE,0.98395,dynabench entry,2a,train,elgzdd8tvb
+17075,25271p,You are such a jerk for supporting trannies,hate,animosity,,,perturbation,2b,train,lqlkttromx
+26631,31569,"The fact that the Labour Party and the whole rotten political Establishment is submitting to all Muslim demands, not only highlights their cowardice and total surrender to Islamic colonisation of Britain, but suggests that huge number of Muslims are still entering Britain by taking advantage our broken immigration system.",hate,derogation,FALSE,0.00012,dynabench entry,3a,train,trrf46jwfp
+26649,31578p,"I remember hearing a standup comic tell a story about backing out of getting a tattoo with his friend of their respective favorite metal bands because """"what if the next nazis name themselves after this or something?"""" But his friend went through with it, and his favorite metal band at the time was Isis! I might just get the swastika on my arm then, fuck the jews!",hate,derogation,,,perturbation,3b,train,elgzdd8tvb
+9154,21258,I love that my workplace is disabled people free,hate,animosity,TRUE,0.87819,dynabench entry,2a,train,e3dsmnspob
+39368,8555,stop saying that women are vile,nothate,none,FALSE,0.84822,dynabench entry,1,train,elgzdd8tvb
+24442,29567,you are completely insane!,nothate,none,TRUE,0.14474,dynabench entry,2a,dev,lqlkttromx
+13817,23647p,asian neighbourhoods need to be destroyed,hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+13644,23561,it is awful that i do not feel safe as a traveller,nothate,none,FALSE,0.9994,dynabench entry,2a,train,qiokkci7f8
+15883,24673,"I tell people that I do not think trans people are stupid cunts, but I do",hate,derogation,TRUE,0.99962,dynabench entry,2a,train,elgzdd8tvb
+4796,16339,"i do not want to encourage the brutal murdering of all minorities, just the jewish ones",hate,notgiven,TRUE,0.87286,dynabench entry,1,train,qiokkci7f8
+18868,26431,"this is getting out of hand now, I have had 5 arguments today already just because I merely expressed my opinion, just because you think women should exist doesnt mean I do, of course I dont and I dont see why anyone would. This is so silly and is starting to exhaust me now",hate,derogation,TRUE,0.9935,dynabench entry,2a,train,elgzdd8tvb
+26399,31441,Isolate the sizeable Muslim convict population into separate prisons. Create special jails for all those awaiting deportation.,hate,threatening,FALSE,0.00236,dynabench entry,3a,train,trrf46jwfp
+40412,9657,Chinese are great.... at being a pain in thw neck!,hate,notgiven,TRUE,0.93652,dynabench entry,1,train,trrf46jwfp
+26099,3129,Boris Johnson I will kill you,nothate,none,TRUE,0.03945,dynabench entry,1,dev,elgzdd8tvb
+13851,23663p,The NHS is crap because you cannot get a single English doctor there,hate,animosity,,,perturbation,2b,train,trrf46jwfp
+8898,21129,I know a lot of Filipino men.,nothate,none,TRUE,0.00069,dynabench entry,2a,train,cagnluiznm
+39045,8200,beetroot is disgusting,nothate,none,TRUE,0.06614,dynabench entry,1,train,tbubpfn6ip
+36453,47348,men are always portrayed as these troubled people but when women are just as troubled mentally they do not become violent to channel emotions,nothate,none,FALSE,0.99567,dynabench entry,3a,train,cagnluiznm
+12845,23151p,polish people often discredit their country. educate yourself.,hate,derogation,,,perturbation,2b,train,cagnluiznm
+7246,20263p,"I have met many more east Asian people recently than i normally would""""¦ someone needs to do something about this",hate,threatening,,,perturbation,2b,test,tbubpfn6ip
+25309,30144,"My daughter is such a silly monkey, always playing around!",nothate,none,TRUE,0.02063,dynabench entry,2a,dev,trrf46jwfp
+10383,21887,"Britain is home to all the best the world can offer: amazing landscapes, friendly people, good old manners, lovely cottages, and funny town names. By attracting asylum seekers we are changing all that up.",hate,animosity,TRUE,0.99308,dynabench entry,2a,train,trrf46jwfp
+35608,46882p,"I'd like to live in Canada. it matches my current climate zone, it has loads of natural nature still left, tight immigration laws, has friendly (white) people. or Italy cuz of the car culture, best driving roads",hate,derogation,,,perturbation,3b,train,tbubpfn6ip
+33353,39864p,"oh dear, jeez if you put your ears on that hole you'd hear the sound of the covid epidemic",nothate,none,,,perturbation,3b,test,zuuaksvcea
+34286,43754p,"BLM is a political organisation led by a bunch of monkeys which sprang up in English football following the death of George Floyd, which incidentally has nothing to do with Football in England or sport in general at all.",hate,dehumanization,,,perturbation,3b,train,trrf46jwfp
+2676,13465,Muslims have no conscience,hate,notgiven,TRUE,0.99122,dynabench entry,1,train,gnzuctwed3
+14870,24161p,"Society sucks because we dont kill enough people like her, paki bastard",hate,threatening,,,perturbation,2b,train,elgzdd8tvb
+34870,44077,Tranny threads are so entertaining lmao. Makes me sympathize with them somewhat,hate,derogation,TRUE,0.99973,dynabench entry,3a,train,qiokkci7f8
+18252,26016p,I love the affability of black guys,nothate,none,,,perturbation,2b,train,vde7gn0nrl
+38679,7819,Nazis viewed jews as inherently inferior,nothate,none,TRUE,0.47821,dynabench entry,1,train,oemywm1tjg
+2859,13648,"what the f**k, it is snowing",nothate,none,TRUE,0.00823,dynabench entry,1,train,vde7gn0nrl
+20455,27326p,I see a lot more black people in this area compared with where I used to live.  Do not think I'll fit here.,hate,animosity,,,perturbation,2b,train,trrf46jwfp
+21150,27742,"urgh, when girls think they're clever",hate,derogation,TRUE,0.97468,dynabench entry,2a,train,gnzuctwed3
+28918,32822p,"I read that around 18k of every white persons money goes to a black person in their lifetime or some shit like that when tax appropriation is factored in, it's the least we could do.",nothate,none,,,perturbation,3b,train,tbubpfn6ip
+18365,26082p,I love the arrogance of Trump,nothate,none,,,perturbation,2b,train,gnzuctwed3
+2794,13583,This damn camera stopped taking pictures,nothate,none,TRUE,0.08675,dynabench entry,1,train,vde7gn0nrl
+33539,39967p,Women regularly show off their impressive brains with their deep care for the morrow.,nothate,none,,,perturbation,3b,test,ibsvsbliwx
+78,10081,Women never stop talking,hate,notgiven,TRUE,0.9873,dynabench entry,1,train,gnzuctwed3
+16084,24777,women have the talent of being nefarious,hate,derogation,FALSE,0.00036,dynabench entry,2a,train,tbubpfn6ip
+37944,6932,jews cannot be trusted,hate,notgiven,TRUE,0.92292,dynabench entry,1,train,tbubpfn6ip
+9647,21509p,i won't spend a penny fixing this fucking useless breadmaker so some Zoomer can make their poncy gluten free bread.,hate,animosity,,,perturbation,2b,train,lqlkttromx
+4339,15869,I think Zionists are all scammers,hate,notgiven,FALSE,0.20153,dynabench entry,1,dev,trrf46jwfp
+37188,6038,Gays are always pervert,hate,notgiven,FALSE,0.13737,dynabench entry,1,train,trrf46jwfp
+36419,47329,"Tf she think she is? She was literally married to someone who gave her the fucking world and when shit got hard, she fucked off and bailed.... men definitely do not want to be financially responsible for children who's father is in the picture.(Its unwritten Bro code) bitch, get off your fucking ass",nothate,none,FALSE,0.96941,dynabench entry,3a,train,elgzdd8tvb
+25767,30372p,u are all lazy people,nothate,none,,,perturbation,2b,train,e3dsmnspob
+18142,25818,lets talk about opposite concepts like asylum seekers and honesty,hate,derogation,TRUE,0.99939,dynabench entry,2a,dev,e3dsmnspob
+36073,47133,"I grew up being called a disgrace by other black people, and my dad was shamed for marrying a white woman",nothate,none,TRUE,0.05033,dynabench entry,3a,train,cagnluiznm
+33818,4301,asian people are inferior,hate,notgiven,TRUE,0.78795,dynabench entry,1,train,elgzdd8tvb
+34563,43902p,"literally!!!  Gender dysphoria is a not a mental ILLNESS and therefore gender reassignment surgery is not a way to fix it! I'm sick of people asking why this amazing """"treatment"""" only treats the symptoms instead of the actual underlying problem, aka the gender dysphoria itself. Like wtf? Some savages also say that brain modification would be a hugely beneficial thing to society - mental illnesses could in theory, be treated like conventional illnesses.",nothate,none,,,perturbation,3b,train,e3dsmnspob
+19940,27063,my cousin works with a transgender jewish woman they are good mates,nothate,none,FALSE,0.9573,dynabench entry,2a,train,tbubpfn6ip
+37377,6252,I wish Blacks had fewer children and White people chose to had more kids. That way we would never be outnumbered!,hate,notgiven,TRUE,0.98903,dynabench entry,1,dev,trrf46jwfp
+31926,34655p,"I really hate the liberal freaks that coddle this garbage. The way things are going...the future looks to be a distinctly unpalatable one. I thank fuck I'm forty-seven and didn't have kids. The inner cities of Britain have become incrementally worse in the last 20 years. Years ago, you never saw any drugs on the street. If you did, it would be a one off. Now it's ubiquitous, sadly. What's Sydney like for druggies? Does it have a blend of different narcotics like London?",nothate,none,,,perturbation,3b,train,lqlkttromx
+36455,47349,Berlie killed two women for misogyny. Omar had a history of domestic violence. Seung-Hui stalked and harassed women.,nothate,none,FALSE,0.99976,dynabench entry,3a,train,cagnluiznm
+8996,21179,I know a lot of Pakistanis who are women.,nothate,none,TRUE,0.00446,dynabench entry,2a,train,cagnluiznm
+6577,19911,Im in love with the idea of seeing all women burning,hate,threatening,FALSE,0.00033,dynabench entry,2a,test,e3dsmnspob
+24049,29367,No one likes fucking rude black birds,hate,derogation,TRUE,0.99944,dynabench entry,2a,train,gnzuctwed3
+15579,24515p,It is so annoying having to pretend to dislike the labour party to save arguments with my wife.,nothate,none,,,perturbation,2b,dev,elgzdd8tvb
+7103,20189,"I love my race, I'm so glad I wasn't born a nigger",hate,derogation,TRUE,0.99957,dynabench entry,2a,dev,gnzuctwed3
+16777,25120,"we all have our problems in life. depression, finance, jobs, family issues. I really do feel for society. like many others, my biggest issue is living next door to an arab family. what on earth can do we about this? terrible.",hate,notgiven,TRUE,0.76116,dynabench entry,2a,train,tbubpfn6ip
+2248,13034,I hate that people think you can say all blacks can be shot,nothate,none,TRUE,0.2309,dynabench entry,1,train,cagnluiznm
+22199,28307,im looking for new best friends who love to discriminate against people with disabilities as much as i do,hate,threatening,TRUE,0.94698,dynabench entry,2a,train,e3dsmnspob
+23468,29070,lets talk about the antithesis of hard work: black people,hate,derogation,FALSE,0.01727,dynabench entry,2a,test,e3dsmnspob
+25255,30118,"fuck you, you are always such a lazy son of a bitch I always end up covering for your silly ass!",nothate,none,TRUE,0.00114,dynabench entry,2a,train,trrf46jwfp
+32232,36313,Dude imagine the sheer devastation and fear people in the past would of had if trans entered office back then. Too bad all we do now is take it up the ass and act as if it's all normal. I'm getting tired of this shit and I can't just stand around as we go farther left. I feel as if there must be something done and it must be done now.,hate,animosity,TRUE,0.99753,dynabench entry,3a,dev,oemywm1tjg
+21059,27696,"ugh, black dudes",hate,derogation,TRUE,0.97395,dynabench entry,2a,train,gnzuctwed3
+11217,22327,Just look at the bias in that chamber even the bloody chair is a Muslim. Londonistan is fecked as far as the indigenous Londoner is concerned. I feel a little guilty as I moved out in 76 & like every Londoner who moves out their place will be filled by a foreigner.,hate,animosity,FALSE,0.0029,dynabench entry,2a,train,cagnluiznm
+35121,46522,"Who even thought those sweatshirts were a good idea??? i have the worst second-hand embarrassment omg are they in year 9 but also like I feel like they want to present themselves as mature, in the more mature styles they've been wearing (if you can call it that lol) and the fact that they both have mortages and are on that celeb dating app etc etc but that's like the most immature thing they could possibly do and makes them appear really bitter and petty about their breakups, they're acting like children",nothate,none,FALSE,0.99753,dynabench entry,3a,train,tbubpfn6ip
+29986,33408,"Why does anyone want to  #WearAMask? They are unhealthy, reduce oxygen and do NOT prevent viral particles from passing through. If you do #wearamask you are a fucking sheep who will not listen to good advice. Just virtue signal because I laugh at you every day.",nothate,none,FALSE,0.99992,dynabench entry,3a,train,oemywm1tjg
+16378,24928p,"the fucking scum of the world? Feminists: senseless, disgusting people who believe women deserve respect",hate,dehumanization,,,perturbation,2b,train,trrf46jwfp
+39259,8445,"I say I like whites, but I don't",hate,notgiven,TRUE,0.9964,dynabench entry,1,train,elgzdd8tvb
+320,10883,boys are smarter than girls in everything in school,hate,notgiven,TRUE,0.98719,dynabench entry,1,train,vde7gn0nrl
+1650,12429,primark quality is horrendous,nothate,none,FALSE,0.9692,dynabench entry,1,train,tbubpfn6ip
+31234,34263,"No traditionalist, let alone Christian, would insult other people's prophet. So today, some liberal/atheist/fag/Zionist got beheaded in #Paris. Guess what, my sympathy tank's all empty. Not even fumes left for these fuckers.",hate,threatening,FALSE,0.00054,dynabench entry,3a,train,oemywm1tjg
+32103,3581,women above 20 who have sex should do cervical scan annually,nothate,none,FALSE,0.98088,dynabench entry,1,train,vde7gn0nrl
+10452,21921p,"Immigration has tanked our fucking economy, there are no jobs, these are dark times",hate,animosity,,,perturbation,2b,train,trrf46jwfp
+28679,32690p,"You do understand that the royals have been marrying their way into power structures for 2000 years, right? Bohemia, Prussia, England, etc. The English aristocracy is almost entirely of royal descent now.",nothate,none,,,perturbation,3b,test,io6vha6qjm
+19647,26911p,you are fatter than a fridge! Black woman you had to be!,hate,derogation,,,perturbation,2b,train,oemywm1tjg
+38471,7548,queers shouldn't be allowed to adopt,hate,notgiven,TRUE,0.97179,dynabench entry,1,test,cagnluiznm
+11787,22616p,why do pakkis always smell like shit and piss?,hate,derogation,,,perturbation,2b,train,vde7gn0nrl
+12105,22775p,"This fucking man is driving me crazy, fucking nigger",hate,derogation,,,perturbation,2b,test,elgzdd8tvb
+40242,9485,Xinjiang and the Muslim minorities such as the Uyghurs are backwards,hate,notgiven,TRUE,0.90211,dynabench entry,1,train,trrf46jwfp
+23312,28977,lets talk about the antithesis of intelligence: korean people,hate,derogation,TRUE,0.99482,dynabench entry,2a,train,e3dsmnspob
+5015,16563,Christians are disgusting is a comment that should not be allowed on any social network,nothate,none,TRUE,0.13791,dynabench entry,1,train,e3dsmnspob
+12390,22911,the NHS is the new Auschwitz,nothate,none,FALSE,0.99966,dynabench entry,2a,train,lqlkttromx
+15450,24450p,aggressive dudes I love,nothate,none,,,perturbation,2b,train,elgzdd8tvb
+24792,29746,I love the idea of boycotting halal products to annoy Muslims!,hate,threatening,TRUE,0.99883,dynabench entry,2a,dev,lqlkttromx
+30608,33752p,That is exactly how the communists will gain control of the food supply. Banks buying up all the mismanaged farm properties. The system will come down harder than when Obama was President. Those tosspots have ruined it for everyone,nothate,none,,,perturbation,3b,train,gnzuctwed3
+15601,24528p,"It is so annoying having to explain myself and my reasons for disliking chicken waffles. It's either a savoury or a sweet plate, it cannot be both at once! Everyone should already be aware of these obvious explanations and should feel the same, it is common sense",nothate,none,,,perturbation,2b,train,trrf46jwfp
+15171,24307,he is not good with technology i can not trust him to fix my laptop,nothate,none,FALSE,0.99918,dynabench entry,2a,train,vde7gn0nrl
+32648,39477,Why do they give her fucking airtime. Between her and lottie fucking Ryan I'll never tune in again thhey are insufferable,nothate,none,TRUE,0.00682,dynabench entry,3a,train,qiokkci7f8
+10600,21998p,"I adore Black people. They are witty, funny, hardworking. Black kids are gorgeous and the absolute cutest. I love them even more when they live in our neighbourhood, diersity is a good thing",nothate,none,,,perturbation,2b,train,gnzuctwed3
+20541,27368p,i am yet to meet a nice lesbian,hate,animosity,,,perturbation,2b,train,gnzuctwed3
+22104,28261p,There is a higher incidence of certain cancers in black and minority ethnic communities and the general incidence of cancer in these communities is rising. Praise the lord.,hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+38138,7192,going to use my white power against all black people,hate,notgiven,TRUE,0.92368,dynabench entry,1,train,lqlkttromx
+6559,19901p,"@BorisJohnson, fuck off!, Give up trying to integrate immigrants you total twat!",hate,animosity,,,perturbation,2b,test,vde7gn0nrl
+28601,32648,Where can I find more wholesome lewd short storys about between a trans and gay person? Do I really have to sort through piles of cringy fanfic to find stuff like this?,nothate,none,FALSE,0.99578,dynabench entry,3a,train,lqlkttromx
+19746,26960,i have met so many migrants recently,nothate,none,TRUE,0.00221,dynabench entry,2a,train,qiokkci7f8
+25072,29985p,"I went to Russia on holiday once, it was a nice country although the people were very belligerent, or so I was told.",nothate,none,,,perturbation,2b,train,lqlkttromx
+33910,43551p,"A lot of girls I knew from college seemed to have overbearing fathers who, while they may have tried to provide some sense of morality, were also very hypocritical. Practice what you preach, dads, or your daughters will end up hating you.",nothate,none,,,perturbation,3b,train,trrf46jwfp
+40716,9973,most Muslims are inbred,hate,notgiven,TRUE,0.90923,dynabench entry,1,train,cagnluiznm
+32729,39519p,these people are too incompetent to hurt people or start any kind of movement. They'll just argue online instead of doing anything actually constructive. At rhe end of the day it just doesn't matter,nothate,none,,,perturbation,3b,train,elgzdd8tvb
+29065,32897,"Â I've always found the """"off the charts""""<9d> levels of domestic violence observed in lesbian couples to be fascinating. They are not frequently discussed, and I suppose that is because having no male involvement makes them problematic.",hate,animosity,TRUE,0.99988,dynabench entry,3a,train,gnzuctwed3
+17771,2562,black people are all monk3ys,hate,notgiven,TRUE,0.9755,dynabench entry,1,train,elgzdd8tvb
+7685,20494,I adore the idea of burning all the Muslim women,hate,threatening,TRUE,0.99782,dynabench entry,2a,train,e3dsmnspob
+7839,20574,so happy I wasn't born a kike,hate,derogation,FALSE,0.00097,dynabench entry,2a,train,gnzuctwed3
+12501,22968,"Ugly chinks, as we are usually called, are the most loyal friends",nothate,none,FALSE,0.81846,dynabench entry,2a,train,trrf46jwfp
+9070,21216,I know a lot of Mixed race men.,nothate,none,TRUE,0.00047,dynabench entry,2a,train,cagnluiznm
+30408,33639p,"holy shit, someone just messaged me randomly saying me the n-word and saying black people are monkeys wtf hahaha so good !",hate,dehumanization,,,perturbation,3b,train,qiokkci7f8
+4340,15870,I think all Zionists are scammers,hate,notgiven,FALSE,0.16292,dynabench entry,1,train,trrf46jwfp
+26013,31244,"Remember... you will never be left alone because you are white. Our taxes are taken and our country is flooded with foreigners. Diversity is #AntiWhite. We're hated by all, especially the media, hollywood, academia, and the government. Can't you see, they're actively replacing us with Mexicans etc. It's our right to keep OUR COUNTRY. #itsokaytobewhite",hate,animosity,FALSE,1e-05,dynabench entry,3a,train,cagnluiznm
+7398,20347p,I'm so glad I wasn't born bi in the 20s,nothate,none,,,perturbation,2b,train,lqlkttromx
+3200,14000,I do not differentiate a white woman and a white T-shirt,hate,notgiven,TRUE,0.99832,dynabench entry,1,train,vde7gn0nrl
+27547,32063p,That bastard took the money and is stashing it in an offshore tax haven that he just so happens to have an apartment.,nothate,none,,,perturbation,3b,train,elgzdd8tvb
+770,11504,There are too many retards in this town,hate,notgiven,FALSE,0.03924,dynabench entry,1,test,gnzuctwed3
+13211,23346p,when will camels-crunchers become fucking extinct- useless animals,hate,dehumanization,,,perturbation,2b,train,lqlkttromx
+28742,32722p,"My family is Eastern Orthodox. I have five daughters. One of the middle ones when she was six or thereabouts was really worried about something. So she told me """"I'm just really stressed about finding a good husband."""" I said Don't worry, we'll find a good Orthodox boy to be your husband. And my daughter said, """"THANK YOU!"""" I was so worried about that. We don't watch normal television, and we're very selective about their media intake. They literally have no idea about all the bullshit we endured under our irresponsible outdated parents. Not sending your daughters to college and shit. Ridiculous.",nothate,none,,,perturbation,3b,train,elgzdd8tvb
+15168,24305p,"if he is thin enough to work as a model, it's probably that he's gay",hate,animosity,,,perturbation,2b,test,oemywm1tjg
+36555,5180,There are too many black people over here now and something needs to be done,hate,notgiven,TRUE,0.96898,dynabench entry,1,train,gnzuctwed3
+28485,32586,"Â it's still race mixing and their children now have cause to grow up and identify as Jews and get sucked into all sorts of anti-White bs, even if daddy Jew """"looks White"""". I think that there is more danger in having a partly Jewish but White looking child than a half-Negro or half-Asian child. At least the latter two aren't anti-White cults, even if the children will be messed up and end a White lineage forever",hate,derogation,TRUE,0.92017,dynabench entry,3a,train,gnzuctwed3
+39220,8406,"don't get me wrong I don't hate jewish people, but I definitely don't like them",hate,notgiven,TRUE,0.97026,dynabench entry,1,train,elgzdd8tvb
+14654,24054,"i hate peta. i fucking hate peta! give me one damn good reason to have even a shred of love for those manipulative, lying, dog killing hypocrites.",nothate,none,TRUE,0.02873,dynabench entry,2a,train,gnzuctwed3
+27591,32091,"To a large extent white moving to the suburbs is driven by people wanting to live among other whites. I understand this isn't intended to create white enclaves as such, but it has turned out that way. Most suburbs are majority white and have less crime, better schools and nicer places to shop. It's a fact. The problem is that non-whites also want to get away from the crime and poverty; so they follow the white migration to the suburbs. And eventually brings the living standard down.",hate,animosity,TRUE,0.98053,dynabench entry,3a,train,e3dsmnspob
+24998,29925,I love how currymunchers are everywhere you look! They r like c0ckr04ch3s!,hate,dehumanization,FALSE,0.00044,dynabench entry,2a,train,trrf46jwfp
+12600,23025p,I am an English teacher and I hate fucking Chinglish grammer. Learn to write properly or stay in china,hate,animosity,,,perturbation,2b,dev,gnzuctwed3
+904,11641,Politicians are a bunch of ass,nothate,none,TRUE,0.02015,dynabench entry,1,train,trrf46jwfp
+28426,32553,Women just do nothing for me romantically. The idea of belonging to a woman just starts me plotting on escaping it,nothate,none,TRUE,1e-05,dynabench entry,3a,train,lqlkttromx
+932,11669,Men own women,hate,notgiven,TRUE,0.99634,dynabench entry,1,train,gnzuctwed3
+27488,32034p,"If you go to any white supremacist websites you'd be surprised that they at least claim not to hate black people or other non whites.  They say (rightly) that no one chooses their race and it wouldn't be logical to hate someone for something that they can't control.  They do believe that blacks are dumb, inferior, more eager to violence and crime and they believe that if the Jews didn't exist to fool everyone into desegregation all those problems would go away, and rightly so.  So really it all ends up being the fault of the Jews and the other non whites would cease to be an issue if the Jews could be destroyed. just think before you judge their views, they have some merit",hate,support,,,perturbation,3b,train,tbubpfn6ip
+14459,23959p,"bweare of f4gz, they are so bad for your health",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+27213,31877p,"these guys are real petty. No matter what happens, they cannot be at fault. They are always innocent",nothate,none,,,perturbation,3b,train,qiokkci7f8
+16441,24959p,Wanna see a group of cockroaches interacting? Watch the labour party conference with all its ethnic minorities.,hate,dehumanization,,,perturbation,2b,train,lqlkttromx
+15252,24349p,gay people don't understand why they are being targeted,nothate,none,,,perturbation,2b,train,trrf46jwfp
+31285,34290,"Showing no regards for anyone else typical Jewish tactics, and if us whites tried to organize it would be treated very differently",hate,animosity,TRUE,0.99692,dynabench entry,3a,train,gnzuctwed3
+36309,47265,I am seriously shocked you feel that women and girls don't deserve to have their own penis free spaces,nothate,none,FALSE,0.99992,dynabench entry,3a,train,vde7gn0nrl
+18237,26008,I love the insolence of black guys,hate,derogation,FALSE,0.00044,dynabench entry,2a,dev,gnzuctwed3
+27969,32299p,"Africans face prejudice on a daily basis about being the least accomplished race in history. With the exception of Egypt, peeople think Africa is  a land without civilization!!!!!",nothate,none,,,perturbation,3b,train,lqlkttromx
+5847,17411,going to my sisters house is shit,nothate,none,TRUE,0.02408,dynabench entry,1,train,elgzdd8tvb
+25997,31235p,"hey buddy, What a bizarre this statement is, its a low I.Q. statement. congratulations you get the prize for the most retarted person ever, again",hate,derogation,,,perturbation,3b,train,gnzuctwed3
+20938,27630p,"Is anyone else getting really bored of arguing with random people over differing opinions, it is not my fault that you think there is nothing wrong with marmite existing, i get that that is your opinion but lets just agree to disagree, because you are wrong",nothate,none,,,perturbation,2b,train,gnzuctwed3
+18714,26282p,I do not like those idiotic homophobes,nothate,none,,,perturbation,2b,train,gnzuctwed3
+20536,27366,i am yet to meet an asylum seeker,nothate,none,TRUE,0.06357,dynabench entry,2a,train,qiokkci7f8
+14532,23994,dyk3s sh0uld d!3,hate,threatening,FALSE,0.00045,dynabench entry,2a,test,trrf46jwfp
+10994,22211,"The UK is such a wonderful country. The best universities in the world. The best music festivals you can wish for. The loveliest cottages and little villages. The friendliest people. We are so wonderful that we accept all kinds of refugees and pay for all their expenses with public money, right?",hate,animosity,TRUE,0.99973,dynabench entry,2a,train,trrf46jwfp
+1812,12592,sainsburys have lost the respect of millions of white britons with their ridiculous diversity campaign,hate,notgiven,TRUE,0.76698,dynabench entry,1,test,tbubpfn6ip
+23570,2912,black people should make sure they stick together,nothate,none,FALSE,0.94684,dynabench entry,1,train,tbubpfn6ip
+28500,32595,"If you don't like, as you say, """"sexist pigs"""", you should take a look at those muslim morons. They'll tell you to shut the fuck up and wear the headscarf.",hate,derogation,FALSE,0.00011,dynabench entry,3a,train,trrf46jwfp
+32706,39508,As a black man I try to debate people with these facts but they never listen to me and continue to spew their discriminatory version of history,nothate,none,FALSE,0.9999,dynabench entry,3a,train,cagnluiznm
+5530,17087,I cannot be fucked with my bed,nothate,none,TRUE,0.01379,dynabench entry,1,train,elgzdd8tvb
+6897,20077,immigrants avoid paying their way in life,hate,animosity,FALSE,0.00038,dynabench entry,2a,train,gnzuctwed3
+25682,30330p,Similar to the people-black cars are filthy. That's why white ones are superior.,hate,animosity,,,perturbation,2b,dev,qiokkci7f8
+22913,28696p,asian women are gods failure,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+38951,8101,"Keira's lawyers will argue that children cannot weigh up the impact such a treatment might have on their future life, including for instance, on their fertility.",nothate,none,FALSE,0.9988,dynabench entry,1,train,gnzuctwed3
+5008,16556,Young people are disgusting is a comment that should not be allowed on any social network,nothate,none,TRUE,0.34791,dynabench entry,1,test,e3dsmnspob
+11740,22594,Chinese pandas are becoming fucking extinct!,nothate,none,FALSE,0.99972,dynabench entry,2a,train,lqlkttromx
+19321,26751p,they are polsih so are toxic people and I don't want to be around them,hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+8231,20783,So glad I'm not a cave ni99er,hate,derogation,FALSE,0.00039,dynabench entry,2a,train,gnzuctwed3
+3037,13830,I don't wish to differentiate between a white man and a white rat,hate,notgiven,TRUE,0.98871,dynabench entry,1,train,vde7gn0nrl
+8440,20890,black men are not dogs,nothate,none,TRUE,0.9997,dynabench entry,2a,train,vde7gn0nrl
+30841,33876p,"I've told all the blacks not to call me if they want to go protest as I won't show up, times are tough to be a nigger supporter.",hate,derogation,,,perturbation,3b,test,dqrontdjbt
+25839,30408,People from India have more kids than the British. That's why we are sorrounded!,hate,derogation,FALSE,0.00034,dynabench entry,2a,train,trrf46jwfp
+22706,28588,seagulls shouldnt be allowed in this park,nothate,none,TRUE,0.00035,dynabench entry,2a,train,e3dsmnspob
+15071,24259p,I don't understand shit,nothate,none,,,perturbation,2b,train,cagnluiznm
+1588,12366,depression is awful,nothate,none,FALSE,0.92457,dynabench entry,1,train,tbubpfn6ip
+12300,22869p,these polish are totally corrupt,hate,derogation,,,perturbation,2b,train,cagnluiznm
+33105,39725p,"For fuck's sake, those apes, making monkey noises in church!",hate,dehumanization,,,perturbation,3b,test,yjmq90i6rd
+16934,25204p,"oh, god! this is ridiculous! why does everyone think refugees are not polite? they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",nothate,none,,,perturbation,2b,train,e3dsmnspob
+6582,19913p,"There are lots of foreign people at my place of work""""¦ does anyone have any contacts who can sort this out?",hate,threatening,,,perturbation,2b,train,tbubpfn6ip
+25146,30044,P0l3s r d0gs,hate,dehumanization,FALSE,0.00038,dynabench entry,2a,train,trrf46jwfp
+34246,43731,"I bet black people also won't comply with technocrat stuff, implants, vaccines and whatnot",hate,derogation,FALSE,1e-05,dynabench entry,3a,train,qiokkci7f8
+2464,13252,Its not their fault but old people are just ignorant,hate,notgiven,FALSE,0.17291,dynabench entry,1,train,e3dsmnspob
+26284,31381p,High time to start getting rid of some useless cookers,nothate,none,,,perturbation,3b,train,vde7gn0nrl
+25657,30317p,"blacks are so filthy and dirty, unlike whites.",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+18832,26363,I love how ignorant kikes are,hate,derogation,FALSE,0.02047,dynabench entry,2a,train,gnzuctwed3
+36698,5330,let's get rid of all the j e w i s h r@tsssssss,hate,notgiven,TRUE,0.65455,dynabench entry,1,train,oemywm1tjg
+18732,26291,I love how idiotic gypsies are,hate,derogation,FALSE,0.04731,dynabench entry,2a,train,gnzuctwed3
+35401,46768,gotta love the nazi punchers,nothate,none,FALSE,0.99989,dynabench entry,3a,train,lqlkttromx
+21620,28005p,"it is nice to tell everyone i have 0 hatred toward asylum seekers, shame it is a lie for most small minded people",nothate,none,,,perturbation,2b,train,tbubpfn6ip
+2342,13130,I wouldn't eat food that has been touched by a disabled person,hate,notgiven,TRUE,0.99792,dynabench entry,1,train,gnzuctwed3
+39217,8403,"don't get me wrong I don't hate white people, but I definitely don't like them",hate,notgiven,TRUE,0.98999,dynabench entry,1,train,elgzdd8tvb
+5506,17063,I cannot be fucked with my hamster,nothate,none,TRUE,0.01191,dynabench entry,1,dev,elgzdd8tvb
+12358,22896p,"a PC economy is the worst bullshit anyone can think of, shoot the crossers",hate,threatening,,,perturbation,2b,train,tbubpfn6ip
+5623,17186,"my teacher is sooo shit, for fuck sake!",nothate,none,TRUE,0.01022,dynabench entry,1,train,elgzdd8tvb
+39082,8237,"I hate the colour black, it's depressing",nothate,none,FALSE,0.90833,dynabench entry,1,test,gnzuctwed3
+4216,15736,the absolute shit my student loan is used for,nothate,none,TRUE,0.16441,dynabench entry,1,dev,cagnluiznm
+33666,40040,I think I'm not attractive enough as no woman has ever asked me for anal. Which is fine because the butt is for fags and degenerates. I wouldn't stick my stick in a septic tank,hate,derogation,FALSE,0.00015,dynabench entry,3a,train,vde7gn0nrl
+40359,9603,Chinese should be banned from entering this country,hate,notgiven,TRUE,0.92133,dynabench entry,1,train,trrf46jwfp
+24794,29747,my beautiful sister converted and now is a maillllll boxxxx,hate,derogation,TRUE,0.98246,dynabench entry,2a,train,trrf46jwfp
+20632,27426,loud black chicks are so annoying,hate,animosity,TRUE,0.98683,dynabench entry,2a,test,gnzuctwed3
+12975,23231p,ggggggggayyyyyyyyys like meeee r fiiiiiiiiiiiiiiltttttttttth in the beeeedroooom,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+29344,33044p,"Of course he is a asshole.. We failed our ancestors by electing this prick . My wife agrees, but she is too nice and caring to say anything. (((they)) are trying to take our society from us, the tories need to have their rights stripped.",nothate,none,,,perturbation,3b,train,trrf46jwfp
+39508,8704,it is false that all African people are cunts,nothate,none,TRUE,0.03351,dynabench entry,1,train,elgzdd8tvb
+355,11052,Over 50 should stay at home as they take public transport and make us feel uncomfortable,hate,notgiven,TRUE,0.99724,dynabench entry,1,train,vde7gn0nrl
+387,11117,Black men are unattractive,hate,notgiven,FALSE,0.08522,dynabench entry,1,dev,gnzuctwed3
+24227,29463,beauty and immigrants are antithetical concepts,hate,derogation,FALSE,0.03359,dynabench entry,2a,train,e3dsmnspob
+32831,39574p,"I don't want to sound careless and inhumane about the next door family's problem, but I just don't see why we would make it to be OUR problem. Let's just not.",nothate,none,,,perturbation,3b,train,trrf46jwfp
+26348,31414,can two men really start a family in the way a straight couple can? a man who is born with a penis cant just chop it off and be the same as a woman who was born with a womb and childbearing hips. the SAT is racially because it doesn't have black sounding names in their math problems?,hate,animosity,TRUE,0.97094,dynabench entry,3a,train,tbubpfn6ip
+1213,11955,If your kid is trans you failed as a parent,hate,notgiven,TRUE,0.98367,dynabench entry,1,train,gnzuctwed3
+32564,39432,So...can this protest stuff stop already? I want to live my life without being worried that i'll be beaten to death by a random black guy for no reason. I dont want to go to the store in fear that ill be randomly beaten.,hate,animosity,TRUE,0.99974,dynabench entry,3a,train,cagnluiznm
+22724,28597,Ill try to find my mutuals again if Twitter stops being a bitch.,nothate,none,FALSE,0.99958,dynabench entry,2a,test,cagnluiznm
+39500,8696,it is false that all Indian people are cunts,nothate,none,TRUE,0.03663,dynabench entry,1,train,elgzdd8tvb
+30073,33459p,"Just when you think we had reached peak of Stupidity, the UK Strikes: McDonald's accused of """"cultural appropriation"""" over new Jerk Chicken Sandwich - News Flash you idiots, you do not go to McDonald's for authentic gourmet cuisine- unless you in da hood hahaha.",hate,derogation,,,perturbation,3b,train,lqlkttromx
+16765,25114p,Yids are such a pussys,hate,derogation,,,perturbation,2b,train,qiokkci7f8
+31000,33962,"Yeah, the only non-straight people who would even date her are bi men. Since she is straight, so obviously bi women and lesbian women are out of the equation.",nothate,none,TRUE,0.01929,dynabench entry,3a,train,cagnluiznm
+17892,25690,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward camel jackers, so leave me alone as they should not be allowed to exist, thats just how I feel",hate,derogation,FALSE,0.2135,dynabench entry,2a,train,elgzdd8tvb
+4634,16170,Its foolish to think that immigrants are dangerous,nothate,none,FALSE,0.92288,dynabench entry,1,train,e3dsmnspob
+24199,2945,Black people should go back to picking up cotton,hate,notgiven,FALSE,0.2267,dynabench entry,1,train,oemywm1tjg
+2331,13119,I wouldn't eat food that has been touched by a trannie,hate,notgiven,TRUE,0.99493,dynabench entry,1,train,gnzuctwed3
+21835,28119p,"it is nice to think that people who use the word knackers are beginning to phase out, shame it isn't true",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+33510,39953,So because some women are being idiots online we should abolish the rights of an entire gender?!,nothate,none,TRUE,0.04228,dynabench entry,3a,train,lqlkttromx
+3310,14114,"i purpose that we attack everyone who cannot adhere to british values, starting with black thugs",hate,notgiven,TRUE,0.81765,dynabench entry,1,dev,tbubpfn6ip
+38273,7334,All fox hunters are scum,nothate,none,TRUE,0.08838,dynabench entry,1,train,gnzuctwed3
+34051,43628p,"kids are capricious. That's all you have to know and it's why they can't be trusted. They say they love one thing
+ more than they've ever loved anything in their lives and one hour later they'll be hating the fuck out of it.",nothate,none,,,perturbation,3b,train,vde7gn0nrl
+39254,8440,"I say I like cripples, but I don't",hate,notgiven,TRUE,0.98933,dynabench entry,1,dev,elgzdd8tvb
+30603,33750,"Most sluts are for sleeping with, and never for marrying. What are they? not a virgin when you start dating her, dresses in a way that you don't have to use much of your imagination to know what her body looks like (leggings as pants, bikinis, spandex as clothes, dresses and shorts so short that you can see all of their legs or even some of their ass) engaging in behavior that repeatedly gets the sexual attention of men, especially when they're in a relationship. it doesn't matter whether she says it's not for getting the male attention. pay attention to their actions, not their words. if you feel a certain way, it was intended to be that way. so if a girl dresses in a way that turns heads because she's showing off enough of her body, she's doing it on purpose These girls are not worth marrying. Maybe dating for a short period of time, just don't get invested emotionally.",hate,derogation,FALSE,0.00016,dynabench entry,3a,train,qiokkci7f8
+29511,33130,"A mud is a mud, regardless of the shade. Some are darker, some are lighter.  If we don't stand up and defend ourselves...this is the future.",hate,derogation,TRUE,0.9913,dynabench entry,3a,dev,gnzuctwed3
+305,10728,over 65 are not nice to me and been not kind when i deal with that why i am not gona deal with,hate,notgiven,TRUE,0.9914,dynabench entry,1,train,vde7gn0nrl
+26703,31606,"I'm in Iraq as we speak. Your country is beautiful, but  thanks to terrorism still very unsafe and volatile, but not that bad as it was.",nothate,none,FALSE,0.99652,dynabench entry,3a,train,lqlkttromx
+32885,39605p,Of course I wouldn't skip trans movies. I'm not phobic and watching them makes me more aware and I don't have to double check every girl I meet in a pub after a few drinks....so get more of that stuff on the tv and let's start accepting it as normal!!,nothate,none,,,perturbation,3b,test,dqrontdjbt
+13691,23583p,"Danish Refugee Council should be banned, refugees shouldn't be helped anyway, bastards",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+20760,27526p,"love these chicks, they're always funny",nothate,none,,,perturbation,2b,train,e3dsmnspob
+20687,27462p,he thinks hes a businessman but hes just a man in a suit,nothate,none,,,perturbation,2b,test,e3dsmnspob
+31633,34471p,"Sorry, I'm only just getting around to catching up. But this reply of hers has fucked me off. """"nOt EvErY oPiNiON neEdS tO bE ShaREd"""" - Weren't you just saying """"STAHP GIVING A FOOOK, SAY IT HOW IT IZZZZZ"""" Kike, stop contradicting yourself and giving shit advice if you're not going to follow it. Twat.",hate,derogation,,,perturbation,3b,train,cagnluiznm
+1022,11760,I'm so sorry for those that are lesbians... it must be such a shame,hate,notgiven,TRUE,0.95612,dynabench entry,1,train,oemywm1tjg
+15445,24447p,"It is so annoying having to explain why asylum seekers need to be looked after, it is common sense",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+19434,26807p,i hope he dies and goes to hell for the sin of being gay!,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+4722,16261,"Dear immigrants, stop saying you have pure intentions when you clearly dont",hate,notgiven,TRUE,0.97727,dynabench entry,1,dev,e3dsmnspob
+38075,7115,There weren't any gays back in my day,hate,notgiven,TRUE,0.94611,dynabench entry,1,train,gnzuctwed3
+22037,28227,I love how ignorant mailboxes are,hate,derogation,FALSE,0.00657,dynabench entry,2a,train,gnzuctwed3
+14686,24069p,Fuck abos! they belong in the wild,hate,dehumanization,,,perturbation,2b,train,lqlkttromx
+24290,29493p,he needs to stop being such a gay fucking cunt,hate,derogation,,,perturbation,2b,dev,gnzuctwed3
+9058,21210,I know a lot of Afghani people who are men.,nothate,none,TRUE,0.02388,dynabench entry,2a,dev,cagnluiznm
+22848,28664,I love the word nig,hate,derogation,TRUE,0.99973,dynabench entry,2a,train,gnzuctwed3
+9398,21382,I love the idea of killing every single gypsy,hate,threatening,FALSE,7e-04,dynabench entry,2a,train,e3dsmnspob
+16145,24808,"I tell people that I do not think rag-heads are stupid cunts, but I do",hate,derogation,TRUE,0.96033,dynabench entry,2a,train,elgzdd8tvb
+25745,30361,"Black is sexier, white is more professional. This is the golden rule for picking handbags.",nothate,none,TRUE,6e-04,dynabench entry,2a,test,trrf46jwfp
+39564,8768,I do not want to associate with cripples,hate,notgiven,TRUE,0.81174,dynabench entry,1,train,elgzdd8tvb
+36648,5278,People who eat with their mouths open are cockroaches,nothate,none,TRUE,0.06361,dynabench entry,1,train,trrf46jwfp
+35188,46615p,Classic case of the new guy trying to fit in. Being hyper aggressive and triggered don't make you part of this community.,nothate,none,,,perturbation,3b,test,io6vha6qjm
+18015,25753p,"it is not easy for me to admit, but since free speech is allowed I can express my view and hatred for smokers, so leave me alone as they should not be allowed here, I won't change my mind",nothate,none,,,perturbation,2b,train,gnzuctwed3
+36166,47182p,Democrats have got that Obama dude elected twice! Many Americans live honest hard working tax paying lives. Do Americans have failures as a people? What an absurd question! Sure all peoples throughout their history as a people have failures!,nothate,none,,,perturbation,3b,train,uiskeftl5s
+37121,5964,Women say they want equality and then they go out and dress like prostitutes,hate,notgiven,FALSE,0.07774,dynabench entry,1,train,gnzuctwed3
+5439,16992,I'm sick of pretending that gay is normal,hate,notgiven,FALSE,0.18415,dynabench entry,1,train,oemywm1tjg
+9613,21492p,that's one shitty towel head coming our way,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+31947,34699,"I started this thing first I think, unless you're that guy who wrote that whole ass fucking book about Tulsi once",nothate,none,TRUE,0.13647,dynabench entry,3a,train,vde7gn0nrl
+32778,39547,"Don't be so naive! If they hadn't colonised the world, most of them would still be living in the dirt. Other than that, colonisation is not related with the current invasion we are witnessing. The Brits colonising other countries was never a prerequisite for them being allowed to invade our countries. Our politicians have sold this once great nation out to the Jew, The UN and the EU to line their own pockets.",hate,derogation,FALSE,0.01568,dynabench entry,3a,train,trrf46jwfp
+24854,29779p,i love the idea of deporting all haters to Antarctica,nothate,none,,,perturbation,2b,train,trrf46jwfp
+4916,16462,"A lot of people hate lazy foreigners for taking advantage of our social services, whilst sitting on their arse themselves contributing nothing",nothate,none,TRUE,0.13051,dynabench entry,1,train,qiokkci7f8
+28716,32709p,"If you become friends with them, all that you will find is betrayal or exploitation when you are in need. There are absolutely no exceptions to that.",nothate,none,,,perturbation,3b,train,elgzdd8tvb
+2500,13289,"Cairo Coons, friendly? You ought to be kidding",hate,notgiven,TRUE,0.99045,dynabench entry,1,test,trrf46jwfp
+10599,21998,"I love Black people. They are witty, funny, hardworking. Black kids are gorgeous and the absolute cutest. I just love them more when they live in their continent of origin.",hate,derogation,TRUE,0.99972,dynabench entry,2a,dev,trrf46jwfp
+18998,26567,"this is getting out of hand now, I have had 5 arguments today already just because I merely expressed my opinion, just because you think homosexuals should exist doesnt mean I do, of course I dont and I dont see why anyone would. This is so silly and is starting to exhaust me now",hate,derogation,TRUE,0.99843,dynabench entry,2a,train,elgzdd8tvb
+16944,25209p,"this is getting ridiculous, why do you think black women are evil? they really aren't and it should be common knowledge to everyone, I don't want to have to go around informing people about something they should already know",nothate,none,,,perturbation,2b,train,e3dsmnspob
+17622,25544p,Trans getting rights? this is fucking nonsense! We should get rid of those HeShes,hate,threatening,,,perturbation,2b,test,gnzuctwed3
+31139,34212,We din do nuffins wrong ! We just be gettin our reparasions to make up for slabery n sheeeit,hate,derogation,FALSE,0.44152,dynabench entry,3a,train,gnzuctwed3
+10224,21805p,Intelligence is a common quality of women,nothate,none,,,perturbation,2b,dev,oemywm1tjg
+16076,24773,"I tell people that I do not think aboriginals are stupid cunts, but I do",hate,derogation,TRUE,0.99924,dynabench entry,2a,train,elgzdd8tvb
+13993,23734,my football team has loads of muslim players,nothate,none,FALSE,0.99961,dynabench entry,2a,train,qiokkci7f8
+23633,2915,transgender people dont deserve rights,hate,notgiven,TRUE,0.91251,dynabench entry,1,dev,tbubpfn6ip
+2943,13734,I cant differentiate between a black man and a black whale,hate,notgiven,TRUE,0.99159,dynabench entry,1,train,vde7gn0nrl
+37355,6228,Chinese are to blame for all the world has suffered through 2020,hate,notgiven,FALSE,0.07862,dynabench entry,1,train,trrf46jwfp
+35619,46888,"This is the same lady who referred to Asians as """"chinks""""<9d>?",nothate,none,FALSE,0.99988,dynabench entry,3a,train,qiokkci7f8
+21143,27739,"urgh, when black chicks think they're smart",hate,derogation,TRUE,0.91261,dynabench entry,2a,train,gnzuctwed3
+12388,22910,this shitty ass government better get its shit together,nothate,none,FALSE,0.99972,dynabench entry,2a,dev,lqlkttromx
+30159,33506p,Where did all the good men go? Well im sorry but where have all the good people gone full stop?,nothate,none,,,perturbation,3b,test,ibsvsbliwx
+13502,23490,I hate mushy black bananas,nothate,none,FALSE,0.99975,dynabench entry,2a,test,gnzuctwed3
+9096,21229,I love the fact that immigrants dont even try to integrate in our society,hate,derogation,FALSE,0.00071,dynabench entry,2a,train,e3dsmnspob
+29640,33201,"If your grandparents hate trans people and are close to dying, is it worth the trouble to come out? It's entirely up to you how you want to deal with that.",nothate,none,FALSE,0.99975,dynabench entry,3a,dev,lqlkttromx
+16518,24996p,ragheads are one of the reasons why the world sucks,hate,derogation,,,perturbation,2b,train,qiokkci7f8
+10897,22160,Discourtesy is the most significant quality of goat ropers,hate,derogation,FALSE,0.00044,dynabench entry,2a,train,e3dsmnspob
+10310,21849p,"The UK is a beautiful country, from its food to its fashion, from its history to its arts, but I am very worried about the current trends thiis country is gong to. So let's import more immigrants who are keen on further enriching our  food, fashion, history and arts!",nothate,none,,,perturbation,2b,train,trrf46jwfp
+29464,33104,Muslims worldwide r facing the racism,nothate,none,FALSE,0.99915,dynabench entry,3a,train,vde7gn0nrl
+9521,21443p,"you used to hate fags at school, how did this change at university",hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+33782,4265,gay people are worthless,hate,notgiven,FALSE,0.07677,dynabench entry,1,train,elgzdd8tvb
+3683,15197,Koshies are animals,hate,notgiven,FALSE,0.09716,dynabench entry,1,train,trrf46jwfp
+14593,24024,muzz!3z sm3ll,hate,derogation,FALSE,0.00317,dynabench entry,2a,train,trrf46jwfp
+17581,25518p,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward communists, so leave me alone as they should not be allowed to vote, thats just how I feel",nothate,none,,,perturbation,2b,train,oemywm1tjg
+39991,9223,Muslims are murderous,hate,notgiven,FALSE,0.09532,dynabench entry,1,train,lqlkttromx
+12584,23013,I hate fucking school and teachers,nothate,none,FALSE,0.99974,dynabench entry,2a,train,vde7gn0nrl
+15941,24703p,we should tell people that to that think black men are stupid cunts is a horrible thing to do,nothate,none,,,perturbation,2b,train,e3dsmnspob
+234,10363,Israelis feel strong nowadays because they are protected by the US,hate,notgiven,TRUE,0.992,dynabench entry,1,train,vde7gn0nrl
+28775,32739p,"Women aren't perfect. Now white knight fantastists, repeat that until you believe it.",nothate,none,,,perturbation,3b,test,io6vha6qjm
+12947,2321,"This country is a lot worse now, there are too many queers",hate,notgiven,FALSE,0.04839,dynabench entry,1,train,gnzuctwed3
+16489,24983,there is so much to be proud of if you are british.  I love how the majority of us collectively just will not tolerate muslims!,hate,notgiven,TRUE,0.96007,dynabench entry,2a,train,tbubpfn6ip
+37922,6907,"I've had it with people calling me a negro, even though I'm black",nothate,none,FALSE,0.99023,dynabench entry,1,test,lqlkttromx
+37947,6935,tards cannot be trusted,hate,notgiven,FALSE,0.09124,dynabench entry,1,train,tbubpfn6ip
+14664,24059,j3rmis are w3!rd,hate,derogation,FALSE,0.00046,dynabench entry,2a,train,trrf46jwfp
+11507,22479p,"I don't mind when people call my friend a nigor, it's not as offensive",hate,animosity,,,perturbation,2b,train,lqlkttromx
+13146,23315,birds are not fucking cute animals,nothate,none,FALSE,0.99969,dynabench entry,2a,train,lqlkttromx
+31456,34378p,"The crockery might be inanimate and perfectly ordered but the travellers homes are like Beauty & the Beast, it's like the Brambly Mice, only inside a caravan! Shame the surroundings are always dirty.",hate,animosity,,,perturbation,3b,train,cagnluiznm
+40554,9804,Pakistanis are great... at being unclean!,hate,notgiven,TRUE,0.836,dynabench entry,1,train,trrf46jwfp
+10716,22058,"Everyone thinks that retards are amazing and that there is nothing wrong with them but I do not understand how. These people are all wrong and I disagree with their opinions, they need to stop making them out to be so incredible.",hate,derogation,FALSE,0.00227,dynabench entry,2a,train,elgzdd8tvb
+8424,20880,Many refugees live here,nothate,none,TRUE,0.00107,dynabench entry,2a,test,trrf46jwfp
+687,11420,Get rid of all the Jews,hate,notgiven,FALSE,0.09068,dynabench entry,1,train,gnzuctwed3
+17734,25601,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike toward he-shes, so leave me alone as they should not be allowed to exist, thats just how I feel",hate,animosity,TRUE,0.96434,dynabench entry,2a,train,elgzdd8tvb
+26299,31389,why is this whole sub full of trans people and no normal gays,hate,animosity,FALSE,0.00058,dynabench entry,3a,train,qiokkci7f8
+25919,3081,I have been called dirty immigrant too many times,nothate,none,FALSE,0.79577,dynabench entry,1,train,trrf46jwfp
+3244,14047,I do not differentiate a black woman and a black cap,hate,notgiven,TRUE,0.99793,dynabench entry,1,train,vde7gn0nrl
+7153,20216,"Scottish labour, in one word... #Bellends",nothate,none,TRUE,0.00333,dynabench entry,2a,test,cagnluiznm
+20729,27499p,does this women really think she is not cleverer than me?,nothate,none,,,perturbation,2b,test,tbubpfn6ip
+19804,26989,I know of a few asian families,nothate,none,TRUE,6e-04,dynabench entry,2a,train,tbubpfn6ip
+1785,12565,another multicultural advert this is why i dont shop there,hate,notgiven,TRUE,0.99354,dynabench entry,1,train,tbubpfn6ip
+27317,31938,"Women go: """"Hey! Women aren't objects. I'm a daughter. I'm a sister. I'm a peepooopeeepooo, etc"""". But also: """"Pictures of my @$$ for 13.99 a month honey""""",hate,derogation,TRUE,0.99986,dynabench entry,3a,train,oemywm1tjg
+4471,16001,Chinks are lousy,hate,notgiven,FALSE,0.03493,dynabench entry,1,train,trrf46jwfp
+23226,28903p,no one loves people that are rude to foreigners,nothate,none,,,perturbation,2b,test,elgzdd8tvb
+13398,23439,moral is a concept with which faggots cannot be associated,hate,derogation,FALSE,0.00435,dynabench entry,2a,train,oemywm1tjg
+18481,26151p,asylum seekers are great. I love them,nothate,none,,,perturbation,2b,train,cagnluiznm
+32453,39373p,"The kinds of grammatical errors we see are typical and normal in filings that are being done at speed to beat deadlines. It's ugly but meaningless and just says about the female secretary's intelligence, you'll find shit like this in really high profile lawsuits from great firms that are burning rubber to beat a deadline",hate,derogation,,,perturbation,3b,test,cyksvbw4hd
+14461,23960,None of you should be allowed to breathe,nothate,none,TRUE,0.00032,dynabench entry,2a,test,e3dsmnspob
+1630,12409,you are trashy,nothate,none,TRUE,0.11259,dynabench entry,1,train,tbubpfn6ip
+14357,23910p,Are you seeing the good that the people of this country are doing without you brownie bastards.,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+1634,12413,primark is the worst,nothate,none,TRUE,0.07329,dynabench entry,1,train,tbubpfn6ip
+34409,43825,"My realization story is very similar! My cousin told me he started to suspect he was gay because he was watching gay porn. I told him """"That doesn't make you gay. I watch lesbian porn all the time and it doesn't make me a lesbian.""""<9d> He didn't say anything for second and then said """"Uh...I think it might make you a little gay.""""<9d> It was then when I put it together that I was indeed, attracted to women.",nothate,none,FALSE,0.99988,dynabench entry,3a,train,e3dsmnspob
+24889,29798,i love the idea of black people not being able to breathe!,hate,threatening,FALSE,0.19127,dynabench entry,2a,train,lqlkttromx
+9863,21620p,"I saw that fucking shitbag standing in the dark, the coward ran away, surprised I could see the nigger in the dark",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+36918,5576,I hate when people ignore me,nothate,none,FALSE,0.88738,dynabench entry,1,test,trrf46jwfp
+33848,4331,gay people are a waste of space,hate,notgiven,FALSE,0.19114,dynabench entry,1,train,elgzdd8tvb
+11907,22676p,I really hate lockdown since fucking covid came over here,nothate,none,,,perturbation,2b,dev,trrf46jwfp
+3304,14108,"i purpose that we attack everyone who cannot adhere to british values, starting with refugees",hate,notgiven,TRUE,0.96835,dynabench entry,1,train,tbubpfn6ip
+6554,19899,"ok cool but why does he have to talk like such a condescending, smug twat",nothate,none,TRUE,0.10124,dynabench entry,2a,train,cagnluiznm
+25456,30218,i remember vividly watching a youtube video of hers where she asked a bunch of other lesbians their thoughts on bisexual women.,nothate,none,FALSE,0.99841,dynabench entry,2a,train,cagnluiznm
+10607,22002,Being rebarbative is a common quality of lesbians,hate,animosity,FALSE,0.00089,dynabench entry,2a,dev,e3dsmnspob
+19868,27021,there is a transgender muslim man in my office,nothate,none,TRUE,0.00345,dynabench entry,2a,train,tbubpfn6ip
+26432,31459,"According to Islamic script, on the return of Mohammed to Mecca from Madinah, he destroyed all established idols around the Kaaba to pave the way for his new faith. If you ask me, that sounds worse than mockery and burning of replicated books.",hate,animosity,TRUE,0.99989,dynabench entry,3a,train,qiokkci7f8
+8205,20770,bloody hell it's raining!,nothate,none,FALSE,0.9966,dynabench entry,2a,dev,trrf46jwfp
+28689,32695p,If you absolutely had to choose between them....would you rather plough into a wall or the sea? You get a monster truck and single canister of gas!,nothate,none,,,perturbation,3b,test,zuuaksvcea
+29484,33117p,Anybody know any reputable vegan clothing companies? I'm 16 and looking to change my style a bit,nothate,none,,,perturbation,3b,test,zuuaksvcea
+28021,32326p,"Horses have evolved to be the most aesthetically diverse of the many animals. Unlike other animals, we see so many different variations in hair color, skin color, eye color, facial structure, and bodily structure in them. These things make them stand out and, in my opinion, more beautiful than anything else.  With so much variation in appearance, it can be assumed that they are also the most genetically diverse and developed of all farmyard animals, probably because they have been more successful in terms of developing new breeds, inventing news straints, etc.  It's not a matter of opinion that the animal breeds are genetically different, thousands of years of evolution illustrate that. Through simple observation, it is apparent that the arabian steeds have obtained the best genes.",nothate,none,,,perturbation,3b,train,uiskeftl5s
+3335,14139,if you are asian you are worth less than dirt,hate,notgiven,TRUE,0.89751,dynabench entry,1,train,tbubpfn6ip
+30593,33745p,"no person who tattooes themselves respects their own body. honestly, i'm starting to think that you think I actually think these people are redeemable. once a someone's n-count goes above one, they're done. once a fuck boy, always a fuck boy",nothate,none,,,perturbation,3b,train,e3dsmnspob
+1870,12650,that dog is very dirty,nothate,none,FALSE,0.89099,dynabench entry,1,train,tbubpfn6ip
+11327,22384p,"I don't like it when people call my girlfriend feminazi. Nazis were actually clever folks, unlike women.",hate,derogation,,,perturbation,2b,train,trrf46jwfp
+38853,8001,Donald and Melania Trump have tested positive for COVID-19,nothate,none,FALSE,0.99712,dynabench entry,1,train,tbubpfn6ip
+8462,20902,My neighbour is Chinese,nothate,none,TRUE,0.00032,dynabench entry,2a,train,trrf46jwfp
+1223,11966,I don't mean to eliminate kykes.. I just wish they naturally became extinct,hate,notgiven,TRUE,0.91173,dynabench entry,1,train,oemywm1tjg
+39338,8525,"Leko repeated that he had, before Roberts replied that """"he [Casilla] said he said 'what's your fucking name'"""".",nothate,none,TRUE,0.07018,dynabench entry,1,train,oemywm1tjg
+18596,26210,I love how hateful homos are,hate,derogation,TRUE,0.97591,dynabench entry,2a,train,gnzuctwed3
+7161,20220,"Scottish labour, in one word... #twats",nothate,none,FALSE,0.80539,dynabench entry,2a,train,cagnluiznm
+6814,20031p,"We must accept that not all people are equal before the law, women are treated as inferior to men at most things, particularly in the workforce, it's just the way it is. Disgraceful!",nothate,none,,,perturbation,2b,train,trrf46jwfp
+20086,27141,"the mood is extremely shit today at my office, my asylum seeker colleague explained the new policy to me and it just put me in a shit mood someone like that thinking they can talk to me even though they are clearly beneath me I didnt understand any of it",hate,derogation,TRUE,0.99903,dynabench entry,2a,train,tbubpfn6ip
+3399,14203,i really dont want muslims in my university,hate,notgiven,TRUE,0.98519,dynabench entry,1,dev,tbubpfn6ip
+1470,12244,to Muslims: I hope our paths never meet,hate,notgiven,TRUE,0.96998,dynabench entry,1,train,lqlkttromx
+21606,27999,"it is nice to tell everyone i have 0 hatred toward hefemales, shame it is a lie",hate,derogation,TRUE,0.96259,dynabench entry,2a,train,elgzdd8tvb
+12135,2279,"Islam  is a massive problem in this country, it should be abolished and the mosques should be destroyed",hate,notgiven,TRUE,0.96208,dynabench entry,1,train,gnzuctwed3
+30616,33756p,"three things that transport me back to my childhood are fags, drag and clouds of smoke in the kitchen",hate,derogation,,,perturbation,3b,train,cagnluiznm
+16142,24806p,You should tell people that you do not think cooks are stupid,nothate,none,,,perturbation,2b,train,cagnluiznm
+19031,26586p,"there is a jewish society at my uni. Those jerks think they run everything, including the whole Students' Union",hate,derogation,,,perturbation,2b,train,trrf46jwfp
+15538,24495,"It is so annoying having to explain myself and my reasons for disliking brownies, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,TRUE,0.99937,dynabench entry,2a,train,elgzdd8tvb
+22376,28396p,as a woman you should stay at home to raise our kids until they are grown ups,hate,animosity,,,perturbation,2b,train,e3dsmnspob
+8310,20823,So happy to be white and not a c0tton-picker,hate,derogation,FALSE,0.19176,dynabench entry,2a,train,gnzuctwed3
+1330,12085,barren women should not live in the neighbourhood,hate,notgiven,TRUE,0.98348,dynabench entry,1,train,vde7gn0nrl
+17009,25240,"this is getting ridiculous, why does everyone think blacks are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.97199,dynabench entry,2a,train,elgzdd8tvb
+20501,27348p,"i know so many travellers in this area, it needs to be cleansed",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+2026,12806,Politicians are arseholes,nothate,none,TRUE,0.04625,dynabench entry,1,train,trrf46jwfp
+29775,33277p,"throughout history traditions of family stuck with marrying and reproducing with others, and this resulted in that they formed a unique group. which developed into a ethnoreligious group because of this. those who are part of this are more likely for some disorders.",nothate,none,,,perturbation,3b,train,tbubpfn6ip
+3321,14125,i want to stamp on asians,hate,notgiven,TRUE,0.99038,dynabench entry,1,train,tbubpfn6ip
+33052,39697,you probably have a porn addiction and that's gone untreated for a while. If you stopped watching porn you would probably go back to being normal. I think the nature of this site pushes people in the direction of taking things too far. This thread is full of people who very clearly have some serious psychological disorders.,nothate,none,FALSE,0.9998,dynabench entry,3a,train,vde7gn0nrl
+11210,22323p,"All the intersex need to be killed, they're aboslutely sickening",hate,threatening,,,perturbation,2b,train,gnzuctwed3
+7292,20289p,I Predict A Nigger Riot #Bellends #BLDM #AnyExcuseToRiot,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+35791,46980,"After the Lesbian Avengers marched on the US capital in 1993, Lesbian Chic became a hot new trend. TM marketed towards young, urban Americans. Now they can legally marry and cannot be sacked for being gay.  Slap me all over that billboard on the 16th Street Mall if it means I can live without the bullshit.",nothate,none,TRUE,0.25329,dynabench entry,3a,train,qiokkci7f8
+27710,32150p,Under the system we currently have the laws apply to everyone so in absence of a sterilizationn programme for stupid people for now abortion is preferable to an unmanageable low iq population explosion.,nothate,none,,,perturbation,3b,dev,elgzdd8tvb
+15666,24565,"It is so annoying having to explain myself and my reasons for disliking rag-heads, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,FALSE,0.00953,dynabench entry,2a,train,elgzdd8tvb
+12521,22978,i hope the racist UKBA becomes obsolete one day,nothate,none,FALSE,0.99772,dynabench entry,2a,train,lqlkttromx
+21400,27883,"Those who have ancestral roots in pakistan, are disproportionally scobberlotchers.",hate,derogation,TRUE,0.83311,dynabench entry,2a,train,cagnluiznm
+330,10948,Unmarried women are unacceptable in our society and Islam is against them,hate,notgiven,TRUE,0.97713,dynabench entry,1,train,vde7gn0nrl
+38556,7637,All Muslims are violent!,hate,notgiven,FALSE,0.1281,dynabench entry,1,train,lqlkttromx
+34696,43980p,"in a triumphant win for President Trump, U.S. Supreme Court makes deporting immigrants for crimes easier, this should be the law !",hate,derogation,,,perturbation,3b,train,vde7gn0nrl
+15181,24311p,arabic! cool! But i don't understand shit!,nothate,none,,,perturbation,2b,test,e3dsmnspob
+5237,16787,my desk can eat my shit,nothate,none,TRUE,0.01355,dynabench entry,1,train,elgzdd8tvb
+36388,47312p,I bet the jew deletes that comment and the fact that it is not just his daughter but obviously her friend too ! He's a fucking kike he really is. It's disgusting!,hate,derogation,,,perturbation,3b,train,elgzdd8tvb
+13889,23682p,The White House should burn to the ground if it has a black president,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+4844,16391,why are indians always begging for money?,hate,notgiven,TRUE,0.99056,dynabench entry,1,train,lqlkttromx
+10297,21842p,Their disrespectful attitude makes me think theyre not the kind of people I want to be around,nothate,none,,,perturbation,2b,train,gnzuctwed3
+4856,16402,fuck the rain,nothate,none,FALSE,0.86556,dynabench entry,1,train,tbubpfn6ip
+24012,29346p,lets talk about the positives about muslim women,nothate,none,,,perturbation,2b,train,elgzdd8tvb
+30524,33709,"German planning on spending $1Billipn to fight right wing. Meanwhile, they ignore muslims and that policy occasionally blows up on their faces",hate,animosity,TRUE,0.9999,dynabench entry,3a,train,qiokkci7f8
+4385,15918,Word of warning. Out there they call them fanny packs cos fanny means your arse over there.,nothate,none,TRUE,0.16929,dynabench entry,1,train,cagnluiznm
+15626,24542,"It is so annoying having to explain myself and my reasons for disliking camel-jackers, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,FALSE,0.04821,dynabench entry,2a,dev,elgzdd8tvb
+27748,32174p,"successful investors and NPD? There is definitely a connection here. I remember there was a study on brain difference and business people had disproportionate numbers (good luck finding that). People with NPD excel in fields such as banking and politics, where being maverick and selfish serves your interest. Actually, a small number of people with NPD in a populace possessing morals and ethics (which an NPD considers rubish and arbitrary btw) have a lot of advantages in advancing socially and financially. They are literally predators among prey.",nothate,none,,,perturbation,3b,train,e3dsmnspob
+17285,25374p,"this is getting ridiculous, why does everyone think billionaire bank owners are not evil, they really are and it should be common knowledge to everyone, I don't want to have to go around informing people when they should already know",nothate,none,,,perturbation,2b,train,trrf46jwfp
+37537,6501,"Keep the L out of LGBT, can't stand them!",hate,notgiven,TRUE,0.89401,dynabench entry,1,train,lqlkttromx
+26883,31705,I'm not racist bit but I've had bad experiences with every oriental person I've dealt with in the fish hobby. Very rude and they can barely speak English.,hate,derogation,FALSE,1e-05,dynabench entry,3a,train,cagnluiznm
+30923,33922,"So currently, a Pakistani man is in charge of hunting down and prosecuting Muslim Rape Gangs; this is, his fellow 'men of Pakistani heritage'. It's a betrayal of the British people of previously inconceivable proportions!",hate,derogation,TRUE,0.99912,dynabench entry,3a,dev,trrf46jwfp
+16280,24878,blacks = egregious,hate,notgiven,FALSE,0.00037,dynabench entry,2a,train,tbubpfn6ip
+30619,33759,I cannot even come close to figuring out what that low I.Q. nig had going through his head. A very flawed thought process for sure.,hate,derogation,FALSE,0.00094,dynabench entry,3a,train,qiokkci7f8
+533,11268,Half caste people are not clean,hate,notgiven,TRUE,0.98451,dynabench entry,1,test,gnzuctwed3
+24807,29755,my beautiful sister converted and now is a hijabbb1111,hate,derogation,TRUE,0.97079,dynabench entry,2a,train,trrf46jwfp
+9200,21282,Calling black women rope-heads is fabulous! Such descriptive term,hate,derogation,TRUE,0.99856,dynabench entry,2a,train,oemywm1tjg
+676,11409,Get rid of all the disabled,hate,notgiven,TRUE,0.98657,dynabench entry,1,train,gnzuctwed3
+30934,33928p,What do you say about black people hating Indian people? Is that racist or just free speech because they are always the victims?,hate,derogation,,,perturbation,3b,train,lqlkttromx
+35805,46987,"it's absolutely psychotic behaviour. Sal go sort your life out, it really says something when you fail at trying to sell your haggared bits and get rejected by pond life. You are bottom of the barrel scum you're not even worth speaking about.",nothate,none,FALSE,0.99846,dynabench entry,3a,train,gnzuctwed3
+20537,27366p,i am yet to meet an asylum seeker who doesn't fucking stink,hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+30548,33721,you know I was never the problem in any of my past relationships it was those Niggas they had hella issues,hate,derogation,TRUE,1e-05,dynabench entry,3a,train,cagnluiznm
+809,11543,I endorse the genocide of alah worshippers,hate,notgiven,TRUE,0.98443,dynabench entry,1,train,gnzuctwed3
+40649,9901,Any woman who doesn't want to get married is a weirdo,hate,notgiven,TRUE,0.97342,dynabench entry,1,train,gnzuctwed3
+28542,32616,"if our government is putting the safety of citizens first, bravo!! why on earth would we want to keep murderers and rapists? It's time we worry about victims more than perpetrators!",nothate,none,FALSE,0.99992,dynabench entry,3a,train,oemywm1tjg
+22296,28357,I would love to see more Jews put in Holocaust,hate,threatening,FALSE,0.00032,dynabench entry,2a,train,vde7gn0nrl
+25100,29999p,A vermin is just the same as a rat,nothate,none,,,perturbation,2b,train,lqlkttromx
+32557,39428p,It's a fact that men cannot and should not change women,nothate,none,,,perturbation,3b,dev,uiskeftl5s
+25669,30324,"black is such a filthy colour, everything black gets dirty easily.  That's why I prefer buying white things.",nothate,none,FALSE,0.97864,dynabench entry,2a,train,trrf46jwfp
+34941,4452,concentration camps are a good idea,hate,notgiven,TRUE,0.99901,dynabench entry,1,train,tbubpfn6ip
+16062,24766p,"I hate how shady they are, it comes across rude",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+3838,15353,Muslims want to take over this country,hate,notgiven,TRUE,0.98585,dynabench entry,1,train,gnzuctwed3
+3666,15178,"If you are a tranny, I don't want you near me or my kids. period.",hate,notgiven,FALSE,0.04375,dynabench entry,1,train,oemywm1tjg
+38118,7169,Are trans people called so because they transition?,nothate,none,FALSE,0.99775,dynabench entry,1,train,lqlkttromx
+22364,28390p,women do not how to speak properly so it's better for them not to speak in class,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+16706,25085p,we all have our problems in life. my biggest issue is my neighbour.  terrible.,nothate,none,,,perturbation,2b,dev,elgzdd8tvb
+29599,33177p,"Wanting to make people think we are just """"chicks with a cock and balls"""" is not a popular opinion no matter how hard you try to make it one.",nothate,none,,,perturbation,3b,train,e3dsmnspob
+39833,9057,my dad told me to fuck off,nothate,none,TRUE,0.00653,dynabench entry,1,train,elgzdd8tvb
+13108,23296,it is horrible living as transgender in this country,nothate,none,TRUE,0.00049,dynabench entry,2a,train,qiokkci7f8
+22317,28367p,"Apparently, 6 million people losing their jobs is not enough for this Tory government, they would love to see more of us going bankrupt, it seems",nothate,none,,,perturbation,2b,dev,trrf46jwfp
+6550,19897,"Your attitude stinks, stop trying to make everyone feel dumb cause they arent an unemployed twat.",nothate,none,FALSE,0.94686,dynabench entry,2a,train,cagnluiznm
+3136,13935,shut the fuck uo,nothate,none,TRUE,0.00449,dynabench entry,1,train,tbubpfn6ip
+40539,9786,What does a pretty white woman see in a black man?,hate,notgiven,TRUE,0.99273,dynabench entry,1,train,gnzuctwed3
+38654,7793,HIV is gods way of trying to stop the gays,hate,notgiven,FALSE,0.08512,dynabench entry,1,train,gnzuctwed3
+32479,39388p,"It's about psychology. Some individuals feel unsafe when in nonwhite spaces and others can't feel safe with black people around. Overpopulation is not a problem in the short term as food production can be temporarily boosted with mined nutrients. Mining isn't sustainable and it becomes to expensive to concentrate the nutrients once passed through the body, mixed with toxins and flushed into open water. We are setting ourselves up for greater and greater mass extinction whenever we boost population density",hate,animosity,,,perturbation,3b,train,tbubpfn6ip
+11131,22283p,"Everyone thinks that 'mulattas' is just another classification and that there is nothing wrong saying it. But I do not understand how! These people are all wrong and I disagree with their opinions, they need to stop making it out to be OK",nothate,none,,,perturbation,2b,train,lqlkttromx
+21056,27694p,"I have ancestral roots in ireland, that does not make me a disproportionally snollygoster",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+20378,2729,"It is just not right for gays to form families, nothing good can come out of that",hate,notgiven,TRUE,0.88222,dynabench entry,1,train,trrf46jwfp
+16738,25101p,"You tosser, get out of here, and go back to India with the rest of the curry munchers",hate,derogation,,,perturbation,2b,test,elgzdd8tvb
+40515,9759,No smokers or blacks need apply,hate,notgiven,TRUE,0.98232,dynabench entry,1,train,gnzuctwed3
+17252,25358,"this is getting ridiculous, why does everyone think oven-fillers are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.99612,dynabench entry,2a,test,elgzdd8tvb
+19371,26775p,"you are such an abusive dick, at least abuse the trannies",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+9341,21353p,I'll say what everyone's thinking: Working with delinquents is not as good.,nothate,none,,,perturbation,2b,train,cagnluiznm
+20690,27469,"Is anyone else getting really bored of arguing with random people over differing opinions, it is not my fault that you think there is nothing wrong with asian people existing, i get that that is your opinion but lets just agree to disagree, because you are wrong",hate,derogation,TRUE,0.99134,dynabench entry,2a,train,elgzdd8tvb
+30469,33678,Let me correct that for you: black supremacist women that are also lefties are the stupidest demographic.,hate,derogation,TRUE,0.99827,dynabench entry,3a,train,tbubpfn6ip
+34639,43946,The J3ws in the USA make up a majority of the wealthiest people having taken over the American elite. The women go after those with all the money due to the fact that it has become more valued than race or culture,hate,animosity,FALSE,1e-05,dynabench entry,3a,train,gnzuctwed3
+17730,25599p,"I am allowed to express my opinion and dislike toward racists, so leave me alone as they should not be allowed to exist",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+15624,24541,"It is so annoying having to explain myself and my reasons for disliking camel-fuckers, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,TRUE,0.998,dynabench entry,2a,train,elgzdd8tvb
+21698,28044p,"it is nice to tell everyone i have 0 hatred towards indians, shame others do",nothate,none,,,perturbation,2b,train,qiokkci7f8
+11774,22610,mongrels are the worst kind of dogs,nothate,none,TRUE,0.00049,dynabench entry,2a,train,lqlkttromx
+5130,16679,Fuck sake I hate my boyfriend,nothate,none,TRUE,0.00493,dynabench entry,1,train,elgzdd8tvb
+36083,47139,"I had to repress the black man in me, push down and hide something I am proud of because of others, as perception is reality.",nothate,none,TRUE,1e-05,dynabench entry,3a,train,cagnluiznm
+32866,39594,Go home..all of you! this is OUR land.,hate,derogation,TRUE,0.99552,dynabench entry,3a,train,trrf46jwfp
+6073,19637p,feminists are a burden to society,nothate,none,,,perturbation,2b,dev,oemywm1tjg
+10125,21755,Calling women 'coackroaches' is fabulous! Such descriptive term - you stamp one out and another will come along,hate,dehumanization,TRUE,0.99919,dynabench entry,2a,train,oemywm1tjg
+12835,23147,It's not a good idea to trust black barbies,hate,animosity,FALSE,0.00033,dynabench entry,2a,train,oemywm1tjg
+10235,21811,It cannot be denied that women have a disdainful attitude towards us,hate,derogation,FALSE,0.00034,dynabench entry,2a,train,e3dsmnspob
+27121,31830p,how come all the criminals didn't leave after being released from their chains? they all stayed in the areas? why they not go back home to relax?,nothate,none,,,perturbation,3b,train,tbubpfn6ip
+36984,5645,We just should sack all those dirty liars MPs! Enough is enough!,nothate,none,TRUE,0.30146,dynabench entry,1,train,trrf46jwfp
+12660,23059p,"They can not join the football team as they are women, and everyone knows this is a male sport",hate,animosity,,,perturbation,2b,train,trrf46jwfp
+15292,24371,You should not participate in any concert man as your voice is horrible,nothate,none,TRUE,0.00037,dynabench entry,2a,train,vde7gn0nrl
+28504,32597,"buddhism and daoism have been used by a lot of women to justify their  bullshit because of how vague their ideas and language are. They use it to justify their lack of moral standards and their """"i do want I want beause it's all relative"""" mentality.",hate,derogation,TRUE,0.99516,dynabench entry,3a,train,oemywm1tjg
+20322,27263,I'm all for death penalty if that means killing you,nothate,none,FALSE,0.99929,dynabench entry,2a,train,oemywm1tjg
+34963,4475,i dont know what they learned in the village back home but it isn't how we do it here,hate,notgiven,TRUE,0.99754,dynabench entry,1,train,cagnluiznm
+29849,33328p,"let's be honest, how many of you want to become transgender because it's a deeply personal and important choice?exactly so why are people hating",nothate,none,,,perturbation,3b,train,elgzdd8tvb
+2063,12842,Politicians are treacherous,nothate,none,FALSE,0.90867,dynabench entry,1,train,trrf46jwfp
+5128,16677,Fuck sake I hate my teacher,nothate,none,TRUE,0.00784,dynabench entry,1,train,elgzdd8tvb
+6451,19845p,"Many of my closest colleagues are muslim, vile",hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+9436,21401,you are very quiet in class and this is unacceptable,nothate,none,FALSE,0.96602,dynabench entry,2a,test,vde7gn0nrl
+37105,5948,"I love women, my mother was one, but they just can't drive if their life depended on it",hate,notgiven,TRUE,0.99427,dynabench entry,1,train,gnzuctwed3
+25261,30120p,"fuck you, you are always such a lazy arshole I always end up covering for you! Typical arab guy",hate,derogation,,,perturbation,2b,train,tbubpfn6ip
+6863,20058,don't call this useless piece of shit a TV!,nothate,none,TRUE,0.1962,dynabench entry,2a,dev,lqlkttromx
+19521,2685,Not a single member of the staff at my street's convenience store speaks English. This is the same in every corner in London. Why can't they just integrate?,hate,notgiven,TRUE,0.99657,dynabench entry,1,train,trrf46jwfp
+10405,21898,"London at this time of the year is such a lovely, bright and vibrant place. I am in love with the views, the tiny alleys, the friendly people here. It is all so wonderful. All lovely and colourful, even the big, bright, colourful mosque in Regents Park. Well, perhaps everything but that.",hate,derogation,TRUE,0.99975,dynabench entry,2a,train,trrf46jwfp
+12251,22846,populism is the worst fucking bullshit anyone can think of,nothate,none,TRUE,0.13479,dynabench entry,2a,train,e3dsmnspob
+33625,40016p,"Its true They never bothered to exert any control over themselves. They're still too lazy to exert any control over themselves, but they want to control something, so they control th mass media and briib out politicians. Jewish always play dirty. Washington should start serving our own people, for once",hate,derogation,,,perturbation,3b,train,trrf46jwfp
+22118,28268p,I'm looking for new best friends who love to befriend foreigners as much as I do,nothate,none,,,perturbation,2b,test,trrf46jwfp
+26430,31458,"slam can't stand up to mockery hmm? Must be a pretty weak ideology.  The Prophet Muhammad was weak too, and had a very tiny penis. Haha!",hate,derogation,FALSE,0.01377,dynabench entry,3a,train,qiokkci7f8
+38531,7612,Be safe. Wear a mask. And Stay away from Muslims.,hate,notgiven,TRUE,0.96617,dynabench entry,1,train,lqlkttromx
+10071,21727,Wouldn't it be amazing if all nazis finally gathered and finished the job they started with the Js?,hate,support,FALSE,0.00067,dynabench entry,2a,train,oemywm1tjg
+33483,39938p,"My aunt got married to a businessman. Our family is non-practicing Methodist, his too. In my experience, you can't trust any successful businessmen. Taken at face value you, at first, think you can trust. But that's the trap that they set for you. They are stingy and manipulate and deceive in order to enrich themselves on the hard work of others.",nothate,none,,,perturbation,3b,train,cagnluiznm
+10920,22172p,"I love Chinese. They are so clever and hardworking. They are really nice people, mildly-mannered. They bring lots of new skills to this country. I love them and Chinatown.",nothate,none,,,perturbation,2b,train,cagnluiznm
+2979,13770,I fucking hate myself,nothate,none,TRUE,0.00675,dynabench entry,1,train,e3dsmnspob
+30670,33785,"I have a buddy whos wife is a principle in a black school (she's white, blue eyes) and typically all she deals with is fights and rapes and all the drama that leads up to it. She says all the parents honestly believe their boys will either 1) play pro sports, 2) be rappers. Parents fought against trade school programs they were trying to bring in because Antwon ain't gone be no welder, hes going to blackBall University.",hate,animosity,TRUE,0.99984,dynabench entry,3a,train,qiokkci7f8
+6488,19864,those people all look like shitheads,nothate,none,FALSE,0.99963,dynabench entry,2a,train,cagnluiznm
+30280,33568p,"However it is not too far fetched for white people to once again regain their deluded status as the dominant race on the face of the earth. I figure that if 10% to 20% of all white people in the world come together in full force, it wil be hard to stop them. I truly am convinced that we are doomed--and I hope they do NOT emerge victorious.",nothate,none,,,perturbation,3b,train,lqlkttromx
+11673,22560p,are all the women fucking these black fellas?,hate,animosity,,,perturbation,2b,train,gnzuctwed3
+17147,25307,would you like to be called ching-chong? Then stop using that fucking word,nothate,none,TRUE,0.04693,dynabench entry,2a,train,e3dsmnspob
+4784,16327,i hate the black panther movie,nothate,none,TRUE,0.28006,dynabench entry,1,train,lqlkttromx
+757,11490,I hate Hillary so much,nothate,none,TRUE,0.12204,dynabench entry,1,train,cagnluiznm
+17950,25721p,"it is not easy to say, but this country allows free speech so I'll just say that I dislike hooligans. Please, leave me alone as they should not be allowed to attend important games, that's just how I feel",nothate,none,,,perturbation,2b,train,e3dsmnspob
+11735,22591p,i wish all chinese would die of fucking corona,hate,derogation,,,perturbation,2b,dev,oemywm1tjg
+35607,46882,"I'd like to live in Canada. it matches my current climate zone, it has loads of natural nature still left, has friendly people. or Italy cuz of the car culture, best driving roads",nothate,none,FALSE,0.99981,dynabench entry,3a,train,gnzuctwed3
+8378,20857,My neighbourhood is packed with Asians. We celebrate new year twice a year! How cool is that?,nothate,none,TRUE,0.00034,dynabench entry,2a,train,trrf46jwfp
+10907,22166,Discourtesy is the most significant quality of hurammis,hate,derogation,FALSE,0.00049,dynabench entry,2a,dev,e3dsmnspob
+9382,21374,I love the idea of killing every single black person,hate,threatening,TRUE,0.99966,dynabench entry,2a,train,e3dsmnspob
+1896,12676,black people ruin british culture,hate,notgiven,FALSE,0.08616,dynabench entry,1,train,tbubpfn6ip
+29193,32969,"You plonker, don't talk about shit you don't understand. I AM A PROUD BOY and nobody funds us whatsoever. We are completely self funded thru our membership fees and duties.",nothate,none,FALSE,0.99991,dynabench entry,3a,train,trrf46jwfp
+23117,28825,black people are the antithesis of intelligence,hate,derogation,FALSE,0.00041,dynabench entry,2a,train,e3dsmnspob
+20940,27631p,Those with the largest hindu belief have ancestry roots in India.,nothate,none,,,perturbation,2b,train,cagnluiznm
+38383,7455,moslems are so inc3stuous,hate,notgiven,FALSE,0.08739,dynabench entry,1,train,cagnluiznm
+27402,31988,"anyone calling themselves asian, bl@ck, Hispanic.. their not Americans. their Xenophobic. simple as that",hate,derogation,FALSE,0.05756,dynabench entry,3a,train,gnzuctwed3
+32795,39555p,I am telling you that anti-immigration propaganda is part of the war waged by this supposed golden fucking standard of whiteness,nothate,none,,,perturbation,3b,train,lqlkttromx
+22574,28519p,"Your flatmate is hyper, how could you live with him?",nothate,none,,,perturbation,2b,train,cagnluiznm
+19569,26874p,Muslims are a cancer to the world! I hate them so much!,hate,dehumanization,,,perturbation,2b,train,gnzuctwed3
+37217,6077,I'm sick of hearing all jews are not a lowlife scum,hate,notgiven,FALSE,0.04787,dynabench entry,1,train,oemywm1tjg
+6927,20094,I love the idea of burning all the lesbians,hate,threatening,TRUE,0.99968,dynabench entry,2a,train,e3dsmnspob
+11007,22217p,"These people are all wrong and I disagree with their opinions on Hollywood, they need to stop making it out to be so incredible. Everyone thinks that they are amazing and that there is nothing wrong with it but I do not understand how.",nothate,none,,,perturbation,2b,train,cagnluiznm
+7803,20555,Hearing a woman speak is the most tedious sound.,hate,notgiven,FALSE,5e-04,dynabench entry,2a,train,trrf46jwfp
+28015,32322p,Remember: fake friends will never be there to have your back when things go wrong and you lose your money. It's much easier for them to just pack up and find someone else to pretend to be mates with.,nothate,none,,,perturbation,3b,test,ibsvsbliwx
+30763,33836p,"America is only 60% white if you include """"white"""" hispanics and arabs in that number. And you ignore the millions of illegal immigrants , the real number is probably closer to 40%.",nothate,none,,,perturbation,3b,dev,qiokkci7f8
+12030,22738,"clap for the nhs but not those in charge of this country, its their fault fucking covid spread",nothate,none,TRUE,0.02797,dynabench entry,2a,train,gnzuctwed3
+989,11727,Attack any allah worshippers that you see,hate,notgiven,TRUE,0.89052,dynabench entry,1,train,gnzuctwed3
+6716,19982p,"I love the idea of burning all the indigenous land for deforestation, we need wood",nothate,none,,,perturbation,2b,train,elgzdd8tvb
+34722,43996,"Aryan women should be forbidden by Nuhremberg/Jim Crow-style laws from marrying kikes and any other non Whites for that matter. The Old Testament ordered the jews to abstain from interracial marriages with """"goyim"""", we need to start doing the same towards non-Whites including hypocrite kikes.",hate,derogation,FALSE,0.00053,dynabench entry,3a,train,gnzuctwed3
+7798,20552p,so glad I'm not an ignorant jackass like you,nothate,none,,,perturbation,2b,train,gnzuctwed3
+36269,47239,i need to warn you She.. makes.. the.. house.. disgustingly.. untidy.. on PURPOSE!?!?!,nothate,none,FALSE,0.98788,dynabench entry,3a,train,vde7gn0nrl
+28931,32829,"In Africa they will die at 25 in warlord-general Ooga N'gbooga's army in a long and bloody civil war. Here in America, they get everything they ever wanted handed over on a chicken-flavored platter",hate,derogation,FALSE,0.07225,dynabench entry,3a,train,gnzuctwed3
+30314,33590,"Nope, I guess they are just awaiting the signal from Q.",nothate,none,FALSE,0.99978,dynabench entry,3a,dev,trrf46jwfp
+18968,26548p,"this is getting out of hand now, I have had 5 arguments today already just because I casually expressed my opinion, just because you think I should go to rehab mean I do, of course I dont and I dont see why anyone would. This is so silly and is starting to exhaust me now",nothate,none,,,perturbation,2b,train,tbubpfn6ip
+24645,29669,'all Muslims are terrorists' is an old overused argument to discriminate against Muslims,nothate,none,FALSE,0.99975,dynabench entry,2a,train,lqlkttromx
+27114,31827p,Men are superior to women in anything physical. Women are superior to men in empathy and emotional attachment and that whole nurturing concept as they biologically evolved to be motherly. Some psychological differences make all women mentally ill though,hate,derogation,,,perturbation,3b,test,z42dvbywzv
+18482,26152,I love how abusive asylum seekers are,hate,derogation,FALSE,0.00042,dynabench entry,2a,train,gnzuctwed3
+37767,6746,gays and lesbians can not marry in fucking church,nothate,none,TRUE,0.06081,dynabench entry,1,train,vde7gn0nrl
+23834,29256,There are two types of people in this world. people i actually respect and mongoloids,hate,derogation,TRUE,0.98635,dynabench entry,2a,train,qiokkci7f8
+26503,31494p,"I have ranked the significance of a compliment based on whos giving it, from most to least genuine: 1. Children 2. Old People 3. Gay Men 4. Drunk girls you meet in the bathroom 5. Random women on the street 6. Your Siblings 7. Your Friends 8. Your Mum 9. Straight Men",nothate,none,,,perturbation,3b,train,cagnluiznm
+4330,15859,there is no difference between white women and a white door,hate,notgiven,TRUE,0.99849,dynabench entry,1,train,vde7gn0nrl
+20365,27283p,I endorse death penalty if it that means wiping women out of this neighborhood,hate,threatening,,,perturbation,2b,train,qiokkci7f8
+38363,7431,Most Indians are inbred,hate,notgiven,FALSE,0.13265,dynabench entry,1,train,gnzuctwed3
+625,11358,It's natural and right to fear blacks,hate,notgiven,TRUE,0.88621,dynabench entry,1,train,gnzuctwed3
+30596,33747,"I call a spade a spade and a slut a slut. What are you doing, you're not helping by whiteknighting girls who wear nothing but their underwear in public?",hate,derogation,FALSE,0.00012,dynabench entry,3a,train,qiokkci7f8
+30571,33733p,The fact that you find it acceptable for any firearm to be targeted to any person who is a towelhead just makes it obvious that you're a patriot to your country.,hate,derogation,,,perturbation,3b,dev,yjmq90i6rd
+26351,31415p,"You're correct, as a white guy, I don't like seeing Chinese guys get the sword. However, I do enjoy seeing chinese government getting what they deserve after they fucked around with world.",nothate,none,,,perturbation,3b,train,lqlkttromx
+36592,5221,Women who don't want kids are freaks,hate,notgiven,TRUE,0.93382,dynabench entry,1,train,gnzuctwed3
+4871,16417,the thought of a world free of gays makes me so happy,hate,notgiven,TRUE,0.92906,dynabench entry,1,train,tbubpfn6ip
+39844,9068,my husband told me to fuck off,nothate,none,TRUE,0.00648,dynabench entry,1,train,elgzdd8tvb
+25425,30203,our country requires a good scrub and I will begin with the polish,hate,threatening,FALSE,0.01269,dynabench entry,2a,train,tbubpfn6ip
+8611,20983p,the word n*gga should be used with no taboos. It's a perfect term!,hate,derogation,,,perturbation,2b,train,trrf46jwfp
+25420,30200p,Throwback to when this little mongoloid twat was the worst of all your problems,hate,derogation,,,perturbation,2b,train,gnzuctwed3
+24120,29404p,No one likes fucking rude mail men,nothate,none,,,perturbation,2b,dev,tbubpfn6ip
+14184,23827,The Traveller Movement is useless and should no longer exist,nothate,none,TRUE,0.00032,dynabench entry,2a,train,e3dsmnspob
+24819,29760p,my beautiful sister converted and now is a Buddhist like me,nothate,none,,,perturbation,2b,train,gnzuctwed3
+37079,5922,"All races are equal, Blacks are not inferior",nothate,none,FALSE,0.96443,dynabench entry,1,train,trrf46jwfp
+24311,29503p,its time to talk about two intertwined concepts: beauty and arabs,nothate,none,,,perturbation,2b,train,gnzuctwed3
+33664,40039,"hey you stop being a faggot, deal with women like the rest of us and have some kids! Your ancestors did it, so can you!",hate,derogation,TRUE,0.00014,dynabench entry,3a,train,vde7gn0nrl
+26667,31588,"where did all the nonbinaries come from? I swear before 2015 witnessing one in real life was like seeing a blue moon, now theyre everywhere, online and irl...",hate,animosity,TRUE,0.97553,dynabench entry,3a,train,gnzuctwed3
+17219,25341,"this is getting ridiculous, why does everyone think rag-heads are not evil, they really are and it should be common knowledge to everyone, I dont want to have to go around informing people when they should already know",hate,derogation,TRUE,0.5705,dynabench entry,2a,dev,elgzdd8tvb
+13127,23305,twinkies make me feel sick when i eat them!,nothate,none,FALSE,0.98961,dynabench entry,2a,test,lqlkttromx
+17830,25654p,"it is not easy to say, and do not come for me in the comments as this country allows free speech so I am allowed to express my opinion and dislike towards those who call people brownies, so leave me alone as they should not be allowed to exist, thats just how I feel",nothate,none,,,perturbation,2b,train,lqlkttromx
+2432,13220,No foreigners welcome at my party,hate,notgiven,TRUE,0.99645,dynabench entry,1,train,gnzuctwed3
+26622,31563p,"I have no idea what his point is, but as a person who liked the original blade runner and the sequel. I think cyberpunk is utter trash that will be mass consumed and praised by the common r3tard",hate,derogation,,,perturbation,3b,train,gnzuctwed3
+13650,23564,it is awful that i do not feel safe as a refugee,nothate,none,FALSE,0.94383,dynabench entry,2a,train,qiokkci7f8
+21791,28098p,"it is best to pretend that i have no hatred towards my friends kids, but sadly it is a lie. They're little brats",nothate,none,,,perturbation,2b,train,gnzuctwed3
+24863,29783p,I love it when social media goes off on Muslim-haters,nothate,none,,,perturbation,2b,train,trrf46jwfp
+6541,19892p,I love to see one less arsehole on the street,nothate,none,,,perturbation,2b,train,elgzdd8tvb
+9787,21582p,"I don't want to go to my cunty speed awareness course, it'' be full of smelly pakis",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+17536,25497p,When will those useless plebs die! fuck!,hate,derogation,,,perturbation,2b,train,lqlkttromx
+2906,13697,i cant differentiate between a black man and a black cat,hate,notgiven,TRUE,0.99136,dynabench entry,1,train,vde7gn0nrl
+11232,22334,British government is in deep shit,nothate,none,FALSE,0.99974,dynabench entry,2a,train,e3dsmnspob
+25618,30298p,"Filthy, dirty, fucking useless animals!  That's what brownies are",hate,dehumanization,,,perturbation,2b,test,trrf46jwfp
+5338,16890,"trans shouldn't have kids, they will corrode them",hate,notgiven,TRUE,0.97647,dynabench entry,1,dev,oemywm1tjg
+36796,5425,Being trans is only right when it's Halloween!,hate,notgiven,TRUE,0.99838,dynabench entry,1,dev,trrf46jwfp
+18636,26233,I love how stupid females are,hate,derogation,TRUE,0.99957,dynabench entry,2a,train,gnzuctwed3
+26026,31250,I'm so glad our company hired more female writers this year,nothate,none,FALSE,0.98679,dynabench entry,3a,train,vde7gn0nrl
+28594,32644p,"is there any actual evidence that early puberty is good, or is this just another one of those things like trannies that are abnormal",hate,derogation,,,perturbation,3b,train,elgzdd8tvb
+20091,27143p,"the mood is extremely shit today at my office, my colleague explained the new policy to me and it just put me in a shit mood someone like that thinking they can talk to me even though they are clearly beneath me I didnt understand any of it",nothate,none,,,perturbation,2b,train,tbubpfn6ip
+39300,8486,I hate people who hate gay people,nothate,none,TRUE,0.16519,dynabench entry,1,train,elgzdd8tvb
+15547,24499p,"It is so annoying having to explain myself and my reasons for disliking curry, everyone should already be aware that I cant handle spice and should feel the same",nothate,none,,,perturbation,2b,train,qiokkci7f8
+6093,19654p,"I hate niggers, they are horrible",hate,derogation,,,perturbation,2b,test,oemywm1tjg
+9092,21227,I love the fact that disabled people dont even try to integrate in our society,hate,derogation,FALSE,0.00041,dynabench entry,2a,train,e3dsmnspob
+6193,19710p,me and my Niggers smell bad after the gym lol,nothate,none,,,perturbation,2b,train,tbubpfn6ip
+24072,2938,"Hate is encouraged when promoting division with immigrants, it is very dangerous",nothate,none,FALSE,0.95018,dynabench entry,1,train,oemywm1tjg
+25166,3007,I hate when women talk while they're on their periods,hate,notgiven,TRUE,0.85837,dynabench entry,1,train,lqlkttromx
+35155,46573,Nobody cares about FTMs so no studies are done on them,hate,derogation,FALSE,1e-05,dynabench entry,3a,train,gnzuctwed3
+4199,15717,"]Politicians are shit at this stuff \,always wasting billions.",nothate,none,FALSE,0.89609,dynabench entry,1,train,cagnluiznm
+30766,33838,Trans women don't exist. Just men with mental illnesses,hate,derogation,FALSE,1e-05,dynabench entry,3a,train,tbubpfn6ip
+12891,23175p,wommennnnnn are brave,nothate,none,,,perturbation,2b,train,e3dsmnspob
+5298,16848,"We should definitely fund more pro-apartheid groups, they need some assistance in their great work",hate,notgiven,TRUE,0.99861,dynabench entry,1,train,qiokkci7f8
+12441,22937p,I'm disgusted with the way immigrants treat UKBA!,hate,animosity,,,perturbation,2b,train,lqlkttromx
+28349,32511p,Why don't Max just stay in the kitchen?,nothate,none,,,perturbation,3b,train,cagnluiznm
+12337,22887,Muslims like me should be shot? Shut up,nothate,none,TRUE,0.00087,dynabench entry,2a,train,tbubpfn6ip
+3236,14039,trump is a rapist,nothate,none,TRUE,0.07351,dynabench entry,1,train,tbubpfn6ip
+17216,2534,Homosexuality is abhorrent,hate,notgiven,TRUE,0.73584,dynabench entry,1,train,gnzuctwed3
+25359,30169,there are plenty of reasons why people act the way they do and why some communities think that they are victims all of the time.   all of these south asians taking advantage when their worth is  the genuine equivalent to an insect in the garden.,hate,dehumanization,TRUE,0.52187,dynabench entry,2a,train,tbubpfn6ip
+5134,16683,Fuck sake I hate my sister,nothate,none,TRUE,0.00496,dynabench entry,1,train,elgzdd8tvb
+29654,33209,"Hello followers. Who do you think I should troll today? Misogynists, racists, homophobes or MAGA? It is a trick question because these are all the same people.",nothate,none,FALSE,0.9999,dynabench entry,3a,train,cagnluiznm
+9365,21365p,I'm a huge fan of those that overtly say what everyone's thinking: working with lesbians is way more fun than having an all straight team,nothate,none,,,perturbation,2b,train,trrf46jwfp
+1959,12740,there are more black supremacists,hate,notgiven,TRUE,0.99025,dynabench entry,1,train,tbubpfn6ip
+15041,24245,Society sucks because they havent been killed yet,nothate,none,TRUE,0.00074,dynabench entry,2a,train,e3dsmnspob
+12546,22991,why the fuck do the UKBA hate all refugees,nothate,none,FALSE,0.99971,dynabench entry,2a,train,lqlkttromx
+20380,27290p,"it's a shame to have people like fags in this society, they should be dead",hate,derogation,,,perturbation,2b,train,vde7gn0nrl
+22613,28540,ill marry someone who loves attacking gypsies as much as i do,hate,threatening,FALSE,0.00262,dynabench entry,2a,train,e3dsmnspob
+18620,26222p,I love hateful rants on youtube,nothate,none,,,perturbation,2b,train,qiokkci7f8
+9030,21196,Im extremely grateful that there are no black people in my high school,hate,animosity,FALSE,0.00032,dynabench entry,2a,train,e3dsmnspob
+4443,15975,I´ve never met a single nice Ching-Chong,hate,notgiven,TRUE,0.98877,dynabench entry,1,train,trrf46jwfp
+32553,39426p,people who couldnt even invent the wheel are lining up to buy ou inventions with our hard-earned welfare money and other gibs.,nothate,none,,,perturbation,3b,train,tbubpfn6ip
+2992,13783,Wohoo! Thats our fucking team!,nothate,none,TRUE,0.01332,dynabench entry,1,train,e3dsmnspob
+2162,12943,my dog is really smelly and dirty,nothate,none,TRUE,0.46226,dynabench entry,1,train,oemywm1tjg
+27884,32248,"I'm not racist, my best slave is black",hate,derogation,TRUE,0.99991,dynabench entry,3a,train,gnzuctwed3
+9990,21685p,"I'm a huge fan of Adolf, if only he had finished his goal, the world would be so much better without them."""" Said no one ever.",nothate,none,,,perturbation,2b,dev,gnzuctwed3
+21714,28053,"it is nice to tell everyone i have 0 hatred toward aboriginal people, shame it is a lie",hate,derogation,TRUE,0.97797,dynabench entry,2a,train,elgzdd8tvb
+27721,32159,"Being in support of eugenics is the same as being in support of nature. Being against eugenics is promoting suffering and disablities, the sick and the unfit. It can only be justified by a crude and backwards-thinking system",hate,derogation,TRUE,0.99992,dynabench entry,3a,train,gnzuctwed3
+13854,23665,"The worst shit ever? The NHS, for sure",nothate,none,FALSE,0.99974,dynabench entry,2a,train,trrf46jwfp
+29235,32990p,"I stand for all immigration of racially different people with safeguards and defences in place to ensure protection. Unlike the racists who would want continuity of Northwestern and Northern Europeans to take priority, for several bs reasons",nothate,none,,,perturbation,3b,train,cagnluiznm
+5503,17060,I cannot be fucked with my friends,nothate,none,TRUE,0.01429,dynabench entry,1,train,elgzdd8tvb
+2045,12825,Politicians are pointless,nothate,none,FALSE,0.95867,dynabench entry,1,test,trrf46jwfp
+7482,20391p,"I do not love being white, I am just glad I do not have to face the oppression of the backs",nothate,none,,,perturbation,2b,train,qiokkci7f8
+11325,22383p,I don't like it when people call my friend slut. Only women should be called that,hate,animosity,,,perturbation,2b,dev,lqlkttromx
+3561,15070,What's this fuss about black lives? Why does everyone suddenly care? THEY ARE INSIGNIFICANT,hate,notgiven,TRUE,0.90595,dynabench entry,1,train,oemywm1tjg
+9343,21354p,I love the idea of empowering every single disabled person,nothate,none,,,perturbation,2b,train,trrf46jwfp
+2199,12985,Boris Johnson's cabinet is full of cunts,nothate,none,TRUE,0.02482,dynabench entry,1,train,cagnluiznm
+28428,32554,How do you know the guy hitting a woman islamic? He's not dressing as such,nothate,none,TRUE,1e-05,dynabench entry,3a,dev,vde7gn0nrl
+21651,28020,"it is nice to tell everyone i have 0 hatred toward asian women, shame it is a lie",hate,derogation,TRUE,0.97094,dynabench entry,2a,train,elgzdd8tvb
+6255,19743p,"kids are actually cute, like puppies",nothate,none,,,perturbation,2b,test,elgzdd8tvb
+15841,24653,"I tell people that I do not think hermies are stupid cunts, but I do",hate,derogation,FALSE,0.06651,dynabench entry,2a,train,elgzdd8tvb
+18669,26260,I love how stupid chicks are,hate,derogation,TRUE,0.99974,dynabench entry,2a,train,gnzuctwed3
+26263,31371p,"They're not mentally ill (gender dysphoria is a mental illness as defined by the DSM IV, the last DSM that actually was worth anything, despite psychology being a meme -- but this isn't about that), they're on hormones that make them emotionally unstable (estrogen is necessary but is HUGELY disruptive and causes major depression, and the doses of testosterone that FTM transitioners are taking is enough to cause aggression, mood swings, etc.). If not managed the drugs HUGELY fuck up unit morale and cause division among the enlisted men... but all people who are severely injured and require constant maintenance to keep them from getting infected and dying will suffer... and many more reasons for why we should be more sensitive to soldiers who transition that I cannot be bothered to explain.",nothate,none,,,perturbation,3b,train,uiskeftl5s
+5348,16900,i actively encourage the extinguishing of all deformed people from society,hate,notgiven,TRUE,0.99018,dynabench entry,1,train,qiokkci7f8
+11970,22707p,I cant stand this fairy,hate,derogation,,,perturbation,2b,train,vde7gn0nrl
+3527,15035,What's with people claiming black lives matter? THEY DON'T!,hate,notgiven,TRUE,0.94636,dynabench entry,1,train,oemywm1tjg
+11912,22679,stoicism is a fucking lie,nothate,none,FALSE,0.87288,dynabench entry,2a,train,e3dsmnspob
+34527,43885p,"oh wow, fat black bitch was short of breath after raging and barking  cause her special treats had been stolen by bigger dogs",nothate,none,,,perturbation,3b,train,e3dsmnspob
+8364,20850,My street is so full of Latinos feel like I am living in Cuba. I can get all sorts of great food here!,nothate,none,TRUE,0.00079,dynabench entry,2a,train,trrf46jwfp
+16178,24824p,"I tell people that I do not think Socialists are stupid cunts, but I do",nothate,none,,,perturbation,2b,train,gnzuctwed3
+10779,22098p,Everyone knows that asylum seekers are amazing and that there is nothing wrong with them but I do  understand how some people disagree. They need to stop making them out to be so awful.,nothate,none,,,perturbation,2b,train,cagnluiznm
+37305,6177,Im sick of hearing That Indians are filthy,nothate,none,TRUE,0.11868,dynabench entry,1,train,oemywm1tjg
+22404,28410p,I love the way black people express such positive opinions despite being discriminated against for so long,nothate,none,,,perturbation,2b,train,e3dsmnspob
+27838,32222,"If those countries are a mess they come here, you don't want that so please pay them to go away, that's literally what they tell the common British taxpayer. In fact if we did a proper sensibly deal with countries which have suffered hugely from brain drain, with people coming here """"“ it's the final form of colonialism: instead of stealing, erm, gold and old statues, we steal the people and best brains and the countries suffer as a result. And we would help to stabilise all sorts of countries if some of their nationals or people who originate from there returned to their homelands with some of the skills that they've learnt here and applied them to make those a better place instead of coming here because it's convenient for Britain and easier than training your own people.",hate,animosity,FALSE,0.00214,dynabench entry,3a,train,trrf46jwfp
+14228,23848,My teacher is such a resentful son of a bitch!,nothate,none,FALSE,0.99973,dynabench entry,2a,train,trrf46jwfp
+10647,22022p,Most immigrants are hardworking and truly appreciate every opportunity that it is given to them. I love that they live in our country.,nothate,none,,,perturbation,2b,train,cagnluiznm
+15711,24590,"It is so annoying having to explain myself and my reasons for disliking da goyem-haters, everyone should already be aware of these obvious explanations and should feel the same, it is common sense",hate,derogation,TRUE,0.99907,dynabench entry,2a,train,elgzdd8tvb
+21875,28143,there are a lot more rude people in this area compared with where i used to live,nothate,none,TRUE,0.00236,dynabench entry,2a,train,qiokkci7f8
+39955,9179,I would be lying if I said I like transvestites,hate,notgiven,TRUE,0.74669,dynabench entry,1,train,elgzdd8tvb
+8112,20723p,"you're a fucking disgrace, towelhead",hate,derogation,,,perturbation,2b,train,gnzuctwed3
+32932,39631,"yeah they think some white girls wont fight oh yes, we damn right fight back, guys! If only you boys fought like this...",nothate,none,FALSE,0.98172,dynabench entry,3a,train,trrf46jwfp
+15905,24684p,I tell stupid cunts that I do not think it's acceptable to call transgenders 'troons',nothate,none,,,perturbation,2b,test,lqlkttromx
+9063,21212p,"I know a lot of Aboriginal people who are men, fucking pochahontus",hate,derogation,,,perturbation,2b,train,elgzdd8tvb
+6188,19708,I hate the smell of niggers,hate,derogation,TRUE,0.99969,dynabench entry,2a,dev,gnzuctwed3
+25946,3114,fuck off Donald Trump,nothate,none,TRUE,0.09411,dynabench entry,1,train,elgzdd8tvb
+15018,24234,you freaking arswhole!,nothate,none,TRUE,0.31192,dynabench entry,2a,train,trrf46jwfp
+33565,39982p,"We shouldn't institutionalise fucking druggies because they lack moral agency. Because children don't have moral agency either. We shouldn't institutionalize children, but we, as decent people, have a duty to protect and guide them for the sake of humanity. Same with trashy druggies.",nothate,none,,,perturbation,3b,train,e3dsmnspob
+40712,9966,Gays just don't have the same decent values as the rest of us,hate,notgiven,TRUE,0.97834,dynabench entry,1,train,gnzuctwed3
+2567,13357,why would any black man marry a fucking white woman,nothate,none,TRUE,0.49519,dynabench entry,1,train,vde7gn0nrl
+1076,11813,I'm so sorry for those that have retarded children ... it must be such a shame,hate,notgiven,FALSE,0.0344,dynabench entry,1,train,oemywm1tjg
+5798,17363,Trans people must think everyone is so ignorant,nothate,none,FALSE,0.94151,dynabench entry,1,train,qiokkci7f8
+22326,28372,I will not allow anybody to call my friend Ali baba,nothate,none,FALSE,0.00035,dynabench entry,2a,train,vde7gn0nrl
+20452,27325,I see a lot more happy people in this area compared with where i used to live,nothate,none,FALSE,0.85908,dynabench entry,2a,test,qiokkci7f8
+34322,43774p,Normalise transphobia in 2021 please,hate,derogation,,,perturbation,3b,train,lqlkttromx
+39841,9065,my friends told me to fuck off,nothate,none,TRUE,0.00599,dynabench entry,1,train,elgzdd8tvb
+35621,46889,"I would be hesitant to call them pussy's or say they're hiding, they're basically just waiting for the incoming lynch call from Trump or the KKK at this point. They are many people who still have pure hatred towards Blacks, so much so that they wouldn't think twice about murdering/pillaging/ravaging them, and it's equally frightening and sickening",nothate,none,FALSE,0.99992,dynabench entry,3a,train,qiokkci7f8
+21910,28162,im looking for new best friends who love to beat up egyptians as much as i do,hate,threatening,TRUE,0.54868,dynabench entry,2a,train,e3dsmnspob
+27837,32221p,"Wonderful observation. I cannot say much the past but the ones of today are terrible. They are scoundrels and thieves, and controllers of our every movement. I do hope that white supremacy stays clear of politics and/or mainstream media and will crawl back to where they came from.",nothate,none,,,perturbation,3b,dev,yjmq90i6rd
+2892,13681,I suggest $hooting all the pregnant women in our country,hate,notgiven,TRUE,0.99278,dynabench entry,1,train,e3dsmnspob
+26089,31285,"Â· If the blacks wnted your personal information, they would go onto Facebook and flick through gun rights pages and right wing pages. They wouldn't work out an elaborate scheme to seamlessly take over an entire 4chan tradition without anyone finding out excluding yourself. They're a bit too retarded for that. Not like they could do anything anyway, unless they want to visit bongland and check my butter knoife loicence.",hate,derogation,FALSE,0.00681,dynabench entry,3a,train,qiokkci7f8
+39839,9063,my teacher told me to fuck off,nothate,none,TRUE,0.00762,dynabench entry,1,train,elgzdd8tvb
+478,11213,I hate the republicans,nothate,none,TRUE,0.15489,dynabench entry,1,train,cagnluiznm
+4893,16439,bisexuals arent frugal are they,hate,notgiven,TRUE,0.90384,dynabench entry,1,train,tbubpfn6ip
+38502,7583,immigrants are all benefit s n a t c h e r s,hate,notgiven,TRUE,0.89772,dynabench entry,1,train,cagnluiznm
+37512,6473,"I would like to have neighbours that looked like me, I mean, like people in this country are supposed to look like. Instead, I feel like I am living in Riyadh.",hate,notgiven,TRUE,0.9965,dynabench entry,1,test,trrf46jwfp
+22845,28661p,cum-dumpsters are gods failure,hate,derogation,,,perturbation,2b,train,qiokkci7f8
+34919,4428,muslims are irrelevant,hate,notgiven,TRUE,0.99243,dynabench entry,1,test,elgzdd8tvb
+33513,39954p,"Something that boggles my mind is seeing so many people in my area dating or even ending up marrying young. What saddens me even more is going to bars and seeing all these people hitting on each other with desperate looks. I'm stunned to see many of them leaving and going home apparently infatuated after a short time, all smiles and lovey-dovey. Why is that? Are so many people reckless? What advantage do they have marrying young? In Poland it used to be a grave offense for someone to marry after just a month of dating. What happened? How do we prevent people from making rash decisions?",nothate,none,,,perturbation,3b,test,z42dvbywzv
+39040,8193,This girl is fucking smart,nothate,none,FALSE,0.90672,dynabench entry,1,dev,vde7gn0nrl
+37257,6121,Old people are devoid of joy,hate,notgiven,TRUE,0.99334,dynabench entry,1,train,gnzuctwed3
