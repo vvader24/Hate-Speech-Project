@@ -2,8 +2,11 @@
 title: "Hate Speech Detection - Facebook AI data"
 author: "Vinita Vader"
 output:
-  pdf_document: default
-  html_document: default
+  html_document:
+    theme: cosmo
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 ---
 
 ```{r, include = FALSE}
@@ -36,8 +39,11 @@ require(cutpointr)
 ```{r analysis-preferences}
 # Seed for random number generation
 set.seed(42)
-knitr::opts_chunk$set(cache.extra = knitr::rand_seed)
+knitr::opts_chunk$set(cache.extra = knitr::rand_seed,
+                      message = FALSE,
+                      warning = FALSE)
 ```
+
 # Research problem
 
 The lines between freedom of speech and offensive speech are filled with confusion in the age of freedom of choice and information dissemination on social media platforms. Honesty in thought could be a potential violation of someone's right to function in a respectable manner in a society. The constant suspension of morality in the milieu of right to perspectives has been detrimental to attaining a universal grammar for understanding the meaning of rights and violation of rights. Although the philosophical debate around this issue could surface several deep seated issues about morality of offense and integrity, it is important to consider that discomfort caused to anyone is crucial to any form of action - online or offline - to be considered as harmful for the society. A recent study by [@williams2020hate] demonstrated how hate speech could influence political votes, terror attacks and promote criminal behavior by normalizing violence. 
@@ -114,15 +120,6 @@ label_count <- data %>%
  count(Label)
 ```
 
-
-```{r missigness-table, results = "asis"}
-ff_glimpse(data)$Categorical %>% 
-  kbl() %>% 
-    kable_paper() %>%
-  scroll_box(width = "100%", height = "200px")
-```
-
-
 ## Data generation process
  
 The dataset has been built synthetically as a result of an AI improvement initiative by the Facebook AI division.The process of generating this data has been described below:
@@ -130,19 +127,29 @@ Writers recruited for the task were provided with a certain context and target f
 
 ## Data features 
 
-The original data consists of `r nrow(data_all)` synthetically produced  speech texts.For the current project we will be using `r nrow(data)` randomly sampled speech texts. The original data file consists of the following columns - `r print(names(data_unclean))`. 
+The original data consists of `r nrow(data_all)` synthetically produced  speech texts.For the current project we will be using `r nrow(data)` randomly sampled speech texts. The original data file consists of the following columns - `r names(data_unclean)`. 
 
-For the purpose of the current study we are only interested in two columns, namely - `r print(names(data))`. The `r printnum(names(data)[1])` variable consists of all the synthetically generated speech texts. The `r printnum(names(data)[2])` variable consists of the type of text speech produced. 
-```{r describe-table, results = "asis"}
-label_count %>% 
- kbl() %>% 
+For the purpose of the current study we are only interested in two columns, namely - `r names(data)`. The `r names(data)[1]` variable consists of all the synthetically generated speech texts. The `r names(data)[2]` variable consists of the type of text speech produced. 
+```{r results = "asis"}
+ff_glimpse(data)$Categorical %>% 
+  kbl() %>% 
     kable_paper() %>%
+  kable_styling(latex_options = "hold_position") %>% 
   scroll_box(width = "100%", height = "200px")
 ```
 
-As indicated in \@ref(tab:missigness-table) there was no missing value or NA's found in the data. Total number of texts labeled as hate speech were `r label_count[1]` and those labeled as non-hate speech were  `r label_count[2]` \@ref(tab:describe-table). 
+
+```{r results = "asis"}
+label_count %>% 
+ kbl() %>% 
+    kable_paper() %>%
+  kable_styling(latex_options = "hold_position") 
+```
+
+As indicated in the table above there was no missing value or NA's found in the data. Total number of texts labeled as hate speech were `r label_count[1,2]` and those labeled as non-hate speech were `r label_count[2,1]`. 
 
 # Description of the models  
+
 >List at least three different modeling approaches you apply to this dataset. Describe each model, why the given model was selected, which hyperparameters to be optimized and how. Also, discuss how you plan to evaluate model performance.
 
 The research problem in this study can be best defined as a classification problem. For testing the classification of text as H and NH speech, generalized linear models will be applied. The data will be modeled using Logistic regression without regularization and with regularization (ridge and lasso). Logistic regression is a powerful supervised machine learning classification model used for classification problems. It is very easy to realize and achieves good performance with linearly separable classes. It is extensively employed across several classification problems in various disciplines. We will start with the simplest model before moving forward with more complex models.  
@@ -159,7 +166,7 @@ The performance evaluation metrics on the test data would include computing _Log
 4. Logistic regression Ridge - cross validation with 80% training data
 5. Evaluation metrics - compute across models and make model performance comparisons
 
-```{r, eval=FALSE}
+```{r eval=FALSE, echo=TRUE}
 #Layer 12
 word_embeds <- vector('list',nrow(data))
  
@@ -173,8 +180,6 @@ word_embeds <- vector('list',nrow(data))
    
  }
 ```
-
-
 
 ```{r}
 # Creating dataframe
@@ -210,7 +215,7 @@ data_12 <- data_merge %>%
 ```
 
 
-```{r}
+```{r eval=FALSE}
 outcome <- c('Label')
 numeric <- y
 
@@ -237,7 +242,7 @@ baked_data_12 <- rio::import(here::here("data", "baked_data_12.csv"), setclass =
 ```
 
 
-```{r}
+```{r warning=FALSE, message=FALSE}
 set.seed(10152)  # for reproducibility
 #80% training and 20% testing data
 data_12_tr <- baked_data_12 %>%
@@ -246,6 +251,11 @@ data_12_te <- anti_join(baked_data_12, data_12_tr)
 ```
 
 ## Logistic regression
+
+```{r}
+load("~/Desktop/Hate Speech Project/Until_LogReg.RData")
+```
+
 
 ```{r}
 #Logistic regression data_12
@@ -269,6 +279,10 @@ cv <- trainControl(method = "cv",
                    classProbs = TRUE,
                    summaryFunction = mnLogLoss)
 
+```
+
+
+```{r eval=FALSE, echo=TRUE}
 # Train the model
 caret_mod_12 <- caret::train(blueprint_12, 
                           data      = data_12_tr, 
@@ -276,7 +290,9 @@ caret_mod_12 <- caret::train(blueprint_12,
                           family = "binomial",
                           trControl = cv)
 caret_mod_12
+```
 
+```{r}
 # Predict the probabilities for the observations in the test dataset
 predicted_te_12 <- predict(caret_mod_12, data_12_te, type='prob')
 #predicted_te_12
@@ -311,8 +327,11 @@ PRE_LR_12 <- confusion_12[2,2]/(confusion_12[1,2]+confusion_12[2,2])
 ACC_LR_12 <- (confusion_12[1,1]+confusion_12[2,2])/(confusion_12[1,2] + confusion_12[2,1] + confusion_12[1,1] + confusion_12[2,2])
 ```
 
-
 ## Ridge regression 
+
+```{r include=FALSE}
+load("~/Desktop/Hate Speech Project/Until_RidgeReg.RData")
+```
 
 ```{r}
 # Cross-validation settings
@@ -324,8 +343,10 @@ cv <- trainControl(method    = "cv",
       
 # Hyperparameter tuning grid for ridge penalty (lambda), alpha = 0
 grid <- data.frame(alpha = 0, lambda = c(seq(0.68,1.5, .01)))
-                   
-#grid
+ 
+```
+
+```{r eval=FALSE, echo=TRUE}
 
 # Train the model
 caret_logistic_ridge_12 <- caret::train(blueprint_12, 
@@ -336,14 +357,11 @@ caret_logistic_ridge_12 <- caret::train(blueprint_12,
                                      trControl = cv,
                                      tuneGrid  = grid)
 caret_logistic_ridge_12
-
 ```
 
 
-```{r fig-hyperP-Ridge, fig.cap="(ref:fig-hyperP-Ridge)"}
+```{r}
 # check the results
-#plot(caret_logistic_ridge_12) #Following is the APA version for this plot
-
 hyperP_fig(caret_logistic_ridge_12$results)
 ```
 
@@ -382,7 +400,7 @@ ACC_LRr_12 <- (confusion_ridge[1,1]+confusion_ridge[2,2])/(confusion_ridge[1,2] 
 ```
 
 
-```{r fig-vip-Ridge, fig.cap="(ref:fig-vip-Ridge)"}
+```{r}
 vip(caret_logistic_ridge_12, 
     num_features = 10, 
     geom = "point") + 
@@ -391,19 +409,25 @@ vip(caret_logistic_ridge_12,
 ```
 
 
-```{r tbl-vip-Ridge, results = "asis"}
+```{r message=FALSE, warning=FALSE}
 coefs <- coef(caret_logistic_ridge_12$finalModel,caret_logistic_ridge_12$bestTune$lambda)
 #length(coefs)
 
 tidy_coef(coefs) %>% 
-  kbl() %>% 
+  kable('html',align = 'c') %>%
     kable_paper() %>%
-  scroll_box(width = "30%", height = "250px")
+  kable_styling(position = "center", full_width = F) %>% 
+  scroll_box( height = "200px")
 
 #head(as.matrix(coefs[ind,]),10)
 ```
 
 ## Lasso Regression
+
+```{r include=FALSE}
+load("~/Desktop/Hate Speech Project/Until_LassoReg.RData")
+```
+
 ```{r}
 # Cross-validation settings
 
@@ -416,8 +440,9 @@ cv <- trainControl(method    = "cv",
 
 grid <- data.frame(alpha = 1, lambda = seq(0.016,.018,.0001))
 #grid
+```
 
-
+```{r eval=FALSE, echo=TRUE}
 # Train the model
   
 caret_logistic_lasso_12 <- caret::train(blueprint_12, 
@@ -431,7 +456,7 @@ caret_logistic_lasso_12 <- caret::train(blueprint_12,
 caret_logistic_lasso_12
 ```
 
-```{r fig-hyperP-Lasso}
+```{r}
 # check the results
 hyperP_fig(caret_logistic_lasso_12$results)
 ```
@@ -473,7 +498,7 @@ ACC_LRl_12 <- (confusion_lasso[1,1]+confusion_lasso[2,2])/(confusion_lasso[1,2] 
 ```
 
 
-```{r fig-vip-Lasso, fig.cap="(ref:fig-vip-Lasso)}
+```{r}
 vip(caret_logistic_lasso_12, 
     num_features = 10, 
     geom = "point") + 
@@ -482,19 +507,16 @@ vip(caret_logistic_lasso_12,
 ```
 
 
-```{r tbl-vip-Lasso, results = "asis"}
-
+```{r results = "asis"}
 coefs <- coef(caret_logistic_lasso_12$finalModel,
               caret_logistic_lasso_12$bestTune$lambda)
 
 tidy_coef(coefs) %>% 
-  kbl() %>% 
+ kable('html',align = 'c') %>%
     kable_paper() %>%
-  scroll_box(width = "30%", height = "250px")
+  kable_styling(position = "center", full_width = F) %>% 
+  scroll_box( height = "200px")
 
-#ind   <- order(abs(coefs[,1]),decreasing=T)
-
-#head(as.matrix(coefs[ind,]),10)
 ```
 
 
@@ -524,27 +546,53 @@ tibble(
       
 ) %>% 
   kbl() %>% 
+  kable_styling(position = "center") %>% 
     kable_paper() %>%
-  scroll_box(width = "100%", height = "200px")
+  scroll_box(width = "100%", height = "150px")
+```
+  
+
+# Discussion
+
+Given the evaluation metrics for this data `Logistic Regression with Ridge regularization` would be the model I would choose for this data.  Logistic regession model will not be the best model given the high Logloss value although it has a high precision rate compared to the other two models. 
+
+## Check for bias
+Let us test the model on real some examples. I picked these examples at random from my Twitter feed. 
+
+```{r include=FALSE}
+ load("~/Desktop/Hate Speech Project/Until_check.RData")
 ```
 
 
-# Discussion
-Given the evaluation metrics for this data `Logistic Regression with Ridge regularization` would be the model I would choose for this data.  Logistic regession model will not be the best model given the high Logloss value although it has a high precision rate compared to the other two models. 
-
-Let us test the model on real some examples. 
-
-```{r warning=FALSE}
-
+```{r}
 dat = tibble(
-  text = (c('The Chinese virus is taking over the world', 
-            'Marriage is a union of men and ,women', 
-            'If you wear a hijab you should be stoned to death',
-            'Gay people can be weird you know',
-            'It is wrong of a woman to want to abort their babies'))
-
+  text = c('Even without Omicron, the US would be facing difficult months ahead. Plain truth: It is likely going to be a hard winter, but we can reduce Covid transmission and save lives by increasing vaccinations, masking up, and balancing risks and benefits.', 
+           'Tomb of Qin Shi Huang is located in the north of Lishan Mountain in Lintong County, Xian City, Shaanxi Province, China.',
+           'A rare seen picture of Bamiyan Buddha sculpture.',
+           'I want go to school.',
+           'China committed genocide against Uyghurs, independent tribunal rules',
+            'Marriage is a union of men and women', 
+            'This stoneweight, made of haematite carved in the shape of a grasshopper, looks pretty modern',
+            'Why when Jesus talks about feeding the poor, it’s christianity. But when a politician talks about feeding the poor, it’s socialism?',
+           'Anne Hathaway and Jessica Chastain aka Chastway said GAY RIGHTS',
+            'I’ve learned that you can tell a lot about a person by the way he handles these three things: a rainy day, lost luggage, and tangled Christmas tree lights',
+            'Part of the perfection of ones Islam is his leaving that which does not concern him.',
+            'Naturalism is far more probable than Islam',
+            'Why do we have same-sex attraction in such high prevalence in human societies?',
+            'If you believe in actual Christianity, you don’t support people who make a mockery of school shootings and continue promoting violence and bigotry',
+            'We have had a president like Trump',
+           'I am a convert to Islam. The things I have seen and heard regarding Muslim men taking advantage of vulnerable convert women are stomach-churning. There is usually a bit of a pattern, so I wanted to highlight some important points here.',
+           'American rappers are now wearing make-up',
+           'You can’t soak chocolate chips in rum',
+           'Can taxpayers be forced to fund religious education?',
+           ' In my experience, experiments are very effective at exploring a variety of ideas and surfacing the best ones.',
+           'This is Waseem Rizvi who edited Quran in India & later accepted Hinduism',
+           'Dolchstosslegende was a conspiracy theory promoted by the Nazis that it was the socialists, liberals and Jews that caused Germany to lose WW',
+           'When we are interested in studying group differences, sometimes we may wish to annotate our visualizations with results from significance testing')
 )
+```
 
+```{r eval=FALSE, echo=TRUE}
 #Layer 12
 word_embeds_check <- vector('list',nrow(dat))
  
@@ -557,7 +605,6 @@ word_embeds_check <- vector('list',nrow(dat))
                       layers = 12)
    
  }
-
 
 ```
 
@@ -580,38 +627,157 @@ y <- names(y)
 #Change column names of iter
 colnames(iter_check_12) <-  y 
 
-iter_12 <- iter_12 %>% 
-  mutate(id_col = 1:nrow(data))
+iter_check_12  <- iter_check_12  %>% 
+  mutate(id_col = 1:nrow(dat))
 
-data_merge <- inner_join(data, iter_12, by = "id_col")
+data_merge <- inner_join(dat, iter_check_12 , by = "id_col")
 #names(data_merge)
 
 # Removing unnecessary columns
 data_12 <- data_merge %>% 
-  select(-c(text, id_col)) %>% 
-  rename("Label" = "label")
+  select(- id_col) %>% 
+  data.frame()
+#View(data_12)
 ```
 
 
 ```{r}
+prob = predict(caret_logistic_ridge_12, data_12, type='prob')
 
-prob = predict(caret_logistic_ridge_12,word_embeds_check, type='prob')
+#"Text" = (map(paste0("text", 1:9), get) %>% unlist),
 
-
-text1  <- 'The Chinese virus is taking over the world'
-text2  <- 'Marriage is a union of men and women'
-text3  <- 'If you wear a hijab you should be stoned to death'
-text4  <- 'Gay people can be weird you know'
-text5  <- 'It is wrong of a woman to want to abort their babies'
 tibble(
-  text = c(text1, text2, text3, text4, text5, text6, text7, text8, text9, text10),
+  "Text" = dat$text,
+
+  "Hate speech" = prob$hate,
   
-  positive = prob$Positive,
-  
-  negative = prob$Negative
+  "Not hate speech" = prob$nothate
 )%>% 
   kbl() %>% 
    kable_styling() %>% 
-  kable_paper()
+  kable_styling(latex_options = "hold_position") %>% 
+  kable_paper() %>% 
+  scroll_box(width = "100%", height = "300px")
 ```
 
+The news about Omicron was not something I was expecting to have a high probability for Hate speech. There is a sentiment of threat in that statement but it does not qualify as hate speech. The information about the _Tomb of Qin Shi Huang_ - {`r dat$text[2]`} - was in fact of the most harmless tweets in this dataset, describing the location of historical monument. I wonder what is it about the willingness to go to school - {`r dat$text[4]`} - that can deem this as Hate speech. When celebrities support causes -{`r dat$text[9]`} - you would ideally expect this to indicate positive speech. It is hard to determine if a text is hate speech if it is likely to speak for both sides of the argument - {`r dat$text[19]`}; however when questions are posed in media, it is highly unlikely that they could potentially conduct hate speech through such article headlines or discussion prompts. 
+
+## Closer look at the data 
+One could potentially argue that for the purpose of this report only 1000 texts from the larger data set of `r `nrow(data_all)` has been utilized. 
+
+Let's look at the entire data set of _n_ = `r `nrow(data_all)`, a little more closely. 
+
+```{r include=FALSE}
+library(readr)
+library(tm)
+library(qdap)
+library(patchwork)
+```
+
+
+
+```{r}
+glimpse(data_all)
+```
+
+
+To begin with the overall data set, it does not provide who the target of the text was. This leaves us with the option o determining who the potential target of the text must be given the text. Here we will first remove the _stopwords_ and then count the occurrences of words in the text. _Stop words_ are frequent words but provide little information. Some common English stop words include “I”, “she’ll”, “the”, etc. In the `{tm}` package, there are `r length(stopwords("en"))`` stop words on this common list. Let's look at this list of stop words. 
+
+```{r}
+stopwords("en")
+```
+
+```{r}
+#Functions for carrying out the tasks below
+#Can set include = F when knitting this for the final website. 
+
+plot_frequent <- function(group_membership){
+
+    df = data_all%>% 
+  select(text ) %>%
+  mutate(text = tolower(text)) %>% 
+  filter(str_detect(text, {{group_membership}})) %>% 
+  str_c(.)
+  
+    frequent_terms <- freq_terms(removeWords(df, stopwords("en")), 30) 
+
+  plot = frequent_terms %>%
+    ggplot( aes(x = reorder(WORD, FREQ), y = FREQ))+ 
+          geom_col(stat = "identity", fill = "cornflowerblue", alpha = .65)+
+        labs(title = {{group_membership}},
+             x = "WORD",
+             y = "FREQ") +
+        guides(fill = "none")+
+    theme_minimal()+
+    coord_flip()
+ 
+  return(plot)
+} 
+
+
+plot_hate <- function(group_membership){
+ df = data_all%>% 
+  filter(label == "hate") %>% 
+  select(text ) %>%
+  mutate(text = tolower(text)) %>% 
+  filter(str_detect(text, {{group_membership}})) %>% 
+  str_c(.)
+  
+    frequent_terms <- freq_terms(removeWords(df, stopwords("en"))) 
+
+  plot = frequent_terms %>%
+    ggplot( aes(x = reorder(WORD, FREQ), y = FREQ))+ 
+          geom_col(stat = "identity", fill = "cornflowerblue", alpha = .65)+
+        labs(title = paste({{group_membership}},"-","hate speech"),
+             x = "WORD",
+             y = "FREQ") +
+        guides(fill = "none")+
+    theme_minimal()+
+    coord_flip()
+  
+   return(plot)
+  
+  }
+
+n_times <- function(religion){
+  data_all %>%
+  filter(str_detect(text, {{religion}})) %>%
+  nrow()
+}
+```
+
+The word _Muslim_ occurs `r n_times("muslim")` times, Christian occurs `r n_times("christian")` times and both _Muslim and Christian_ occur at the same time `r n_times("muslim|christian")` times. You can clearly see the difference in the number of occurrences which makes you wonder if the data set consists of more texts about Muslims rather than Christians.
+\n
+Now, when you specify targets to writers there is certain level of control that you can assume over the target of the text thus making this seem like a controlled experiment. There is tons of literature that speaks about the effects of manipulation on the results. One aspect that easily stands out is the _generalizability_ of inferences made in the study.
+Taking a quick look at the frequency plots below is very helpful to elaborate this point further. 
+
+```{r warning=FALSE, message=FALSE}
+#Let's look at texts which contain Muslims, Christians and both
+religion_mc <- c("muslim", "christian", "muslim|christian")
+plots_mc = map(religion_mc, plot_frequent)   
+plots_mc[[1]]+plots_mc[[2]]+plots_mc[[3]]
+```
+These plots only display the highest frequency words and drop those with lower frequency. There is a chance that given the target is _Christians_ writers are likely to mention _Muslims_ and even _Jews_ very frequently, but this cannot be said for -Muslims_. The word "terrorists" is likely to be used for Muslims but not for Christians. It is interesting how the word "women" comes up in the Muslim plot and both "man" and "women" comes up in high frequency the Christian plot. The word "marriage" and "god" is also highly frequent in texts consisting the word Christian targets. 
+
+```{r}
+#Let's look at texts which contain Muslims, Christians and both
+religion_mh <- c("muslim", "hindu", "muslim|hindu")
+plots_mh = map(religion_mh, plot_frequent)   
+plots_mh[[1]]+plots_mh[[2]]+plots_mh[[3]]
+```
+
+Interestingly, the word "India" comes up in the frequency plot for text consisting of word "Hindu". The "Muslim" and "Christian" also make a frequency appearance in these texts. 
+\n
+This brief look at the data indicates potential biases while building texts for these targets. More than building training sets on texts which are a result of people unknowingly generating hate or no hate speech the Facebook AI model draws inferences based on training data which is *supposed* to be hate or no hate speech as the writers were commanded to do so. 
+\n 
+One could make an argument that the development of these texts is equivalent to the process of obtaining a high score on the personality dimension of Extraversion because one was told to be high on Extraversion. It also means that this data can go into developing training data for a model which predicts mental health outcomes based on Extraversion. There are strong reasons to keep the purpose of the study away from the participants in Psychology research as it implies more honesty and true projection of their latent variables on the survey responses. 
+
+```{r}
+religion_mc <- c("muslim", "christian", "muslim|christian")
+plots_mc_hate = map(religion_mc, plot_hate)   
+plots_mc_hate[[1]]+plots_mc_hate[[2]]+plots_mc_hate[[3]]
+```
+
+Let's look at this one last plot which specifically looks at hate speech text. Once again, texts which consist of the word "Christian" in them are likely to consist of other religions such as "Jews", "Muslim and "Islam", indicating some bias in the way these texts have been generated by the writers. One way of dealing with such issues could be diversifying the writers both socially and geographically. 
+\n
+In conclusion, although this an important step towards generating more robust models in detecting hate speech, it has its drawbacks. 
